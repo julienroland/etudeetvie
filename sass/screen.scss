@@ -4,7 +4,8 @@
 @import "compass";
 @import "compass/reset";
 @import "compass/css3";
-
+@import "icons";
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @include body();
 @include container();
 @include heading();
@@ -16,7 +17,7 @@
 @include label();
 @include input();
 @include img();
-
+@include icon();
 /* GENERAL */
 .hero{
 	display:inline-block;
@@ -31,6 +32,7 @@
 	text-align: left;
 	vertical-align: middle;
 	position:relative;
+	font-family: Oswald,'helvetica neue',arial;
 	a{
 		color:white;
 		text-decoration: none;
@@ -40,6 +42,7 @@
 		vertical-align: middle;
 		padding-top:5px;
 		box-sizing:border-box;
+
 	}
 	h2{
 		font-size: 16px;
@@ -60,18 +63,7 @@
 	}
 
 }
-.icon{
-	width:32px;
-	height:32px;
-	display:inline-block;
-	float:left;
-	margin-right: 0.5em;
-	top:0;
-}
-.icon-menu{
-	background-image: url('../img/framework/icon/menu2White.png');
-	background-size: 100%;
-}
+
 /* END GENERAL */
 
 /* SEARCH */
@@ -102,3 +94,88 @@ input[type=submit].icon-search{
 		@include box-shadow(0 0 0 0);
 	}
 }
+/* END SEARCH */
+
+/* NAVIGATION */
+.menu{
+	background-color: $greyD2;
+}
+.nav{
+	.invisible-link{
+		width:100%;
+		display:block;
+		background-color: $greyD2;
+		font-weight: 400;
+		font-family: Oswald,'helvetica neue','helvetica',arial;
+		text-transform: uppercase;
+		li{
+			display:inline-block;
+			width:100%;
+			color:white;
+			padding:0.6em 1em;
+			border-bottom:1px solid darken($greyD2H,5%);
+			box-sizing:border-box;
+			margin:0;
+			top:0;
+			a{
+				color:white;
+				text-decoration: none;
+				display:block;
+				width:80%;
+				height:100%;
+				float:left;
+			}
+			&:last-child{
+				border-bottom: 0;
+			}
+			&:hover{
+				background-color: $mc;
+			}
+		}
+
+	}
+	.maxDev{
+
+		li{
+			height:250px;
+			background-color: white;
+			margin: 1em 0;
+			color:$tc;
+			text-overflow:ellipsis;
+			overflow:hidden;
+			a{
+				display:inline-block;
+				height:auto;
+				color:$tc;
+				width:70%;
+				-ms-text-overflow:ellipsis;
+				-webkit-text-overflow:ellipsis;
+				-moz-text-overflow:ellipsis;
+				text-overflow:ellipsis;
+			}
+			.imgMenu{
+				display:block;
+			}
+			&:hover{
+			background-color: white;
+		}
+		}
+
+	}
+}
+/* END NAVIGATION */
+
+/* PANIER */
+.panierItem{
+	display:block;
+	min-height: 150px;
+	background-color:$greyL;
+	padding:1em 1em;
+}
+/* END PANIER */
+
+/* INTRO */
+.intro{
+	background-image: url('../img/framework/background/background-text1.jpg');
+}
+/* END INTRO */

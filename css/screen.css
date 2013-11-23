@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
 /* CONFIG */
 /* typography */
 /* END typography */
@@ -65,9 +66,22 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
+/* CONFIG */
+/* typography */
+/* END typography */
+/*media*/
+/*END MEDIA*/
+/*COLOR*/
+/*l * 100 / 1024*/
+/* CONFIG */
+/* typography */
+/* END typography */
+/*media*/
+/*END MEDIA*/
+/*COLOR*/
 body {
   font-family: "Helvetica neue", arial, freesans, clean, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.7;
   color: #333333;
   text-rendering: optimizeLegibility;
@@ -81,7 +95,8 @@ a {
 
 p {
   margin: 0.5em 0;
-  line-height: 1.5; }
+  line-height: 1.5;
+  font-family: "Helvetica neue", arial, freesans, clean, sans-serif; }
 
 .container {
   width: 99%;
@@ -244,7 +259,7 @@ h1, h2, h3, h4 {
 input[type=search] ~ input[type=submit] {
   text-indent: -99999px;
   background-image: url("../img/framework/icon/search.png");
-  background-size: 40%;
+  background-size: 32px;
   background-repeat: no-repeat;
   background-position: center; }
 
@@ -259,7 +274,7 @@ input, textarea {
   display: inline-block;
   border: 1px solid #bfbfbf;
   background-color: #f2f2f2;
-  padding: 2px 5px;
+  padding: 2px 1em;
   margin: 10px 10px 10px 0;
   height: 40px;
   float: left;
@@ -289,6 +304,34 @@ img {
   max-width: 100%;
   margin: 0.5em 0; }
 
+.icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  float: left;
+  margin-right: 0.5em;
+  top: 0;
+  text-indent: -999999px;
+  background-size: 100%; }
+
+.icon-menu {
+  background-image: url("../img/framework/icon/menu2White.png"); }
+
+.icon-chevron-right-white {
+  float: right;
+  cursor: pointer;
+  background-image: url("../img/framework/icon/chevron-rightWhite.png"); }
+
+.icon-chevron-bottom-white {
+  float: right;
+  cursor: pointer;
+  background-image: url("../img/framework/icon/chevron-bottomWhite.png"); }
+
+.icon-shop-white {
+  float: right;
+  cursor: pointer;
+  background-image: url("../img/framework/icon/shopWhite.png"); }
+
 /* GENERAL */
 .hero {
   display: inline-block;
@@ -302,7 +345,8 @@ img {
   box-sizing: border-box;
   text-align: left;
   vertical-align: middle;
-  position: relative; }
+  position: relative;
+  font-family: Oswald,'helvetica neue',arial; }
   .hero a {
     color: white;
     text-decoration: none;
@@ -328,18 +372,6 @@ img {
     left: 0;
     padding: 0 1em;
     padding-top: 10px; }
-
-.icon {
-  width: 32px;
-  height: 32px;
-  display: inline-block;
-  float: left;
-  margin-right: 0.5em;
-  top: 0; }
-
-.icon-menu {
-  background-image: url("../img/framework/icon/menu2White.png");
-  background-size: 100%; }
 
 /* END GENERAL */
 /* SEARCH */
@@ -371,3 +403,71 @@ input[type=submit].icon-search {
     -webkit-box-shadow: 0 0 0 0;
     -moz-box-shadow: 0 0 0 0;
     box-shadow: 0 0 0 0; }
+
+/* END SEARCH */
+/* NAVIGATION */
+.menu {
+  background-color: #666666; }
+
+.nav .invisible-link {
+  width: 100%;
+  display: block;
+  background-color: #666666;
+  font-weight: 400;
+  font-family: Oswald,'helvetica neue','helvetica',arial;
+  text-transform: uppercase; }
+  .nav .invisible-link li {
+    display: inline-block;
+    width: 100%;
+    color: white;
+    padding: 0.6em 1em;
+    border-bottom: 1px solid #404040;
+    box-sizing: border-box;
+    margin: 0;
+    top: 0; }
+    .nav .invisible-link li a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      width: 80%;
+      height: 100%;
+      float: left; }
+    .nav .invisible-link li:last-child {
+      border-bottom: 0; }
+    .nav .invisible-link li:hover {
+      background-color: #2e70ea; }
+.nav .maxDev li {
+  height: 250px;
+  background-color: white;
+  margin: 1em 0;
+  color: #333333;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+  .nav .maxDev li a {
+    display: inline-block;
+    height: auto;
+    color: #333333;
+    width: 70%;
+    -ms-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    text-overflow: ellipsis; }
+  .nav .maxDev li .imgMenu {
+    display: block; }
+  .nav .maxDev li:hover {
+    background-color: white; }
+
+/* END NAVIGATION */
+/* PANIER */
+.panierItem {
+  display: block;
+  min-height: 150px;
+  background-color: #f2f2f2;
+  padding: 1em 1em; }
+
+/* END PANIER */
+/* INTRO */
+.intro {
+  background-image: url("../img/framework/background/background-text1.jpg"); }
+
+/* END INTRO */

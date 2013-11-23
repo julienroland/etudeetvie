@@ -25,6 +25,7 @@
   p{
     margin:0.5em 0;
     line-height: 1.5;
+     font-family: $ff;
   }
 }
 @mixin table(){
@@ -187,7 +188,7 @@ h6{
   //@include border-radius(3px);
   border:1px solid $greyL2;
   background-color: $greyL;
-  padding:2px 5px;
+  padding:2px 1em;
   margin:10px 10px 10px 0;
   height:40px;
   float:left;
@@ -260,9 +261,10 @@ h6{
     text-indent: -99999px;
     //width:40px;
     background-image: url('../img/framework/icon/search.png');
-    background-size: 40%;
+    background-size: 32px;
     background-repeat: no-repeat;
     background-position: center;
+
   }
 }
 @mixin mhb-p($height,$item){
