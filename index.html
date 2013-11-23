@@ -20,19 +20,122 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
-           
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-    <script src="js/main.js"></script>
+            <h1 class="section" role="heading" aria-level="1">Page d'accueil du site e-commerce etude et vie</h1>
+            <section class="container wrapper">
+                <h1 class="section" role="heading" aria-level="1">Contenu de la page</h1>
+                <section class="banner" role="banner">
+                    <h1 class="logo" role="heading" aria-level="1">Etude et vie</h1>
+                    <div class="search">
+                        <form action="toto.html">
+                            <label for="search" class="section">Faire une recherche</label>
+                            <input type="search" placeholder="Chercher" name="search" id="search">
+                            <input type="submit" value="Chercher" class="icon icon-search">
+                        </form>
+                    </div>
+                    <nav role="navigation" id="navigation"> 
+                       <h1 class="section" role="heading" aria-level="1">navigation du site</h1>
+                       <a class="reader" href="#main">Passer directement au contenu</a>
+                       <div class="hero">
+                       <a  href="">
+                       <span class="icon icon-menu"></span>
+                       Menu</a>
+                       </div>
+                       <ul>
+                        <li><a href="">Accueil</a></li>
+                        <li><a href="">Protection anti-onde</a>
+                            <ul>
+                                <li><a href="">test</a></li>
+                                <li><a href="">test</a></li>
+                                <li><a href="">test</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Instruments de mesure</a></li>
+                        <li><a href="">Anti pollution électrique</a></li>
+                        <li><a href="">Protection haute fréquence</a></li>
+                        <li><a href="">Bien être</a></li>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+                    </ul>
+                </nav>
+                <section>
+                   <h1 class="section" role="heading" aria-level="1">Votre panier</h1>
+                   <div class="hero"><a  href="">0 produit - 0€</a></div>
+                   <div>
+                       <p>Votre panier est vide !</p>
+                   </div>
+               </section>
+
+           </section>
+
+           <section role="main" class="main " id="main">
+            <h1 class="section">Contenu principal du site</h1>
+            <section>
+               <h1 class="section" role="heading" aria-level="1">Que propose étude et vie</h1>
+               <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, sunt, laudantium, cum, praesentium ea ex harum consequuntur quaerat debitis rem ducimus dolores aliquid fugit veritatis reprehenderit temporibus consequatur commodi est.
+               </p>
+           </section>  
+           <section class="selection">
+            <div class="hero"><h2 role="heading" aria-level="2"> Les populaires</h2></div>
+            <article role="article">
+                <div class="image">
+                    <img src="http://placehold.it/500x250" alt="">
+                </div>
+                <div role="contentinfo" class="informationsArticle">
+                    <h3 role="heading" aria-level="3">Lunette Prisma P1</h3>
+                    <span class="price">99€</span>
+                    <a href="" class="btn">Voir le produit</a>
+                    <a href="" class="btn">Ajouter au panier</a>
+                </div>
+            </article>
+        </section>
+        <section class="selection">
+            <h2 role="heading" aria-level="2" class="hero"> Les mieux vendus </h2>
+            <article role="article">
+                <div class="image">
+                    <img src="http://placehold.it/500x250" alt="">
+                </div>
+                <div role="contentinfo" class="informationsArticle">
+                    <h3 role="heading" aria-level="3">Lunette Prisma P1</h3>
+                    <span class="price">99€</span>
+                    <a href="" class="btn">Voir le produit</a>
+                    <a href="" class="btn">Ajouter au panier</a>
+                </div>
+            </article>
+        </section>
+    </section>
+    <footer role="contentinfo">
+        <h1 class="section" role="heading" aria-level="1">Informations complémentaires au contenu</h1>
+        <a href="#navigation" class="reader">Remonter à la navigation</a>
+        <a href="#main" class="reader">Remonter aux contenu</a>
+        <nav>
+            <h2 role="heading" aria-level="2">News</h2>
+            <ul>
+                <li><a href="">Promotion</a></li>
+                <li><a href="">Nouveaux produits</a></li>
+            </ul>
+        </nav> 
+        <nav>
+            <h2 role="heading" aria-level="2">Services</h2>
+            <ul>
+                <li><a href="">Livraison</a></li>
+                <li><a href="">Conditions d'utilisation général</a></li>
+            </ul>
+        </nav>
+    </footer>
+</section>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
 </body>
 </html>

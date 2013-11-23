@@ -16,11 +16,11 @@
 
     &:hover,&:focus,&:active{
       text-decoration: none;
-      color:darken($mc,10%);
+      outline:0;
+
     }
-    &:visited{
-      color:darken($mc,20%);
-    }
+   
+    
   }
   p{
     margin:0.5em 0;
@@ -113,6 +113,10 @@
 h6{
   font-size: 1.1em;
 }
+.logo{
+  margin:1em 0;
+  border-bottom: 0;
+}
 
 @media (max-width: $m1){
  h1{
@@ -147,6 +151,16 @@ h6{
     text-indent: -99999999px;
     border:none;
   }
+  .reader{
+    display:inline-block;
+    position:absolute;
+    height:0;
+    text-indent: -99999999px;
+    border:none;
+  }
+  .hide{
+    display:none!important; 
+  }
 }
 @mixin breadcrumbs(){
   .breadcrumbs{
@@ -165,14 +179,18 @@ h6{
   }
 }
 @mixin input(){
+  form{
+    width:100%;
+  }
  input,textarea{
   display:inline-block;
-  @include border-radius(3px);
+  //@include border-radius(3px);
   border:1px solid $greyL2;
   background-color: $greyL;
   padding:2px 5px;
   margin:10px 10px 10px 0;
-  height:30px;
+  height:40px;
+  float:left;
   box-sizing: border-box;
   &:hover{
     border:1px solid lighten($mc,10%);
@@ -192,7 +210,7 @@ h6{
 }
 @media(max-width: $m1){
  input{
-  width:100%;
+  width:auto;
   display:block;
 }
 }
@@ -207,7 +225,7 @@ h6{
     margin:5px 0;
     display:inline-block;
     text-decoration: none;
-    @include border-radius(3px);
+    //@include border-radius(3px);
     box-sizing:border-box;
   //  vertical-align: middle;
    // height:auto;
@@ -240,8 +258,8 @@ h6{
   }
   input[type=search] ~ input[type=submit]{
     text-indent: -99999px;
-    width:40px;
-    background-image: url('../img/framework/icon/searchWhite.png');
+    //width:40px;
+    background-image: url('../img/framework/icon/search.png');
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
