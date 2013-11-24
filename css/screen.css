@@ -329,44 +329,37 @@ img {
 
 .icon-chevron-right-white {
   float: right;
-  cursor: pointer;
   background-image: url("../img/framework/icon/chevron-rightWhite.png"); }
 
 .icon-chevron-right-little-white {
-  cursor: pointer;
   height: 16px;
   width: 16px;
   background-image: url("../img/framework/icon/chevron-right-littleWhite.png"); }
 
 .icon-chevron-bottom-white {
   float: right;
-  cursor: pointer;
   background-image: url("../img/framework/icon/chevron-bottomWhite.png"); }
 
 .icon-shop-white {
   float: right;
-  cursor: pointer;
   background-image: url("../img/framework/icon/shopWhite.png"); }
 
 .icon-map-little {
   height: 16px;
   width: 16px;
   float: right;
-  cursor: pointer;
   background-image: url("../img/framework/icon/map-little.png"); }
 
 .icon-email-little {
   height: 16px;
   width: 16px;
   float: right;
-  cursor: pointer;
   background-image: url("../img/framework/icon/mail-little.png"); }
 
 .icon-tel-little {
   height: 16px;
   width: 16px;
   float: right;
-  cursor: pointer;
   background-image: url("../img/framework/icon/tel-little.png"); }
 
 /* GENERAL */
@@ -411,6 +404,12 @@ img {
     left: 0;
     padding: 0 1em;
     padding-top: 10px; }
+  .hero:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
 
 /* END GENERAL */
 /* MAIN */
@@ -452,13 +451,16 @@ input[type=submit].icon-search {
 /* END SEARCH */
 /* NAVIGATION */
 .menu {
-  background-color: #666666; }
+  background-color: #2e70ea;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0 2px 4px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.6) 0 2px 4px 0px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 2px 4px 0px; }
   .menu > a:first-child:hover, .menu > a:first-child:focus {
     background-color: #2e70ea; }
 
 .nav .invisible-link {
   width: 100%;
-  display: block;
+  display: none;
   background-color: #666666;
   font-weight: 400;
   font-family: Oswald,'helvetica neue','helvetica',arial;
@@ -483,32 +485,33 @@ input[type=submit].icon-search {
       border-bottom: 0; }
     .nav .invisible-link li:hover {
       background-color: #2e70ea; }
-.nav .maxDev li {
-  height: 250px;
-  background-color: white;
-  margin: 1em 0;
-  color: #333333;
-  text-overflow: ellipsis;
-  overflow: hidden; }
-  .nav .maxDev li a {
-    display: inline-block;
-    height: auto;
+.nav .maxDev {
+  display: none; }
+  .nav .maxDev li {
+    height: 250px;
+    background-color: white;
+    margin: 1em 0;
     color: #333333;
-    width: 70%;
-    -ms-text-overflow: ellipsis;
-    -webkit-text-overflow: ellipsis;
-    -moz-text-overflow: ellipsis;
-    text-overflow: ellipsis; }
-  .nav .maxDev li .imgMenu {
-    display: block; }
-  .nav .maxDev li:hover {
-    background-color: white; }
+    text-overflow: ellipsis;
+    overflow: hidden; }
+    .nav .maxDev li a {
+      display: inline-block;
+      height: auto;
+      color: #333333;
+      width: 70%;
+      -ms-text-overflow: ellipsis;
+      -webkit-text-overflow: ellipsis;
+      -moz-text-overflow: ellipsis;
+      text-overflow: ellipsis; }
+    .nav .maxDev li .imgMenu {
+      display: block; }
+    .nav .maxDev li:hover {
+      background-color: white; }
 
 /* END NAVIGATION */
 /* PANIER */
 .panierItem {
-  display: block;
-  min-height: 150px;
+  display: none;
   background-color: #f2f2f2;
   padding: 1em 1em; }
 
@@ -536,11 +539,11 @@ input[type=submit].icon-search {
   background-color: #bfbfbf;
   padding: 1em 0; }
   .selection .article {
-    width: 82.33333%;
-    margin: auto;
+    width: 83.33333%;
+    float: left;
     display: block;
-    float: none;
     box-sizing: border-box;
+    margin: 0;
     background-color: white;
     padding-bottom: 0;
     margin-bottom: 1em;
@@ -677,13 +680,19 @@ input[type=submit].icon-search {
       .selection .article .interactionProduct a + a {
         float: right;
         margin-left: 0.5em; }
+  .selection:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
 
 /* END ARTICLE */
 /* FOOTER */
 .footer {
   border-top: 10px solid #737373;
   padding: 1em;
-  background-color: #282828;
+  background-color: #353535;
   color: white;
   min-height: 200px;
   text-align: left; }
@@ -696,7 +705,10 @@ input[type=submit].icon-search {
     float: left;
     margin-top: 4px; }
   .footer a {
-    color: white; }
+    color: white;
+    text-decoration: none; }
+    .footer a:hover {
+      text-decoration: underline; }
   .footer .informationsShop {
     width: 99%;
     margin: auto;
@@ -713,12 +725,13 @@ input[type=submit].icon-search {
   .footer .info {
     display: inline-block;
     padding: 0.5em;
-    background-color: #2e70ea;
+    background-color: #4580ec;
     width: 99%;
     margin: auto;
     display: block;
     float: none;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    margin: 0.5em auto; }
     .footer .info:after {
       content: "";
       display: block;
