@@ -12,7 +12,6 @@
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/screen.css">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
@@ -21,7 +20,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
             <h1 class="section" role="heading" aria-level="1">Page d'accueil du site e-commerce etude et vie</h1>
-            <section class="container wrapper">
+            <section class="container ">
                 <h1 class="section" role="heading" aria-level="1">Contenu de la page</h1>
                 <section class="banner" role="banner">
                     <h1 class="logo" role="heading" aria-level="1">Etude et vie</h1>
@@ -33,109 +32,163 @@
                         </form>
                     </div>
                     <nav role="navigation" id="navigation" class="nav"> 
-                     <h1 class="section" role="heading" aria-level="1">navigation du site</h1>
-                     <a class="reader" href="#main">Passer directement au contenu</a>
-                     <div class="hero menu">
-                         <a href="">
-                             <span class="icon icon-menu"></span>
-                             Menu</a>
-                         </div>
-                         <ul class="invisible-link hide">
+                       <h1 class="section" role="heading" aria-level="1">navigation du site</h1>
+                       <a class="reader" href="#main">Passer directement au contenu</a>
+                       <div class="hero menu">
+                       <a class="menuLink" href="">
+                               <span class="icon icon-menu"></span>
+                               Menu</a>
+                           </div>
+                           <ul class="invisible-link hide">
                             <li><a href="">Accueil</a></li>
-                            <li><a href="">Protection anti-onde</a>
-                            <span class="icon icon-chevron-right">Développer</span>
+                            <li><a class="moreLink" href=""><span class="icon icon-chevron-right-white">Développer</span>Protection anti-onde</a>
+                                
                                 <ul class="maxDev hide">
                                     <li>
-                                    <a href="">test</a>
-                                     <img src="http://placehold.it/250x100" alt="">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, saepe, unde nam magni perspiciatis in distinctio.
-                                    </p>
+                                        <a href="">test</a>
+                                        <img src="http://placehold.it/250x100" alt="">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, saepe, unde nam magni perspiciatis in distinctio.
+                                        </p>
                                     </li>
                                     <li><a href="">test</a></li>
                                     <li><a href="">test</a></li>
                                 </ul>
                             </li>
-                            <li><a href="">Instruments de mesure</a>
-                            <span class="icon icon-chevron-right-white">Développer</span>
+                            <li><a class="moreLink" href=""><span class="icon icon-chevron-right-white">Développer</span>Instruments de mesure</a>
+                                
                             </li>
-                            <li><a href="">Anti pollution électrique</a>
-                            <span class="icon icon-chevron-right-white">Développer</span>
+                            <li><a class="moreLink" href=""> <span class="icon icon-chevron-right-white">Développer</span>Anti pollution électrique</a>
+                               
                             </li>
-                            <li><a href="">Protection haute fréquence</a>
-                            <span class="icon icon-chevron-right-white">Développer</span>
+                            <li><a class="moreLink" href=""> <span class="icon icon-chevron-right-white">Développer</span>Protection haute fréquence</a>
+                               
                             </li>
-                            <li><a href="">Bien être</a>
-                            <span class="icon icon-chevron-right-white">Développer</span>
+                            <li><a class="moreLink" href=""> <span class="icon icon-chevron-right-white">Développer</span>Bien être</a>
+                               
                             </li>
 
                         </ul>
                     </nav>
                     <section>
-                     <h1 class="section" role="heading" aria-level="1">Votre panier</h1>
-                     <div class="hero"><a href=""><span class="icon icon-shop-white">Panier</span>0 produit - 0€</a></div>
-                     <div class="panierItem">
-                         <p>Votre panier est vide !</p>
-                     </div>
-                 </section>
+                       <h1 class="section" role="heading" aria-level="1">Votre panier</h1>
+                       <div class="hero"><a href=""><span class="icon icon-shop-white">Panier</span>0 produit - 0 €</a></div>
+                       <div class="panierItem hide">
+                           <p>Votre panier est vide !</p>
+                       </div>
+                   </section>
 
-             </section>
+               </section>
 
-             <section role="main" class="main " id="main">
+               <section role="main" class="main " id="main">
                 <h1 class="section">Contenu principal du site</h1>
                 <section class="intro">
-                 <h3  role="heading" aria-level="3">Que propose étude et vie</h1>
-                 <p>
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, sunt, laudantium, cum, praesentium ea ex harum consequuntur quaerat debitis rem ducimus dolores aliquid fugit veritatis reprehenderit temporibus consequatur commodi est.
-                 </p>
-             </section>  
-             <section class="selection">
-                <div class="hero"><h2 role="heading" aria-level="2"> Les populaires</h2></div>
-                <article role="article">
+                   <h3  role="heading" aria-level="3">Que propose étude et vie</h1>
+                       <p>
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, sunt, laudantium, cum, praesentium ea ex harum consequuntur </p><p>quaerat debitis rem ducimus dolores aliquid fugit veritatis reprehenderit temporibus consequatur commodi est.
+                       </p>
+                   </section>  
+                   <section class="selection">
+                    <div class="hero"><h2 role="heading" aria-level="2"> Les populaires</h2></div>
+                    <article role="article" class="article">
+                        <div class="image">
+                            <div class="overImage">
+                                <h3>Lunette prisma P1</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
+                                </p>
+                            </div>
+                            <img src="./img/test.jpg" alt="">
+
+                        </div>
+
+                        <div role="contentinfo" class="informationsArticle">
+                            <h3 role="heading" aria-level="3">Lunette Prisma P1</h3>
+                            <div class="infoProduct">
+                                <span class="price">99€</span>
+                            </div>
+                            <div class="interactionProduct">
+                                <a href="" class="btn">Voir le produit</a>
+                                <a href="" class="btn">Ajouter au panier</a>
+                            </div>
+                        </div>
+                    </article> 
+                    <article role="article" class="article">
+                        <div class="image">
+                            <div class="overImage">
+                                <h3>Lunette prisma P1</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
+                                </p>
+                            </div>
+                            <img src="./img/test.jpg" alt="">
+
+                        </div>
+
+                        <div role="contentinfo" class="informationsArticle">
+                            <h3 role="heading" aria-level="3">Lunette Prisma P1</h3>
+                            <div class="infoProduct">
+                                <span class="price">99€</span>
+                            </div>
+                            <div class="interactionProduct">
+                                <a href="" class="btn">Voir le produit</a>
+                                <a href="" class="btn">Ajouter au panier</a>
+                            </div>
+                        </div>
+                    </article> 
+                </section>
+                <section class="selection" class="article ">
+                 <div class="hero">
+                     <h2 role="heading" aria-level="2" > Les mieux vendus </h2>
+                 </div>
+                 <article role="article" class="article">
                     <div class="image">
-                        <img src="http://placehold.it/500x250" alt="">
+                        <div class="overImage">
+                            <h3>Lunette prisma P1</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
+                            </p>
+                        </div>
+                        <img src="./img/test1.jpg" alt="">
+
                     </div>
+
                     <div role="contentinfo" class="informationsArticle">
-                        <h3 role="heading" aria-level="3">Lunette Prisma P1</h3>
-                        <span class="price">99€</span>
-                        <a href="" class="btn">Voir le produit</a>
-                        <a href="" class="btn">Ajouter au panier</a>
+                        <h3 role="heading" aria-level="3">Montres fruitz</h3>
+                        <div class="infoProduct">
+                            <span class="price">225€</span>
+                        </div>
+                        <div class="interactionProduct">
+                            <a href="" class="btn">Voir le produit</a>
+                            <a href="" class="btn">Ajouter au panier</a>
+                        </div>
                     </div>
-                </article>
-            </section>
-            <section class="selection">
-                <h2 role="heading" aria-level="2" class="hero"> Les mieux vendus </h2>
-                <article role="article">
-                    <div class="image">
-                        <img src="http://placehold.it/500x250" alt="">
-                    </div>
-                    <div role="contentinfo" class="informationsArticle">
-                        <h3 role="heading" aria-level="3">Lunette Prisma P1</h3>
-                        <span class="price">99€</span>
-                        <a href="" class="btn">Voir le produit</a>
-                        <a href="" class="btn">Ajouter au panier</a>
-                    </div>
-                </article>
+                </article> 
             </section>
         </section>
-        <footer role="contentinfo">
+        <footer role="contentinfo" class="footer">
             <h1 class="section" role="heading" aria-level="1">Informations complémentaires au contenu</h1>
             <a href="#navigation" class="reader">Remonter à la navigation</a>
             <a href="#main" class="reader">Remonter aux contenu</a>
             <nav>
                 <h2 role="heading" aria-level="2">News</h2>
                 <ul>
-                    <li><a href="">Promotion</a></li>
-                    <li><a href="">Nouveaux produits</a></li>
+
+                    <li><a href=""><span class="icon icon-chevron-right-little-white"></span>Nouveaux produits</a></li>
                 </ul>
             </nav> 
             <nav>
                 <h2 role="heading" aria-level="2">Services</h2>
                 <ul>
-                    <li><a href="">Livraison</a></li>
-                    <li><a href="">Conditions d'utilisation général</a></li>
+                    <li><a href=""><span class="icon icon-chevron-right-little-white"></span>Livraison</a></li>
+                    <li><a href=""><span class="icon icon-chevron-right-little-white"></span>Conditions d'utilisation général</a></li>
                 </ul>
             </nav>
+            <div class="informationsShop">
+                <span class="tel info"><span class="icon icon-tel-little"></span>081/40 30 90</span>
+                <span class="email info"><span class="icon icon-email-little"></span>info@etudeetvie.be</span>
+                <span class="address info"><span class="icon icon-map-little"></span>Rue des gentils</span>
+            </div>
         </footer>
     </section>
 

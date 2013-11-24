@@ -58,7 +58,7 @@
   .container{
     @include c( 12 );
     max-width: $mw;
-
+    margin-bottom: 0;
   }
 }
 @mixin wrapper(){
@@ -261,7 +261,7 @@ h6{
     text-indent: -99999px;
     //width:40px;
     background-image: url('../img/framework/icon/search.png');
-    background-size: 32px;
+    background-size: 16px;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -337,8 +337,7 @@ h6{
   box-sizing:border-box;
 
   &:after{
-    content:"";
-    clear:both;
+    @include clear();
   }
 }
 @mixin cf( $nNumber ) {
@@ -349,8 +348,7 @@ h6{
   box-sizing:border-box;
   margin:0;
   &:after{
-    content:"";
-    clear:both;
+    @include clear();
   }
 }
 
@@ -362,8 +360,7 @@ h6{
   display:block;
   box-sizing:border-box;
   &:after{
-    content:"";
-    clear:both;
+    @include clear();
   }
 }
 @mixin offsetL( $nNumber ) {
@@ -382,8 +379,7 @@ h6{
   box-sizing:border-box;
   margin:0;
   &:after{
-    content:"";
-    clear:both;
+    @include clear();
   }
 }
 
@@ -395,8 +391,7 @@ h6{
   display:block;
   box-sizing:border-box;
   &:after{
-    content:"";
-    clear:both;
+  @include clear();
   }
 }
 @mixin cfr( $nNumber ) {
@@ -406,8 +401,7 @@ h6{
   display:block;
   box-sizing:border-box;
   &:after{
-    content:"";
-    clear:both;
+  @include clear();
   }
 }
 
@@ -419,8 +413,7 @@ h6{
   float:none;
   box-sizing:border-box;
   &:after{
-    content:"";
-    clear:both;
+    @include clear();
   }
 }
 /*l * 100 / 1024*/

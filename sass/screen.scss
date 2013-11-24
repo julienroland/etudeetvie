@@ -26,7 +26,7 @@
 	font-weight: 400;
 	color:white;
 	font-size: 16px;
-	padding:0 1em;
+	//padding:0 1em;
 	height: 40px;
 	box-sizing:border-box;
 	text-align: left;
@@ -39,10 +39,13 @@
 		display:inline-block;
 		width:100%;
 		height:100%;
+		padding:0 1em;
 		vertical-align: middle;
 		padding-top:5px;
 		box-sizing:border-box;
-
+		&:hover,&:focus{
+			background-color: $greyD2;
+		}
 	}
 	h2{
 		font-size: 16px;
@@ -65,6 +68,14 @@
 }
 
 /* END GENERAL */
+
+/* MAIN */
+
+.main{
+	background-color: $greyL2;
+	padding-bottom: 1em;
+}
+/* END MAIN*/
 
 /* SEARCH */
 .search{
@@ -99,6 +110,11 @@ input[type=submit].icon-search{
 /* NAVIGATION */
 .menu{
 	background-color: $greyD2;
+	&>a:first-child{
+		&:hover,&:focus{
+			background-color: $mc;
+		}
+	}
 }
 .nav{
 	.invisible-link{
@@ -121,7 +137,7 @@ input[type=submit].icon-search{
 				color:white;
 				text-decoration: none;
 				display:block;
-				width:80%;
+				width:100%;
 				height:100%;
 				float:left;
 			}
@@ -157,8 +173,8 @@ input[type=submit].icon-search{
 				display:block;
 			}
 			&:hover{
-			background-color: white;
-		}
+				background-color: white;
+			}
 		}
 
 	}
@@ -177,5 +193,201 @@ input[type=submit].icon-search{
 /* INTRO */
 .intro{
 	background-image: url('../img/framework/background/background-text1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding:1em 1em;
+	color:white;
+	min-height: 250px;
+	font-family: Oswald,'helvetica neue',helvetica,arial;
+
+	h3{
+		margin-bottom: 1em;
+		padding-bottom: 0.5em;
+	}
+	p{
+		font-size: 18px;
+		font-family: inherit;
+		line-height: 1.8;
+	}
 }
 /* END INTRO */
+
+/* ARTICLE */
+
+.selection{
+	background-color: $greyL2;
+	padding:1em 0;
+	.article{
+		@include c(10);
+		background-color: white;
+		padding-bottom: 0;
+		margin-bottom: 1em;
+		margin-top: 1em;
+		position:relative;
+		height:400px;
+		width:300px;
+		overflow:hidden;
+		.informationsArticle{
+			background-color: $greyL;
+			padding:1em 1em;
+			padding-bottom: 1em;
+			height:132px;
+			position:relative;
+			box-sizing: border-box;
+		}
+		.image{
+			margin: auto;
+			max-width: 100%;
+			height:266.6666px;
+			text-align: center;
+			overflow:hidden;
+			position:relative;
+			pointer-events:auto;
+			
+			img{
+				@include c(12);
+				max-height:100%;
+				top:0;
+				left:0;
+				bottom:0;
+				right:0;
+				margin: auto;
+				position:absolute;
+				z-index:1;
+			}
+
+			
+		}
+		.image:hover  .overImage,{
+			position:absolute;
+			top:0;
+			bottom:0;
+			background-color: $mc;
+			display:block;
+			height:266.6666px;
+			width:100%;
+			z-index: 10;
+			pointer-events:none;
+			text-indent: 0;
+			padding:1em;
+
+			h3{
+				border-bottom: 1px solid white;
+				margin-bottom: 1em;
+				padding-bottom: 0.5em;
+			}
+		}
+		.overImage{
+			position:absolute;
+			top:50%;
+			left:0;
+			right:0;
+			bottom:50%;
+			background-color: $mc;
+			background-position: -100px;
+			display:block;
+			height:0;
+			width:100%;
+			box-sizing:border-box;
+			z-index: 10;
+			color:white;
+			text-align: left;
+			
+			text-indent: -99999px;
+			overflow:hidden;
+			text-overflow:ellipsis;
+			&:hover{
+				height:266.6666px;
+				top:0;
+				bottom:0;
+				text-indent: 0;
+				padding:1em;
+			}
+			h3{
+				border:none;
+				font-weight: bold;
+				font-size: 1.5em;
+			}
+		}
+		h3{
+			font-size: 15px;
+			font-weight: 400;
+		}
+		.infoProduct{
+
+			@include c(4);
+			text-align: center;
+			.price{
+				font-size: 20px;
+				font-weight: 700;
+				color:darken($mc,10%);
+			}
+
+		}
+		.interactionProduct{
+			@include c(12);
+			text-align: center;
+
+			a{
+				margin-right: 0.5em;
+				float:left;
+				width:120px;
+				height:40px;
+				vertical-align: middle;
+				line-height: 1.2;
+
+			}
+			a+a{
+				float:right;
+				margin-left: 0.5em;
+			}
+		}
+	}
+
+}
+
+
+/* END ARTICLE */
+
+/* FOOTER */
+
+.footer{
+	border-top: 10px solid $greyD;
+	padding:1em;
+	background-color: $footer;
+	color:white;
+	min-height: 200px;
+	text-align: left;
+	h2{
+		font-size: 1.5em;
+		margin-bottom: 0.5em;
+		margin-top: 1em;
+		text-align: left;
+
+	}
+	span.icon{
+		float:left;
+		margin-top: 4px;
+	}
+	a{
+		color:white;
+
+
+	}
+	.informationsShop{
+		@include c(12);
+		margin-top: 1em;
+	}
+	.info{
+		display:inline-block;
+		padding:0.5em ;
+		background-color: $mc;
+		@include c(12);
+		
+	}
+	.info + .info{
+		
+	}
+}
+
+/* END FOOTER */
