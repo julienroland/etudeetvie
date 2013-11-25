@@ -179,6 +179,22 @@ h6{
     display:inline-block;
   }
 }
+@mixin abs(){
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin: auto;
+}
+@mixin abs-bot(){
+  position:absolute;
+  left:0;
+  right:0;
+  //top:0;
+  bottom:0;
+  margin: auto;
+}
 @mixin input(){
   form{
     width:100%;

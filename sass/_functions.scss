@@ -2,7 +2,7 @@
 $col: 12 ;
 
 $col_margin: 0 ;
-$gout: 24px;
+$gout: $gutter;
 
 @function col($nNumber){
 
