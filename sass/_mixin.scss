@@ -384,6 +384,16 @@ input[type=search] ~ input[type=submit]{
     @include clear();
   }
 }
+@mixin cl-nm( $nNumber ) {
+
+  width: colAlone( $nNumber );
+  float:left;
+  display:block;
+  box-sizing:border-box;
+  &:after{
+    @include clear();
+  }
+}
 @mixin offsetL( $nNumber ) {
 
   margin-left: col( $nNumber );
@@ -402,6 +412,18 @@ input[type=search] ~ input[type=submit]{
   box-sizing:border-box;
   margin-top:0; 
   margin-bottom:gutter(); 
+  &:after{
+    @include clear();
+  }
+}
+@mixin cfl-nm( $nNumber ) {
+
+  width: colAlone( $nNumber );
+  float:left;
+  display:block;
+  box-sizing:border-box;
+  margin-top:0; 
+  margin-bottom:0;
   &:after{
     @include clear();
   }

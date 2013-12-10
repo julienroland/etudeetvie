@@ -128,7 +128,7 @@ input[type=submit].icon-search{
 
 }
 .nav{
-	
+	text-align: center;
 	.invisible-link{
 		width:100%;
 		display:none;
@@ -199,7 +199,7 @@ input[type=submit].icon-search{
 	display:none;
 	//min-height: 150px;
 	background-color:$greyL;
-	padding:1em 1em;
+	padding:1em 0;
 }
 .panier{
 
