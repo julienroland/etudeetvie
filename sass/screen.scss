@@ -21,6 +21,8 @@
 /* GENERAL */
 body{
 	background-color: $greyL;
+	background-image: url('../img/framework/background/point.png');
+
 }
 .hero{
 	display:inline-block;
@@ -145,6 +147,7 @@ input[type=submit].icon-search{
 			box-sizing:border-box;
 			margin:0;
 			top:0;
+			text-align: left;
 			a{
 				color:white;
 				text-decoration: none;
@@ -199,7 +202,7 @@ input[type=submit].icon-search{
 	display:none;
 	//min-height: 150px;
 	background-color:$greyL;
-	padding:1em 0;
+	padding:1em 1em;
 }
 .panier{
 
@@ -212,6 +215,22 @@ input[type=submit].icon-search{
 }
 /* END PANIER */
 
+/* CONNEXION */
+.connexion{
+	background-color: white;
+	text-align: center;
+	display:block;
+	height: 100%;
+	border:2px solid $greyL2;
+	a{
+		color:$tc;
+		.icon{
+
+		}
+	}
+}
+
+/* END CONNEXION */
 /* INTRO */
 .intro{
 	background-image: url('../img/framework/background/background-text2.jpg');
@@ -381,7 +400,7 @@ input[type=submit].icon-search{
 		}
 	}
 	.article + .article{
-	margin-top: 0;
+		margin-top: 0;
 	}
 	&:after{
 		@include clear();
@@ -434,6 +453,9 @@ input[type=submit].icon-search{
 	.info + .info{
 		
 	}
+	.foot > h2{
+		padding-bottom: 0.5em;
+	}
 }
 
 /* END FOOTER */
@@ -442,6 +464,54 @@ table{
 	margin: auto;
 }
 /* END TABLE*/
+
+/* VOIR PRODUIT */
+.imagesProduit{
+	margin-top: 0.5em;
+}
+.image{
+	@include c(8);
+	background-color: white;
+	img{
+		display:block;
+		margin: auto;
+	}
+}
+.carrousel{
+	height:70px;
+	text-align: center;
+
+	.miniatures{
+		height: 100%;
+		@include cfl(12);
+		li{
+			@include cfl(2);
+			height: 100%;
+			border:3px solid $grey;
+			overflow: hidden;
+			img{
+				width:64px;
+				height:64px;
+			}
+		}
+		.next,.previous{
+			border:0;
+			position:relative;
+			@include cl(3);
+			text-indent: -9999999px;
+			.icon{
+				@include abs();
+			}
+			&:hover,&:focus{
+				background-color: $greyL;
+			}
+		}
+
+	}
+	
+}
+
+/* END VOIR PRODUIT*/
 /* MEDIA QUERIES */
 @import "responsive";
 /* END MEDIA*/

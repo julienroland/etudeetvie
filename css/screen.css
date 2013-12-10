@@ -332,6 +332,12 @@ img {
 .icon-menu {
   background-image: url("../img/framework/icon/menu2White.png"); }
 
+.icon-chevron-left-little {
+  background-image: url("../img/framework/icon/chevron-left-little.png"); }
+
+.icon-chevron-right-little {
+  background-image: url("../img/framework/icon/chevron-right-little.png"); }
+
 .icon-chevron-right-white {
   float: right;
   background-image: url("../img/framework/icon/chevron-rightWhite.png"); }
@@ -377,9 +383,22 @@ img {
   width: 32px;
   background-image: url("../img/framework/icon/goWhite.png"); }
 
+.icon-login {
+  height: 16px;
+  width: 16px;
+  float: none;
+  background-image: url("../img/framework/icon/login.png"); }
+
+.icon-account {
+  height: 16px;
+  float: none;
+  width: 16px;
+  background-image: url("../img/framework/icon/account.png"); }
+
 /* GENERAL */
 body {
-  background-color: #f2f2f2; }
+  background-color: #f2f2f2;
+  background-image: url("../img/framework/background/point.png"); }
 
 .hero {
   display: inline-block;
@@ -499,7 +518,8 @@ input[type=submit].icon-search {
       border-bottom: 1px solid #404040;
       box-sizing: border-box;
       margin: 0;
-      top: 0; }
+      top: 0;
+      text-align: left; }
       .nav .invisible-link li a {
         color: white;
         text-decoration: none;
@@ -539,7 +559,7 @@ input[type=submit].icon-search {
 .panierItem {
   display: none;
   background-color: #f2f2f2;
-  padding: 1em 0; }
+  padding: 1em 1em; }
 
 .banner {
   position: relative; }
@@ -551,6 +571,17 @@ input[type=submit].icon-search {
     visibility: hidden; }
 
 /* END PANIER */
+/* CONNEXION */
+.connexion {
+  background-color: white;
+  text-align: center;
+  display: block;
+  height: 100%;
+  border: 2px solid #bfbfbf; }
+  .connexion a {
+    color: #333333; }
+
+/* END CONNEXION */
 /* INTRO */
 .intro {
   background-image: url("../img/framework/background/background-text2.jpg");
@@ -819,6 +850,8 @@ input[type=submit].icon-search {
       height: 0;
       clear: both;
       visibility: hidden; }
+  .footer .foot > h2 {
+    padding-bottom: 0.5em; }
 
 /* END FOOTER */
 /* TABLE */
@@ -826,6 +859,94 @@ table {
   margin: auto; }
 
 /* END TABLE*/
+/* VOIR PRODUIT */
+.imagesProduit {
+  margin-top: 0.5em; }
+
+.image {
+  width: 66.66667%;
+  margin: auto;
+  display: block;
+  float: none;
+  box-sizing: border-box;
+  background-color: white; }
+  .image:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+  .image img {
+    display: block;
+    margin: auto; }
+
+.carrousel {
+  height: 70px;
+  text-align: center; }
+  .carrousel .miniatures {
+    height: 100%;
+    width: 99%;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    display: block;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5%; }
+    .carrousel .miniatures:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    .carrousel .miniatures li {
+      width: 15.66667%;
+      float: left;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      display: block;
+      box-sizing: border-box;
+      margin-top: 0;
+      margin-bottom: 0.5%;
+      height: 100%;
+      border: 3px solid #7c7c7c;
+      overflow: hidden; }
+      .carrousel .miniatures li:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+      .carrousel .miniatures li img {
+        width: 64px;
+        height: 64px; }
+    .carrousel .miniatures .next, .carrousel .miniatures .previous {
+      border: 0;
+      position: relative;
+      width: 24%;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      float: left;
+      display: block;
+      box-sizing: border-box;
+      text-indent: -9999999px; }
+      .carrousel .miniatures .next:after, .carrousel .miniatures .previous:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+      .carrousel .miniatures .next .icon, .carrousel .miniatures .previous .icon {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+      .carrousel .miniatures .next:hover, .carrousel .miniatures .next:focus, .carrousel .miniatures .previous:hover, .carrousel .miniatures .previous:focus {
+        background-color: #f2f2f2; }
+
+/* END VOIR PRODUIT*/
 /* MEDIA QUERIES */
 /* CONFIG */
 /* typography */
@@ -1035,7 +1156,7 @@ table {
           display: block;
           width: 100%;
           height: 100%;
-          padding: 0 .5em;
+          padding: 3px .5em;
           box-sizing: border-box; }
           .nav .invisible-link li a:hover, .nav .invisible-link li a:focus {
             background-color: #737373; }
