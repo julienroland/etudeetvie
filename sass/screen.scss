@@ -21,7 +21,6 @@
 /* GENERAL */
 body{
 	background-color: $greyL;
-	background-image: url('../img/framework/background/point.png');
 
 }
 .hero{
@@ -64,10 +63,10 @@ body{
 		height:100%;
 		font-weight: 400;
 		box-sizing:border-box;
-		position:absolute;
+		//position:absolute;
 		left:0;
 		padding:0 1em;
-		padding-top: 10px;
+		padding-top: 5px;
 	}
 	&:after{
 		@include clear();
@@ -209,8 +208,27 @@ input[type=submit].icon-search{
 }
 .banner{
 	position:relative;
+	background-image: url('../img/framework/background/background-text2.jpg');
+	background-size:cover;
+	background-position: bottom;
+	height:300px;
+	display:block;
 	&:after{
 		@include clear();
+	}
+	.welcome{
+		display:block;
+		height: 56%;
+		.logo{
+			padding: 1em 0;
+			margin:0 auto;
+			
+			a{
+				text-decoration: none;
+				@include text-shadow( 2px 2px 0 black, 4px 6px 2px white);
+			}
+			
+		}
 	}
 }
 /* END PANIER */
@@ -220,7 +238,7 @@ input[type=submit].icon-search{
 	background-color: white;
 	text-align: center;
 	display:block;
-	height: 100%;
+	height: auto;
 	border:2px solid $greyL2;
 	a{
 		color:$tc;
@@ -233,29 +251,36 @@ input[type=submit].icon-search{
 /* END CONNEXION */
 /* INTRO */
 .intro{
-	background-image: url('../img/framework/background/background-text2.jpg');
-	background-size: cover;
-	background-position: bottom;
-	background-repeat: no-repeat;
+	background-color: $mc;
 	padding:1em 1em;
 	overflow: hidden;
 	color:white;
 	height: 30%;
-	font-family: Oswald,'helvetica neue',helvetica,arial;
+	font-family: $ff;
 	box-sizing:border-box;
 
 	h3{
 		margin-bottom: 1em;
 		padding-bottom: 0.5em;
+		border-bottom: 0;
 	}
+
 	p{
-		font-size: 18px;
+		font-size:1em;
 		font-family: inherit;
 		line-height: 1.8;
 	}
 	.textIntro{
 		max-width: 600px;
 		margin: auto;
+
+
+	}
+	.introContent{
+		
+		height: 100%;
+		display:block;
+		padding:1em 0;
 	}
 }
 /* END INTRO */
@@ -468,14 +493,15 @@ table{
 /* VOIR PRODUIT */
 .imagesProduit{
 	margin-top: 0.5em;
-}
-.image{
-	@include c(8);
-	background-color: white;
-	img{
-		display:block;
-		margin: auto;
+	.image{
+		@include c(8);
+		background-color: white;
+		img{
+			display:block;
+			margin: auto;
+		}
 	}
+
 }
 .carrousel{
 	height:70px;
