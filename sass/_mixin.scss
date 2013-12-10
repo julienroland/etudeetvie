@@ -7,10 +7,13 @@
     font-size: $fs;
     line-height: $lh;
     color:$tc;
+    height:100%;
     text-rendering:optimizeLegibility;
     -webkit-font-smoothing:antialiased;
   }
-
+  html{
+    height: 100%;
+  }
   a{
     color:$mc;
 
@@ -19,13 +22,13 @@
       outline:0;
 
     }
-   
+
     
   }
   p{
     margin:0.5em 0;
     line-height: 1.5;
-     font-family: $ff;
+    font-family: $ff;
   }
 }
 @mixin table(){
@@ -57,18 +60,17 @@
 @mixin container{
   .container{
     @include c( 12 );
-    max-width: $mw;
     margin-bottom: 0;
   }
 }
 @mixin wrapper(){
   .wrapper{
-
+    max-width: $mw;
     overflow:hidden;
     margin: auto;
     box-sizing:border-box;
     @include c(12);
-    margin-bottom: 1em;
+    //margin-bottom: 1em;
     &:after{
       @include clear();
     }
@@ -82,8 +84,8 @@
     position:relative;
   }
   h1,h2,h3,h4{
-      text-align: center;
-    }
+    text-align: center;
+  }
 }
 @mixin heading(){
   h1,h2,h3,h4,h5,h6{
@@ -151,6 +153,8 @@ h6{
     height:0;
     text-indent: -99999999px;
     border:none;
+    padding:0;
+    margin:0;
   }
   .reader{
     display:inline-block;
@@ -199,8 +203,8 @@ h6{
   form{
     width:100%;
   }
- input,textarea{
-  display:inline-block;
+  input,textarea{
+    display:inline-block;
   //@include border-radius(3px);
   border:1px solid $greyL2;
   background-color: $greyL;
@@ -246,35 +250,35 @@ h6{
     box-sizing:border-box;
   //  vertical-align: middle;
    // height:auto;
+   &:hover{
+    @include box-shadow(lighten($mc,10%) 0 0 2px 1px);
+    background-color:darken($mc,5%);
+    border:none;
+  } 
+  &:focus{
+    @include box-shadow($mc 0 0 2px 1px);
+    background-color:darken($mc,10%);
+    border:none;
+  }
+  &:visited{
+    color:rgba(255,255,255,0.9);
+  }
+  a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    border:none;
     &:hover{
-      @include box-shadow(lighten($mc,10%) 0 0 2px 1px);
-      background-color:darken($mc,5%);
       border:none;
-    } 
-    &:focus{
-      @include box-shadow($mc 0 0 2px 1px);
-      background-color:darken($mc,10%);
-      border:none;
+      background-color: transparent;
     }
     &:visited{
-      color:rgba(255,255,255,0.9);
-    }
-    a{
-      color:white;
-      font-weight: bold;
-      text-decoration: none;
-      border:none;
-      &:hover{
-        border:none;
-        background-color: transparent;
-      }
-      &:visited{
-        color:rgba(255,255,255,0.8);
-      }
+      color:rgba(255,255,255,0.8);
     }
   }
-  input[type=search] ~ input[type=submit]{
-    text-indent: -99999px;
+}
+input[type=search] ~ input[type=submit]{
+  text-indent: -99999px;
     //width:40px;
     background-image: url('../img/framework/icon/search.png');
     background-size: 16px;
@@ -322,16 +326,16 @@ h6{
         border-top: 5px solid #efefef;
         &:hover , &:focus{
          // background-color: darken($greyDH,2%);
-          box-sizing: border-box;
-          border-top: 5px solid darken($greyDH,20%);
-          outline:none;
-        }
-      }
-    }
-    li:first-child,ol:first-child{
-       border-left:0;
-    }
-    li+li,ol+ol{
+         box-sizing: border-box;
+         border-top: 5px solid darken($greyDH,20%);
+         outline:none;
+       }
+     }
+   }
+   li:first-child,ol:first-child{
+     border-left:0;
+   }
+   li+li,ol+ol{
       //margin-left: 1%;
     }
   }
@@ -345,7 +349,7 @@ h6{
 }
 @mixin c( $nNumber ) {
 
-  width: col( $nNumber );
+  width: colAlone( $nNumber );
   margin: auto;
   //margin-left: 0;
   display:block;
@@ -358,7 +362,7 @@ h6{
 }
 @mixin cf( $nNumber ) {
 
-  width: col( $nNumber );
+  width: colf( $nNumber );
   display:block;
   float:none;
   box-sizing:border-box;
@@ -372,6 +376,7 @@ h6{
 
   width: col( $nNumber );
   margin-left: gutter();
+  margin-right: gutter();
   float:left;
   display:block;
   box-sizing:border-box;
@@ -391,9 +396,12 @@ h6{
 
   width: colf( $nNumber );
   float:left;
+  margin-left:  gutter();
+  margin-right:  gutter();
   display:block;
   box-sizing:border-box;
-  margin:0;
+  margin-top:0; 
+  margin-bottom:gutter(); 
   &:after{
     @include clear();
   }
@@ -407,7 +415,7 @@ h6{
   display:block;
   box-sizing:border-box;
   &:after{
-  @include clear();
+    @include clear();
   }
 }
 @mixin cfr( $nNumber ) {
@@ -417,7 +425,7 @@ h6{
   display:block;
   box-sizing:border-box;
   &:after{
-  @include clear();
+    @include clear();
   }
 }
 

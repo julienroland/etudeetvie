@@ -19,6 +19,9 @@
 @include img();
 @include icon();
 /* GENERAL */
+body{
+	background-color: $greyL;
+}
 .hero{
 	display:inline-block;
 	width:100%;
@@ -114,17 +117,18 @@ input[type=submit].icon-search{
 .menu{
 	background-color: $mc;
 	@include box-shadow(rgba(0,0,0,0.6) 0 2px 4px 0px);
-	&>a:first-child{
+	/* &>a:first-child{
 		&:hover,&:focus{
 			background-color: $mc;
 		}
-	}
+	} */
 }
 .hyperlinks{
 	display:none;
 
 }
 .nav{
+	
 	.invisible-link{
 		width:100%;
 		display:none;
@@ -187,6 +191,7 @@ input[type=submit].icon-search{
 
 	}
 }
+
 /* END NAVIGATION */
 
 /* PANIER */
@@ -209,13 +214,16 @@ input[type=submit].icon-search{
 
 /* INTRO */
 .intro{
-	background-image: url('../img/framework/background/background-text1.jpg');
+	background-image: url('../img/framework/background/background-text2.jpg');
 	background-size: cover;
+	background-position: bottom;
 	background-repeat: no-repeat;
 	padding:1em 1em;
+	overflow: hidden;
 	color:white;
-	min-height: 250px;
+	height: 30%;
 	font-family: Oswald,'helvetica neue',helvetica,arial;
+	box-sizing:border-box;
 
 	h3{
 		margin-bottom: 1em;
@@ -234,21 +242,27 @@ input[type=submit].icon-search{
 /* END INTRO */
 
 /* ARTICLE */
-
+#imageContainer{
+	height:100%;
+}
 .selection{
 	background-color: $greyL2;
 	padding:1em 0;
+	text-align: center;
 	.article{
 		@include c(10);
+		display:inline-block;
 		background-color: white;
 		padding-bottom: 0;
 		//margin-bottom: $gutter;
 		margin-top: $gutter;
+		margin-bottom: $gutter/2;
 		position:relative;
 		height:400px;
 		float:none;
 		width:300px;
 		overflow:hidden;
+		//margin-left: $gutter;
 		.informationsArticle{
 			background-color: $greyL;
 			padding:1em 1em;
@@ -292,9 +306,9 @@ input[type=submit].icon-search{
 			pointer-events:none;
 			text-indent: 0;
 			padding:1em;
-
+			@include single-transition(all,0.3s,ease-out);
 			h3{
-				border-bottom: 1px solid white;
+				//border-bottom: 1px solid white;
 				margin-bottom: 1em;
 				padding-bottom: 0.5em;
 			}
@@ -314,7 +328,7 @@ input[type=submit].icon-search{
 			z-index: 10;
 			color:white;
 			text-align: left;
-			
+			@include single-transition(all,0.3s,ease-out);
 			text-indent: -99999px;
 			overflow:hidden;
 			text-overflow:ellipsis;
@@ -352,21 +366,22 @@ input[type=submit].icon-search{
 
 			a{
 				margin-right: 0.5em;
-				float:left;
-				width:120px;
+				text-indent: -999999px;	
+				@include cfl(5);
 				height:40px;
 				vertical-align: middle;
 				line-height: 1.2;
-
+				background-repeat: no-repeat;
+				background-position: center;
 			}
 			a+a{
-				float:right;
+				@include cr(5);
 				margin-left: 0.5em;
 			}
 		}
 	}
 	.article + .article{
-
+	margin-top: 0;
 	}
 	&:after{
 		@include clear();
@@ -422,7 +437,11 @@ input[type=submit].icon-search{
 }
 
 /* END FOOTER */
-
+/* TABLE */
+table{
+	margin: auto;
+}
+/* END TABLE*/
 /* MEDIA QUERIES */
 @import "responsive";
 /* END MEDIA*/
