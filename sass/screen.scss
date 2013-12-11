@@ -18,6 +18,7 @@
 @include input();
 @include img();
 @include icon();
+@include tab();
 /* GENERAL */
 body{
 	background-color: $greyL;
@@ -166,6 +167,7 @@ input[type=submit].icon-search{
 	}
 	.maxDev{
 		display:none;
+		@include box-shadow(rgba(0,0,0,0.3) 0 2px 2px 1px);
 		li{
 			height:250px;
 			background-color: white;
@@ -211,19 +213,25 @@ input[type=submit].icon-search{
 	background-image: url('../img/framework/background/background-text2.jpg');
 	background-size:cover;
 	background-position: bottom;
-	height:300px;
+	height:285px;
 	display:block;
 	&:after{
 		@include clear();
 	}
 	.welcome{
 		display:block;
-		height: 56%;
+		height: 125px;
 		.logo{
 			padding: 1em 0;
 			margin:0 auto;
-			
+			text-indent: -999999px;
+			background-image: url('../img/logo.png');
+			background-size: contain;
+			background-repeat: no-repeat;
 			a{
+				display:block;
+				height:100%;
+				widht:100%;
 				text-decoration: none;
 				@include text-shadow( 2px 2px 0 black, 4px 6px 2px white);
 			}
@@ -273,7 +281,7 @@ input[type=submit].icon-search{
 	.textIntro{
 		max-width: 600px;
 		margin: auto;
-
+		@include c(12);
 
 	}
 	.introContent{
@@ -281,6 +289,10 @@ input[type=submit].icon-search{
 		height: 100%;
 		display:block;
 		padding:1em 0;
+	}
+	.iconIntro{
+		@include cl(12);
+		height: 100%;
 	}
 }
 /* END INTRO */
@@ -491,10 +503,20 @@ table{
 /* END TABLE*/
 
 /* VOIR PRODUIT */
+.produit{
+	background-color: white;
+	padding: 3em 1em;
+	
+	h1{
+		color:$mc;
+		padding-bottom: 0.8em;
+	}
+}
 .imagesProduit{
 	margin-top: 0.5em;
+	margin-bottom: 3em;
 	.image{
-		@include c(8);
+		@include c(12);
 		background-color: white;
 		img{
 			display:block;
@@ -502,6 +524,100 @@ table{
 		}
 	}
 
+}
+.buyContent{
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid $greyL2;
+	margin-top: 1em;
+	text-align: left;
+	label{
+		float:left;
+		margin-right: 0.3em;
+	}	
+	input[type="submit"]{
+		text-indent: -999999px;
+		background-image: url('../img/framework/icon/shopWhite.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 50%;
+		width:60px;
+	}
+
+}
+.panierProduit{
+	height: auto;
+	margin-bottom: 1em;
+	&:after{
+		@include clear();
+	}
+}
+
+.tab{
+	height: 40px;
+	text-align: center;
+	border-bottom: 1px solid $mc;
+	li{
+		@include cfl(4);
+		min-width: 110px;
+		max-width: 200px;
+		background-color: lighten($mc,10%);
+		color:white;
+		height: 100%;
+		margin-left: 0;
+		padding:0.5em;
+
+		& + li{
+			@include cl(4);
+			max-width: 200px;
+		}
+		&.active{
+
+			background-color: $mc;
+
+		}
+
+		a{
+			display:block;
+			height: 100%;
+			width:100%;
+			color:white;
+			text-decoration: none;
+		}
+	}
+
+}
+.more{
+	margin-bottom: 3em;
+	p{
+		margin-bottom: 1em;
+	}
+}
+.exerpt{
+	text-align: left;
+	//margin-bottom: 1em;
+	border-bottom: 1px solid $greyL2;
+	h4{
+		display:inline;
+	}
+}
+.prix{
+	font-size: 2em;
+	display:inline-block;
+	
+	color:$mc;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+.disponibilite{
+	display:block;
+	color:rgb(20,180,10);
+	margin-bottom: 1em;
+	font-size: 1.1em;
+}
+.reference{
+	margin-bottom: 1em;
+	font-size: 1.1em;
 }
 .carrousel{
 	height:70px;
@@ -511,9 +627,9 @@ table{
 		height: 100%;
 		@include cfl(12);
 		li{
-			@include cfl(2);
+			@include cfl(3);
 			height: 100%;
-			border:3px solid $grey;
+			//border:2px solid $mc;
 			overflow: hidden;
 			img{
 				width:64px;
@@ -523,7 +639,7 @@ table{
 		.next,.previous{
 			border:0;
 			position:relative;
-			@include cl(3);
+			@include cl(1.5);
 			text-indent: -9999999px;
 			.icon{
 				@include abs();
@@ -534,7 +650,7 @@ table{
 		}
 
 	}
-	
+
 }
 
 /* END VOIR PRODUIT*/
