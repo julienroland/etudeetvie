@@ -80,7 +80,7 @@ body{
 /* MAIN */
 
 .main{
-	background-color: $greyL2;
+	//background-color: $greyL2;
 	padding-bottom: 1em;
 }
 /* END MAIN*/
@@ -161,12 +161,18 @@ input[type=submit].icon-search{
 			}
 			&:hover{
 				background-color: $mc;
+				& > .maxDev{
+					display:block;
+				}
 			}
 		}
 
 	}
 	.maxDev{
-		display:none;
+		display:block;
+		height:0;
+		width:100%;
+		overflow: hidden;
 		@include box-shadow(rgba(0,0,0,0.3) 0 2px 2px 1px);
 		li{
 			height:250px;
@@ -208,21 +214,34 @@ input[type=submit].icon-search{
 .panier{
 
 }
+.what{
+		display:none;
+		box-sizing:border-box;
+		&:after{
+			visibility: visible!important;
+			height:28px!important;
+		}
+	}
 .banner{
 	position:relative;
-	background-image: url('../img/framework/background/background-text2.jpg');
+	/* background-image: url('../img/framework/background/background-text2.jpg');
 	background-size:cover;
-	background-position: bottom;
+	background-position: bottom; */
+	background-color: $greyL;	
 	height:285px;
 	display:block;
 	&:after{
 		@include clear();
 	}
+
 	.welcome{
 		display:block;
 		height: 125px;
+		&:after{
+			@include clear();
+		}
 		.logo{
-			padding: 1em 0;
+			//padding: 1em 0;
 			margin:0 auto;
 			text-indent: -999999px;
 			background-image: url('../img/logo.png');
@@ -231,7 +250,7 @@ input[type=submit].icon-search{
 			a{
 				display:block;
 				height:100%;
-				widht:100%;
+				width:100%;
 				text-decoration: none;
 				@include text-shadow( 2px 2px 0 black, 4px 6px 2px white);
 			}
@@ -259,6 +278,7 @@ input[type=submit].icon-search{
 /* END CONNEXION */
 /* INTRO */
 .intro{
+	display:none;
 	background-color: $mc;
 	padding:1em 1em;
 	overflow: hidden;
