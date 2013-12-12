@@ -572,7 +572,14 @@ input[type=submit].icon-search {
   position: relative; }
 
 #quantite {
-  width: 50px; }
+  width: 50px;
+  float: none; }
+
+.achatProduit {
+  float: left;
+  position: absolute;
+  left: 0;
+  bottom: 0; }
 
 .what {
   display: none;
@@ -605,6 +612,9 @@ input[type=submit].icon-search {
       visibility: hidden; }
     .banner .welcome .logo {
       margin: 0 auto;
+      display: block;
+      height: 100%;
+      background-position: center;
       text-indent: -999999px;
       background-image: url("../img/logo.png");
       background-size: contain;
@@ -634,7 +644,7 @@ input[type=submit].icon-search {
 
 /* INTRO */
 .intro {
-  display: block;
+  display: none;
   background-color: #2e70ea;
   padding: 1em 1em;
   overflow: hidden;
@@ -670,8 +680,8 @@ input[type=submit].icon-search {
     padding: 1em 0; }
   .intro .iconIntro {
     width: 99%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     float: left;
     display: block;
     box-sizing: border-box;
@@ -690,6 +700,7 @@ input[type=submit].icon-search {
 
 .selection {
   background-color: #d8d8d8;
+  padding-bottom: 12px;
   text-align: center; }
   .selection .article {
     width: 83.33333%;
@@ -705,7 +716,7 @@ input[type=submit].icon-search {
     position: relative;
     height: 400px;
     float: none;
-    width: 300px;
+    width: 250px;
     overflow: hidden; }
     .selection .article:after {
       content: "";
@@ -837,11 +848,11 @@ input[type=submit].icon-search {
         text-indent: -999999px;
         width: 40.66667%;
         float: left;
-        margin-left: 0.5%;
-        margin-right: 0.5%;
+        margin-left: 1%;
+        margin-right: 1%;
         display: block;
         box-sizing: border-box;
-        margin-bottom: 0.5%;
+        margin-bottom: 1%;
         height: 40px;
         vertical-align: middle;
         line-height: 1.2;
@@ -855,7 +866,7 @@ input[type=submit].icon-search {
           visibility: hidden; }
       .selection .article .interactionProduct a + a {
         width: 40.66667%;
-        margin-left: 0.5%;
+        margin-left: 1%;
         float: right;
         display: block;
         box-sizing: border-box;
@@ -867,7 +878,8 @@ input[type=submit].icon-search {
           clear: both;
           visibility: hidden; }
   .selection .article + .article {
-    margin-top: 0; }
+    margin-top: 0;
+    margin-left: 24px; }
   .selection:after {
     content: "";
     display: block;
@@ -941,7 +953,8 @@ table {
   padding: 3em 1em; }
   .produit h1 {
     color: #2e70ea;
-    padding-bottom: 0.8em; }
+    padding-bottom: 0.8em;
+    border-bottom: 0; }
 
 .imagesProduit {
   margin-top: 0.5em;
@@ -982,7 +995,9 @@ table {
 
 .panierProduit {
   height: auto;
-  margin-bottom: 1em; }
+  min-height: 100px;
+  margin-bottom: 1em;
+  position: relative; }
   .panierProduit:after {
     content: "";
     display: block;
@@ -997,11 +1012,11 @@ table {
   .tab li {
     width: 32.33333%;
     float: left;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
     min-width: 110px;
     max-width: 200px;
     background-color: #5c90ef;
@@ -1017,8 +1032,8 @@ table {
       visibility: hidden; }
     .tab li + li {
       width: 32.33333%;
-      margin-left: 0.5%;
-      margin-right: 0.5%;
+      margin-left: 1%;
+      margin-right: 1%;
       float: left;
       display: block;
       box-sizing: border-box;
@@ -1073,11 +1088,11 @@ table {
     height: 100%;
     width: 99%;
     float: left;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%; }
+    margin-bottom: 1%; }
     .carrousel .miniatures:after {
       content: "";
       display: block;
@@ -1087,11 +1102,11 @@ table {
     .carrousel .miniatures li {
       width: 24%;
       float: left;
-      margin-left: 0.5%;
-      margin-right: 0.5%;
+      margin-left: 1%;
+      margin-right: 1%;
       display: block;
       box-sizing: border-box;
-      margin-bottom: 0.5%;
+      margin-bottom: 1%;
       height: 100%;
       overflow: hidden; }
       .carrousel .miniatures li:after {
@@ -1107,8 +1122,8 @@ table {
       border: 0;
       position: relative;
       width: 11.5%;
-      margin-left: 0.5%;
-      margin-right: 0.5%;
+      margin-left: 1%;
+      margin-right: 1%;
       float: left;
       display: block;
       box-sizing: border-box;
@@ -1141,11 +1156,11 @@ table {
   .foot {
     width: 32.33333%;
     float: left;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%; }
+    margin-bottom: 1%; }
     .foot:after {
       content: "";
       display: block;
@@ -1155,8 +1170,8 @@ table {
 
   .foot + .foot {
     width: 32.33333%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     float: left;
     display: block;
     box-sizing: border-box; }
@@ -1185,7 +1200,7 @@ table {
 
   .search {
     width: 40.66667%;
-    margin-left: 0.5%;
+    margin-left: 1%;
     float: right;
     display: block;
     box-sizing: border-box;
@@ -1199,7 +1214,7 @@ table {
 
   .connexion {
     width: 40.66667%;
-    margin-left: 0.5%;
+    margin-left: 1%;
     float: right;
     display: block;
     box-sizing: border-box;
@@ -1308,7 +1323,7 @@ table {
   /* PANIER */
   .panier {
     width: 40.66667%;
-    margin-left: 0.5%;
+    margin-left: 1%;
     float: right;
     display: block;
     box-sizing: border-box;
@@ -1346,12 +1361,12 @@ table {
   .selection .article {
     width: 19.83333%;
     float: left;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%;
-    margin-top: 6px;
+    margin-bottom: 1%;
+    margin-top: 12px;
     margin-bottom: 0; }
     .selection .article:after {
       content: "";
@@ -1362,12 +1377,12 @@ table {
     .selection .article + .article {
       width: 19.83333%;
       float: left;
-      margin-left: 0.5%;
-      margin-right: 0.5%;
+      margin-left: 1%;
+      margin-right: 1%;
       display: block;
       box-sizing: border-box;
-      margin-bottom: 0.5%;
-      margin-top: 6px;
+      margin-bottom: 1%;
+      margin-top: 12px;
       margin-bottom: 0; }
       .selection .article + .article:after {
         content: "";
@@ -1383,11 +1398,11 @@ table {
     .banner .welcome {
       width: 24%;
       float: left;
-      margin-left: 0.5%;
-      margin-right: 0.5%;
+      margin-left: 1%;
+      margin-right: 1%;
       display: block;
       box-sizing: border-box;
-      margin-bottom: 0.5%; }
+      margin-bottom: 1%; }
       .banner .welcome:after {
         content: "";
         display: block;
@@ -1532,11 +1547,11 @@ table {
     .hyperlinks li {
       width: 15.66667%;
       float: left;
-      margin-left: 0.5%;
-      margin-right: 0.5%;
+      margin-left: 1%;
+      margin-right: 1%;
       display: block;
       box-sizing: border-box;
-      margin-bottom: 0.5%;
+      margin-bottom: 1%;
       height: 50px;
       box-sizing: border-box; }
       .hyperlinks li:after {
@@ -1549,8 +1564,8 @@ table {
         max-width: 100%; }
     .hyperlinks li + li {
       width: 15.66667%;
-      margin-left: 0.5%;
-      margin-right: 0.5%;
+      margin-left: 1%;
+      margin-right: 1%;
       float: left;
       display: block;
       box-sizing: border-box;
@@ -1581,11 +1596,11 @@ table {
   .intro .textIntro {
     width: 49%;
     float: left;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%; }
+    margin-bottom: 1%; }
     .intro .textIntro:after {
       content: "";
       display: block;
@@ -1594,8 +1609,8 @@ table {
       visibility: hidden; }
   .intro .iconIntro {
     width: 40.66667%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     float: left;
     display: block;
     box-sizing: border-box;
@@ -1609,8 +1624,8 @@ table {
 
   .what {
     width: 32.33333%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     float: left;
     display: block;
     box-sizing: border-box;
@@ -1701,11 +1716,11 @@ table {
   .produit .imagesProduit {
     width: 49%;
     float: left;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%; }
+    margin-bottom: 1%; }
     .produit .imagesProduit:after {
       content: "";
       display: block;
@@ -1723,11 +1738,11 @@ table {
   .welcome {
     width: 32.33333%;
     float: left;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%; }
+    margin-bottom: 1%; }
     .welcome:after {
       content: "";
       display: block;
@@ -1739,8 +1754,8 @@ table {
 
   .what {
     width: 49%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     float: left;
     display: block;
     box-sizing: border-box;
@@ -1755,14 +1770,14 @@ table {
 
   /* ARTICLE */
   .selection .article {
-    width: 32.33333%;
+    width: 19.83333%;
     float: left;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%;
-    margin-top: 6px;
+    margin-bottom: 1%;
+    margin-top: 12px;
     margin-bottom: 0; }
     .selection .article:after {
       content: "";
@@ -1771,10 +1786,10 @@ table {
       clear: both;
       visibility: hidden; }
     .selection .article + .article {
-      margin-top: 6px;
-      width: 32.33333%;
-      margin-left: 0.5%;
-      margin-right: 0.5%;
+      margin-top: 12px;
+      width: 19.83333%;
+      margin-left: 1%;
+      margin-right: 1%;
       float: left;
       display: block;
       box-sizing: border-box; }
@@ -1791,11 +1806,11 @@ table {
   .foot {
     width: 32.33333%;
     float: left;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%; }
+    margin-bottom: 1%; }
     .foot:after {
       content: "";
       display: block;
@@ -1805,8 +1820,8 @@ table {
 
   .foot + .foot {
     width: 32.33333%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
     float: left;
     display: block;
     box-sizing: border-box; }
