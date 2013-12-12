@@ -564,8 +564,15 @@ input[type=submit].icon-search {
 /* PANIER */
 .panierItem {
   display: none;
+  position: absolute;
   background-color: #f2f2f2;
   padding: 1em 1em; }
+
+.panier {
+  position: relative; }
+
+#quantite {
+  width: 50px; }
 
 .what {
   display: none;
@@ -576,9 +583,8 @@ input[type=submit].icon-search {
 
 .banner {
   position: relative;
-  /* background-image: url('../img/framework/background/background-text2.jpg');
-  background-size:cover;
-  background-position: bottom; */
+  background-image: url("../img/framework/background/grid.png");
+  background-position: bottom;
   background-color: #f2f2f2;
   height: 285px;
   display: block; }
