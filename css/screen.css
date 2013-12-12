@@ -84,7 +84,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: #333333;
-  height: 100%;
+  min-height: 100%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased; }
 
@@ -108,7 +108,7 @@ p {
   display: block;
   float: none;
   box-sizing: border-box;
-  height: 100%;
+  min-height: 100%;
   margin-bottom: 0; }
   .container:after {
     content: "";
@@ -193,6 +193,7 @@ h6 {
   max-width: 1200px;
   overflow: hidden;
   margin: auto;
+  height: 100%;
   box-sizing: border-box;
   width: 100%;
   margin: auto;
@@ -398,7 +399,7 @@ img {
 
 /* GENERAL */
 body {
-  background-color: #f2f2f2; }
+  background-color: #d8d8d8; }
 
 .hero {
   display: inline-block;
@@ -433,13 +434,12 @@ body {
     padding: 0;
     text-align: left;
     display: inline-block;
-    width: 100%;
     height: 100%;
     font-weight: 400;
     box-sizing: border-box;
     left: 0;
     padding: 0 1em;
-    padding-top: 5px; }
+    padding-top: 8px; }
   .hero:after {
     content: "";
     display: block;
@@ -622,9 +622,13 @@ input[type=submit].icon-search {
     color: #333333; }
 
 /* END CONNEXION */
+.content {
+  background-color: #d8d8d8;
+  padding: 1em 0.5em; }
+
 /* INTRO */
 .intro {
-  display: none;
+  display: block;
   background-color: #2e70ea;
   padding: 1em 1em;
   overflow: hidden;
@@ -679,8 +683,7 @@ input[type=submit].icon-search {
   height: 100%; }
 
 .selection {
-  background-color: #bfbfbf;
-  padding: 1em 0;
+  background-color: #d8d8d8;
   text-align: center; }
   .selection .article {
     width: 83.33333%;
@@ -1204,18 +1207,31 @@ table {
       clear: both;
       visibility: hidden; }
 
+  .hero h2 {
+    font-size: 1.2em; }
+
   .intro {
     background-image: url("../img/framework/slide/1/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 40%;
     height: 400px;
-    display: block; }
+    display: block;
+    position: relative; }
     .intro p {
       font-size: 1.3em; }
     .intro h3 {
       font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
-      font-size: 3em; }
+      font-size: 3em;
+      -webkit-transition: all 0.6s ease-in-out;
+      -moz-transition: all 0.6s ease-in-out;
+      -o-transition: all 0.6s ease-in-out;
+      transition: all 0.6s ease-in-out;
+      position: absolute;
+      opacity: 0;
+      left: 0;
+      right: 0;
+      top: -80px; }
     .intro .item1 {
       background-image: url("../img/framework/slide/1/item1.jpg");
       background-size: contain;
@@ -1224,42 +1240,50 @@ table {
       height: 250px;
       margin-left: 25%;
       float: left;
+      left: -300px;
+      opacity: 0;
+      top: 100px;
+      position: absolute;
       -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0 0 10px 2px;
       -moz-box-shadow: rgba(0, 0, 0, 0.6) 0 0 10px 2px;
       box-shadow: rgba(0, 0, 0, 0.6) 0 0 10px 2px;
-      -webkit-transition: all 0.3s ease-out;
-      -moz-transition: all 0.3s ease-out;
-      -o-transition: all 0.3s ease-out;
-      transition: all 0.3s ease-out;
+      -webkit-transition: all 1s ease;
+      -webkit-transition-delay: 0.6s;
+      -moz-transition: all 1s ease 0.6s;
+      -o-transition: all 1s ease 0.6s;
+      transition: all 1s ease 0.6s;
       box-sizing: border-box; }
       .intro .item1:hover, .intro .item1:focus {
-        -webkit-transform: scale(1.1, 1.1);
-        -moz-transform: scale(1.1, 1.1);
-        -ms-transform: scale(1.1, 1.1);
-        -o-transform: scale(1.1, 1.1);
-        transform: scale(1.1, 1.1);
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in;
-        transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease;
+        -webkit-transition-delay: 0.2s;
+        -moz-transition: all 0.3s ease 0.2s;
+        -o-transition: all 0.3s ease 0.2s;
+        transition: all 0.3s ease 0.2s;
         -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px 10px;
         -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px 10px;
         box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px 10px; }
+    .intro .introContent {
+      position: relative; }
     .intro .item2 {
       background-image: url("../img/framework/slide/1/item2.jpg");
       background-size: contain;
       background-repeat: no-repeat;
       width: 185px;
+      position: absolute;
       height: 250px;
-      margin-left: 10%;
+      margin-right: 25%;
       float: left;
+      top: 100px;
+      right: -300px;
+      opacity: 0;
       -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0 0 10px 2px;
       -moz-box-shadow: rgba(0, 0, 0, 0.6) 0 0 10px 2px;
       box-shadow: rgba(0, 0, 0, 0.6) 0 0 10px 2px;
-      -webkit-transition: all 0.3s ease-out;
-      -moz-transition: all 0.3s ease-out;
-      -o-transition: all 0.3s ease-out;
-      transition: all 0.3s ease-out; }
+      -webkit-transition: all 0.8s ease;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: all 0.8s ease 0.4s;
+      -o-transition: all 0.8s ease 0.4s;
+      transition: all 0.8s ease 0.4s; }
       .intro .item2:hover, .intro .item2:focus {
         -webkit-transform: scale(1.1, 1.1);
         -moz-transform: scale(1.1, 1.1);
@@ -1267,9 +1291,10 @@ table {
         -o-transform: scale(1.1, 1.1);
         transform: scale(1.1, 1.1);
         -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in;
-        transition: all 0.3s ease-in;
+        -webkit-transition-delay: 0.2s;
+        -moz-transition: all 0.3s ease-in 0.2s;
+        -o-transition: all 0.3s ease-in 0.2s;
+        transition: all 0.3s ease-in 0.2s;
         -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px 10px;
         -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px 10px;
         box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px 10px; }
@@ -1313,7 +1338,7 @@ table {
   /* END HEADER */
   /* ARTICLE */
   .selection .article {
-    width: 24%;
+    width: 19.83333%;
     float: left;
     margin-left: 0.5%;
     margin-right: 0.5%;
@@ -1329,7 +1354,7 @@ table {
       clear: both;
       visibility: hidden; }
     .selection .article + .article {
-      width: 24%;
+      width: 19.83333%;
       float: left;
       margin-left: 0.5%;
       margin-right: 0.5%;
@@ -1431,7 +1456,6 @@ table {
           -moz-transition: all 0.3s ease-in 0.3s;
           -o-transition: all 0.3s ease-in 0.3s;
           transition: all 0.3s ease-in 0.3s;
-          margin: auto;
           top: 50px;
           left: 0;
           right: 0;
@@ -1439,14 +1463,14 @@ table {
           z-index: 100;
           height: 0;
           overflow: hidden;
-          width: 0;
+          width: 0px;
           background-color: white; }
           .nav .invisible-link li .maxDev li {
             height: 100%; }
             .nav .invisible-link li .maxDev li:hover, .nav .invisible-link li .maxDev li:focus {
               background-color: white; }
           .nav .invisible-link li .maxDev:hover, .nav .invisible-link li .maxDev:focus {
-            height: 300px;
+            height: 400px;
             width: 100%; }
       .nav .invisible-link li + li {
         width: 16.66667%;
