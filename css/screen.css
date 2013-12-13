@@ -503,10 +503,13 @@ input[type=submit].icon-search {
   display: none; }
 
 .nav {
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   .nav .invisible-link {
     width: 100%;
     display: none;
+    position: relative;
+    overflow: visible;
     background-color: #666666;
     font-weight: 400;
     font-family: Oswald,'helvetica neue','helvetica',arial;
@@ -532,16 +535,12 @@ input[type=submit].icon-search {
         border-bottom: 0; }
       .nav .invisible-link li:hover {
         background-color: #2e70ea; }
-        .nav .invisible-link li:hover > .maxDev {
-          display: block; }
   .nav .maxDev {
-    display: block;
-    height: 0;
+    display: none;
+    height: auto;
     width: 100%;
-    overflow: hidden;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px 1px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px 1px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px 1px; }
+    position: relative;
+    overflow: hidden; }
     .nav .maxDev li {
       height: 250px;
       background-color: white;
@@ -562,12 +561,41 @@ input[type=submit].icon-search {
         display: block; }
       .nav .maxDev li:hover {
         background-color: white; }
+    .nav .maxDev #maxDev {
+      padding-left: 1em; }
+    .nav .maxDev .underLink {
+      margin-bottom: 0.5em;
+      position: relative;
+      padding: 5px 20px; }
+      .nav .maxDev .underLink:hover {
+        background-color: #737373; }
+      .nav .maxDev .underLink:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+      .nav .maxDev .underLink img {
+        display: none; }
+      .nav .maxDev .underLink:before {
+        display: block;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        content: "";
+        background-image: url("../img/framework/icon/chevron-right-littleWhite.png"); }
 
 /* END NAVIGATION */
 /* PANIER */
 .panierItem {
   display: none;
   position: absolute;
+  width: 100%;
+  z-index: 10;
   background-color: #f2f2f2;
   padding: 1em 1em; }
 
@@ -596,7 +624,7 @@ input[type=submit].icon-search {
   background-image: url("../img/framework/background/grid.png");
   background-position: bottom;
   background-color: #f2f2f2;
-  height: 285px;
+  min-height: 285px;
   display: block; }
   .banner:after {
     content: "";
@@ -1455,10 +1483,8 @@ table {
         .nav .invisible-link li span.icon {
           display: none; }
         .nav .invisible-link li a {
-          display: block;
           width: 100%;
           height: 100%;
-          padding: 3px .5em;
           box-sizing: border-box; }
           .nav .invisible-link li a:hover, .nav .invisible-link li a:focus {
             background-color: #2e70ea;
@@ -1467,14 +1493,6 @@ table {
             -o-transition: all 0.3s ease;
             transition: all 0.3s ease;
             color: white; }
-          .nav .invisible-link li a:hover + .maxDev, .nav .invisible-link li a:focus + .maxDev {
-            -webkit-transition: all 0.4s ease-out;
-            -webkit-transition-delay: 0.3s;
-            -moz-transition: all 0.4s ease-out 0.3s;
-            -o-transition: all 0.4s ease-out 0.3s;
-            transition: all 0.4s ease-out 0.3s;
-            height: 400px;
-            width: 100%; }
         .nav .invisible-link li .maxDev {
           -webkit-transition: all 0.3s ease-in;
           -webkit-transition-delay: 0.3s;
@@ -1484,10 +1502,10 @@ table {
           top: 50px;
           left: 0;
           right: 0;
-          opacity: 0;
           position: absolute;
           z-index: 100;
           height: 400px;
+          display: none;
           overflow: hidden;
           width: 100%;
           padding: 1em 0;
