@@ -587,6 +587,10 @@ input[type=submit].icon-search {
         margin: auto;
         content: "";
         background-image: url("../img/framework/icon/chevron-right-littleWhite.png"); }
+    .nav .maxDev .underLink.categorie {
+      background-color: #2e70ea; }
+    .nav .maxDev .invisible-link > li:hover .maxDev .categorie {
+      background-color: #737373; }
 
 /* END NAVIGATION */
 /* PANIER */
@@ -599,7 +603,8 @@ input[type=submit].icon-search {
   padding: 1em 1em; }
 
 .panier {
-  position: relative; }
+  position: relative;
+  pointer-events: none; }
 
 #quantite {
   width: 50px;
@@ -1176,6 +1181,48 @@ table {
         background-color: #f2f2f2; }
 
 /* END VOIR PRODUIT*/
+/* CATEGORIE */
+.introCategorie {
+  padding: 0 1em;
+  text-align: left;
+  margin: auto;
+  font-size: 18px;
+  line-height: 28px; }
+
+.selection.categorie .article {
+  height: 300px;
+  margin-left: 0; }
+  .selection.categorie .article .image {
+    height: 70%; }
+  .selection.categorie .article .overImage h3 {
+    margin-bottom: 0; }
+  .selection.categorie .article .overImage p {
+    margin-top: 0; }
+  .selection.categorie .article h3 {
+    font-size: 1.2em; }
+.selection.categorie .interactionProduct a {
+  margin: auto;
+  float: none; }
+
+.selection.sousCategorie .elementsCategorie .article {
+  height: 400px;
+  margin-left: 0; }
+  .selection.sousCategorie .elementsCategorie .article .interactionProduct a {
+    margin: auto;
+    float: left; }
+    .selection.sousCategorie .elementsCategorie .article .interactionProduct a + a {
+      float: right; }
+  .selection.sousCategorie .elementsCategorie .article .overImage h3 {
+    line-height: 1.3; }
+
+.titleCategorie {
+  margin-top: 1em; }
+  .titleCategorie h3 {
+    font-size: 1.8em;
+    text-align: center;
+    border-bottom: 0; }
+
+/*END CATEGORIE*/
 /* MEDIA QUERIES */
 /* CONFIG */
 /* typography */

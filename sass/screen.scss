@@ -226,9 +226,15 @@ input[type=submit].icon-search{
 				content:"";
 				background-image: url('../img/framework/icon/chevron-right-littleWhite.png');
 			}
+		}
+		.underLink.categorie{
+			background-color: $mc;
 		}	
+		.invisible-link>li:hover .maxDev .categorie{
+			background-color: $greyD;
+		}
 	}
-	}
+}
 
 /* END NAVIGATION */
 
@@ -244,6 +250,8 @@ input[type=submit].icon-search{
 }
 .panier{
 	position:relative;
+	pointer-events:none;
+
 }
 #quantite{
 	width:50px;
@@ -728,6 +736,78 @@ table{
 }
 
 /* END VOIR PRODUIT*/
+
+/* CATEGORIE */
+.introCategorie{
+	padding:0 1em;
+	text-align: left;
+	margin: auto;
+	font-size: 18px;
+	line-height: 28px;
+}
+.selection.categorie{
+
+	.article{
+		height:300px;
+		margin-left: 0;
+		.image{
+			height:70%;
+		}
+		.overImage{
+			h3{
+				margin-bottom: 0;
+			}
+			p{
+				margin-top:0;
+			}
+		}
+		h3{
+			font-size: 1.2em;
+
+		}
+	}
+	.interactionProduct{
+		a{
+			margin: auto;
+			float:none;
+		}
+	}
+
+	
+}
+.selection.sousCategorie{
+	.elementsCategorie{
+		.article{
+			height:400px;
+			margin-left: 0;
+			.interactionProduct{
+				a{
+					margin: auto;
+					float:left;
+					& + a{
+						float:right;
+					}
+				}
+			}
+			.overImage{
+				h3{
+					line-height: 1.3;
+				}
+			}
+		
+		}
+	}
+}
+
+.titleCategorie{
+	margin-top: 1em;
+	h3{
+		font-size: 1.8em;
+		text-align: center;
+		border-bottom: 0;
+	}
+}
+/*END CATEGORIE*/
 /* MEDIA QUERIES */
 @import "responsive";
 /* END MEDIA*/
