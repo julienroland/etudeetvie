@@ -1518,6 +1518,9 @@ table {
               min-height: 100px; }
             .nav .invisible-link li .maxDev .underLink a:hover, .nav .invisible-link li .maxDev .underLink a:focus {
               background-color: transparent; }
+              .nav .invisible-link li .maxDev .underLink a:hover span, .nav .invisible-link li .maxDev .underLink a:focus span {
+                background-color: #2e70ea;
+                color: white; }
       .nav .invisible-link li + li {
         width: 16.66667%;
         float: left;
@@ -1756,7 +1759,7 @@ table {
   .panierProduit input[type="submit"] {
     float: left;
     display: block; } }
-@media (min-width: 625px) and (max-width: 940px) {
+@media (min-width: 800px) and (max-width: 940px) {
   .banner {
     height: auto; }
 
@@ -1793,9 +1796,8 @@ table {
       clear: both;
       visibility: hidden; }
 
-  /* ARTICLE */
   .selection .article {
-    width: 19.83333%;
+    width: 24%;
     float: left;
     margin-left: 0.5%;
     margin-right: 0.5%;
@@ -1812,7 +1814,79 @@ table {
       visibility: hidden; }
     .selection .article + .article {
       margin-top: 12px;
-      width: 19.83333%;
+      width: 24%;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      float: left;
+      display: block;
+      box-sizing: border-box; }
+      .selection .article + .article:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; } }
+@media (min-width: 625px) and (max-width: 800px) {
+  .banner {
+    height: auto; }
+
+  .welcome {
+    width: 32.33333%;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 0.5%; }
+    .welcome:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    .welcome .logo {
+      height: 100%; }
+
+  .what {
+    width: 49%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    margin-left: 7.33333%;
+    height: 100%; }
+    .what:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+
+  .panierItem {
+    width: 100%;
+    z-index: 10; }
+
+  /* ARTICLE */
+  .selection .article {
+    width: 32.33333%;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 0.5%;
+    margin-top: 12px;
+    margin-bottom: 0; }
+    .selection .article:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    .selection .article + .article {
+      margin-top: 12px;
+      width: 32.33333%;
       margin-left: 0.5%;
       margin-right: 0.5%;
       float: left;
