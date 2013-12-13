@@ -1206,7 +1206,7 @@ table {
 
 .selection.sousCategorie .elementsCategorie .article {
   height: 400px;
-  margin-left: 0; }
+  margin-left: 0.5%; }
   .selection.sousCategorie .elementsCategorie .article .interactionProduct a {
     margin: auto;
     float: left; }
@@ -1744,6 +1744,13 @@ table {
       height: 0;
       clear: both;
       visibility: hidden; }
+
+  .titleCategorie {
+    margin-top: 1em; }
+    .titleCategorie h3 {
+      font-size: 1.8em;
+      text-align: left;
+      border-bottom: 0; }
 
   .what {
     width: 32.33333%;
