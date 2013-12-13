@@ -439,7 +439,7 @@ input[type=search] ~ input[type=submit]{
   display:block;
   box-sizing:border-box;
   //margin-top:0; 
-  margin-bottom:gutter(); 
+  margin-bottom:gutter() * 2; 
   &:after{
     @include clear();
   }

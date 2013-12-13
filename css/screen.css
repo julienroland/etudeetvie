@@ -508,7 +508,6 @@ input[type=submit].icon-search {
   .nav .invisible-link {
     width: 100%;
     display: none;
-    position: relative;
     overflow: visible;
     background-color: #666666;
     font-weight: 400;
@@ -883,7 +882,7 @@ input[type=submit].icon-search {
         margin-right: 0.5%;
         display: block;
         box-sizing: border-box;
-        margin-bottom: 0.5%;
+        margin-bottom: 1%;
         height: 40px;
         vertical-align: middle;
         line-height: 1.2;
@@ -1047,7 +1046,7 @@ table {
     margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
     min-width: 110px;
     max-width: 200px;
     background-color: #5c90ef;
@@ -1124,7 +1123,7 @@ table {
     margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%; }
+    margin-bottom: 1%; }
     .carrousel .miniatures:after {
       content: "";
       display: block;
@@ -1138,7 +1137,7 @@ table {
       margin-right: 0.5%;
       display: block;
       box-sizing: border-box;
-      margin-bottom: 0.5%;
+      margin-bottom: 1%;
       height: 100%;
       overflow: hidden; }
       .carrousel .miniatures li:after {
@@ -1192,7 +1191,7 @@ table {
     margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%; }
+    margin-bottom: 1%; }
     .foot:after {
       content: "";
       display: block;
@@ -1397,7 +1396,7 @@ table {
     margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
     margin-top: 12px;
     margin-bottom: 0; }
     .selection .article:after {
@@ -1413,7 +1412,7 @@ table {
       margin-right: 0.5%;
       display: block;
       box-sizing: border-box;
-      margin-bottom: 0.5%;
+      margin-bottom: 1%;
       margin-top: 12px;
       margin-bottom: 0; }
       .selection .article + .article:after {
@@ -1434,7 +1433,7 @@ table {
       margin-right: 0.5%;
       display: block;
       box-sizing: border-box;
-      margin-bottom: 0.5%; }
+      margin-bottom: 1%; }
       .banner .welcome:after {
         content: "";
         display: block;
@@ -1454,6 +1453,8 @@ table {
     right: 0;
     bottom: 0;
     margin: auto; }
+    .nav .moreLink:hover + .maxDev, .nav .moreLink:focus + .maxDev {
+      display: block; }
     .nav .invisible-link {
       display: inline-block;
       background-color: #666666;
@@ -1493,6 +1494,8 @@ table {
             -o-transition: all 0.3s ease;
             transition: all 0.3s ease;
             color: white; }
+        .nav .invisible-link li #maxDev {
+          padding-left: 0; }
         .nav .invisible-link li .maxDev {
           -webkit-transition: all 0.3s ease-in;
           -webkit-transition-delay: 0.3s;
@@ -1517,28 +1520,55 @@ table {
           .nav .invisible-link li .maxDev:hover, .nav .invisible-link li .maxDev:focus {
             height: 400px;
             width: 100%;
-            opacity: 1; }
+            display: block; }
           .nav .invisible-link li .maxDev .underLink {
-            width: 200px;
-            background-color: white;
-            margin-bottom: 24px;
-            min-height: 150px;
+            width: 15.66667%;
+            float: left;
+            margin-left: 0.5%;
+            margin-right: 0.5%;
+            display: block;
             box-sizing: border-box;
-            border: 1px solid #7c7c7c; }
+            margin-bottom: 1%;
+            padding: 0;
+            height: 150px;
+            background-color: #f2f2f2; }
+            .nav .invisible-link li .maxDev .underLink:after {
+              content: "";
+              display: block;
+              height: 0;
+              clear: both;
+              visibility: hidden; }
+            .nav .invisible-link li .maxDev .underLink + .underLink {
+              width: 15.66667%;
+              margin-left: 0.5%;
+              margin-right: 0.5%;
+              float: left;
+              display: block;
+              box-sizing: border-box; }
+              .nav .invisible-link li .maxDev .underLink + .underLink:after {
+                content: "";
+                display: block;
+                height: 0;
+                clear: both;
+                visibility: hidden; }
+            .nav .invisible-link li .maxDev .underLink:before {
+              content: "";
+              display: none; }
+            .nav .invisible-link li .maxDev .underLink .img {
+              height: 70%;
+              overflow: hidden;
+              position: relative; }
+              .nav .invisible-link li .maxDev .underLink .img img {
+                display: block;
+                max-height: 100%;
+                max-width: 100%;
+                margin: auto; }
             .nav .invisible-link li .maxDev .underLink span {
-              width: 100%;
-              display: inline-block;
-              min-height: 30px;
-              color: #2e70ea; }
-            .nav .invisible-link li .maxDev .underLink .img img {
-              width: auto;
-              margin-top: 0;
-              min-height: 100px; }
-            .nav .invisible-link li .maxDev .underLink a:hover, .nav .invisible-link li .maxDev .underLink a:focus {
-              background-color: transparent; }
-              .nav .invisible-link li .maxDev .underLink a:hover span, .nav .invisible-link li .maxDev .underLink a:focus span {
-                background-color: #2e70ea;
-                color: white; }
+              height: 30%;
+              display: block;
+              vertical-align: middle;
+              background-color: #2e70ea;
+              color: white; }
       .nav .invisible-link li + li {
         width: 16.66667%;
         float: left;
@@ -1597,7 +1627,7 @@ table {
       margin-right: 0.5%;
       display: block;
       box-sizing: border-box;
-      margin-bottom: 0.5%;
+      margin-bottom: 1%;
       height: 50px;
       box-sizing: border-box; }
       .hyperlinks li:after {
@@ -1646,7 +1676,7 @@ table {
     margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%; }
+    margin-bottom: 1%; }
     .intro .textIntro:after {
       content: "";
       display: block;
@@ -1766,7 +1796,7 @@ table {
     margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%; }
+    margin-bottom: 1%; }
     .produit .imagesProduit:after {
       content: "";
       display: block;
@@ -1788,7 +1818,7 @@ table {
     margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%; }
+    margin-bottom: 1%; }
     .welcome:after {
       content: "";
       display: block;
@@ -1821,7 +1851,7 @@ table {
     margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
     margin-top: 12px;
     margin-bottom: 0; }
     .selection .article:after {
@@ -1855,7 +1885,7 @@ table {
     margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%; }
+    margin-bottom: 1%; }
     .welcome:after {
       content: "";
       display: block;
@@ -1893,7 +1923,7 @@ table {
     margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
     margin-top: 12px;
     margin-bottom: 0; }
     .selection .article:after {
@@ -1927,7 +1957,7 @@ table {
     margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 0.5%; }
+    margin-bottom: 1%; }
     .foot:after {
       content: "";
       display: block;
