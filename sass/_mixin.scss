@@ -61,7 +61,10 @@
   
   .tab{
 
-    
+    a{
+      
+      font-family: $ff2;
+    }
   }
 }
 @mixin container{

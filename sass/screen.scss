@@ -631,15 +631,16 @@ table{
 	}
 
 }
-.more{
-	margin-bottom: 3em;
+.more,.exerpt{
+	
+	font-size: 18px;
+	line-height: 28px;
 	p{
 		margin-bottom: 1em;
 	}
 }
 .exerpt{
 	text-align: left;
-	//margin-bottom: 1em;
 	border-bottom: 1px solid $greyL2;
 	h4{
 		display:inline;
