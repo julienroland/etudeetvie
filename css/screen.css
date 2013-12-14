@@ -437,6 +437,7 @@ body {
     padding: 0;
     text-align: left;
     display: inline-block;
+    float: left;
     height: 100%;
     font-weight: 400;
     box-sizing: border-box;
@@ -1182,6 +1183,14 @@ table {
 
 /* END VOIR PRODUIT*/
 /* CATEGORIE */
+.tri, .display {
+  float: right;
+  display: block;
+  height: 100%;
+  margin-left: 1em; }
+  .tri span, .tri select, .display span, .display select {
+    vertical-align: middle; }
+
 .introCategorie {
   padding: 0 1em;
   text-align: left;
@@ -1309,7 +1318,7 @@ table {
   .hero h2 {
     font-size: 1.2em; }
 
-  .intro {
+  .intro, .oneCategorie {
     background-image: url("../img/framework/slide/1/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -1317,9 +1326,9 @@ table {
     height: 400px;
     display: block;
     position: relative; }
-    .intro p {
+    .intro p, .oneCategorie p {
       font-size: 1.3em; }
-    .intro h3 {
+    .intro h3, .oneCategorie h3 {
       font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
       font-size: 3em;
       -webkit-transition: all 0.6s ease-in-out;
@@ -1327,11 +1336,9 @@ table {
       -o-transition: all 0.6s ease-in-out;
       transition: all 0.6s ease-in-out;
       position: absolute;
-      opacity: 0;
       left: 0;
-      right: 0;
-      top: -80px; }
-    .intro .item1 {
+      right: 0; }
+    .intro .item1, .oneCategorie .item1 {
       background-image: url("../img/framework/slide/1/item1.jpg");
       background-size: contain;
       background-repeat: no-repeat;
@@ -1352,7 +1359,7 @@ table {
       -o-transition: all 1s ease 0.6s;
       transition: all 1s ease 0.6s;
       box-sizing: border-box; }
-      .intro .item1:hover, .intro .item1:focus {
+      .intro .item1:hover, .oneCategorie .item1:hover, .intro .item1:focus, .oneCategorie .item1:focus {
         -webkit-transition: all 0.3s ease;
         -webkit-transition-delay: 0.2s;
         -moz-transition: all 0.3s ease 0.2s;
@@ -1361,9 +1368,9 @@ table {
         -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px 10px;
         -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px 10px;
         box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px 10px; }
-    .intro .introContent {
+    .intro .introContent, .oneCategorie .introContent {
       position: relative; }
-    .intro .item2 {
+    .intro .item2, .oneCategorie .item2 {
       background-image: url("../img/framework/slide/1/item2.jpg");
       background-size: contain;
       background-repeat: no-repeat;
@@ -1383,7 +1390,7 @@ table {
       -moz-transition: all 0.8s ease 0.4s;
       -o-transition: all 0.8s ease 0.4s;
       transition: all 0.8s ease 0.4s; }
-      .intro .item2:hover, .intro .item2:focus {
+      .intro .item2:hover, .oneCategorie .item2:hover, .intro .item2:focus, .oneCategorie .item2:focus {
         -webkit-transform: scale(1.1, 1.1);
         -moz-transform: scale(1.1, 1.1);
         -ms-transform: scale(1.1, 1.1);
@@ -1397,6 +1404,17 @@ table {
         -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px 10px;
         -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px 10px;
         box-shadow: rgba(0, 0, 0, 0.4) 0 0 30px 10px; }
+
+  .oneCategorie {
+    background-image: url("../img/framework/background/background-text3.jpg"); }
+    .oneCategorie .introCategorie {
+      max-width: 800px;
+      font-size: 24.3px;
+      line-height: 1.5;
+      margin-top: 3em;
+      text-align: justify; }
+    .oneCategorie .introContent {
+      background: radial-gradient(circle at center, rgba(0, 0, 0, 0.5), transparent); }
 
   /* PANIER */
   .panier {
@@ -1750,7 +1768,8 @@ table {
     .titleCategorie h3 {
       font-size: 1.8em;
       text-align: left;
-      border-bottom: 0; }
+      border-bottom: 0;
+      padding-left: 0.5%; }
 
   .what {
     width: 32.33333%;

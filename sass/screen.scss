@@ -60,7 +60,7 @@ body{
 		padding:0;
 		text-align: left;
 		display:inline-block;
-		
+		float:left;
 		height:100%;
 		font-weight: 400;
 		box-sizing:border-box;
@@ -738,6 +738,15 @@ table{
 /* END VOIR PRODUIT*/
 
 /* CATEGORIE */
+.tri,.display{
+	float:right;
+	display:block;
+	height:100%;
+	margin-left: 1em;
+	span,select{
+		vertical-align: middle;
+	}
+}
 .introCategorie{
 	padding:0 1em;
 	text-align: left;
