@@ -1238,6 +1238,94 @@ table {
     border-bottom: 0; }
 
 /*END CATEGORIE*/
+/* ORDERSTEPS */
+.order {
+  margin: 1em 0; }
+
+.orderSteps {
+  display: block;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1; }
+  .orderSteps li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px; }
+    .orderSteps li:first-child, .orderSteps li.first {
+      padding-left: 0; }
+    .orderSteps li:last-child {
+      padding-right: 0; }
+    .orderSteps li.last {
+      padding-right: 0; }
+  .orderSteps li {
+    width: 19%;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+    height: 100%; }
+    .orderSteps li:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    .orderSteps li a {
+      color: #111111;
+      background-color: white;
+      text-decoration: none;
+      text-align: center;
+      display: block;
+      height: 100%;
+      vertical-align: middle;
+      font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif; }
+      .orderSteps li a span {
+        padding-top: 10px; }
+      .orderSteps li a:hover, .orderSteps li a:focus {
+        background-color: #5c90ef;
+        color: white; }
+    .orderSteps li .number {
+      display: block; }
+    .orderSteps li .title {
+      display: none; }
+    .orderSteps li + li {
+      width: 19%;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      float: left;
+      display: block;
+      box-sizing: border-box; }
+      .orderSteps li + li:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+  .orderSteps .active a {
+    background-color: #2e70ea;
+    color: white; }
+    .orderSteps .active a:hover, .orderSteps .active a:focus {
+      background-color: #5c90ef; }
+
+.headerTableCommande {
+  height: auto; }
+  .headerTableCommande thead {
+    background-color: #666666;
+    color: white;
+    padding: 0.5em;
+    min-height: 30px; }
+
+/* END ORDERSTEPS */
 /* MEDIA QUERIES */
 /* CONFIG */
 /* typography */

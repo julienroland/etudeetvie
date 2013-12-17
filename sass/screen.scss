@@ -821,7 +821,6 @@ table{
 		}
 	}
 }
-
 .titleCategorie{
 	margin-top: 1em;
 	h3{
@@ -831,6 +830,72 @@ table{
 	}
 }
 /*END CATEGORIE*/
+/* ORDERSTEPS */
+.order{
+	margin:1em 0;
+}
+.orderSteps{
+	display:block;
+
+	height:40px;
+	@include horizontal-list();
+	li{
+		
+		@include cfl(2.4);
+		height:100%;
+		
+		a{
+			color:$tc;
+			background-color: white;
+			text-decoration: none;
+			text-align: center;
+			display:block;
+			height:100%;
+			vertical-align: middle;
+			font-family: $ff2;
+			span{
+				padding-top: 10px;
+			}
+			&:hover,&:focus{
+				background-color: lighten($mc,10%);
+				color:white;
+			}
+		}
+		.number{
+			display:block;
+		}
+		.title{
+			display:none;
+		}
+		& + li{
+			@include cl(2.4);
+		}
+
+
+	}
+	.active{
+		
+		a{
+			background-color: $mc;
+			color:white;
+			&:hover,&:focus{
+			background-color: lighten($mc,10%);
+		}
+		}
+		
+	}
+
+}
+.headerTableCommande{
+	height:auto;
+		thead{
+			background-color: $greyD2;
+			color:white;
+			padding:0.5em;
+			min-height: 30px;
+		}
+	}
+/* END ORDERSTEPS */
 /* MEDIA QUERIES */
 @import "responsive";
 /* END MEDIA*/
