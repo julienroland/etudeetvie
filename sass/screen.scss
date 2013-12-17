@@ -21,7 +21,8 @@
 @include tab();
 /* GENERAL */
 body{
-	background-color: lighten($greyL2,10%);
+	background-color: #EFE8D6;
+
 
 }
 .hero{
@@ -81,7 +82,7 @@ body{
 
 .main{
 	//background-color: $greyL2;
-	padding-bottom: 1em;
+	//padding-bottom: 1em;
 }
 /* END MAIN*/
 
@@ -243,15 +244,21 @@ input[type=submit].icon-search{
 	display:none;
 	position:absolute;
 	width:100%;
-	z-index: 10;
-	//min-height: 150px;
+	z-index: 30;
+	//min-height: 120px;
 	background-color:$greyL;
 	padding:1em 1em;
+	a{
+		pointer-events:auto;
+	}
 }
 .panier{
 	position:relative;
 	pointer-events:none;
-
+	
+	.hero{
+		pointer-events:auto;
+	}
 }
 #quantite{
 	width:50px;
@@ -281,6 +288,9 @@ input[type=submit].icon-search{
 	display:block;
 	&:after{
 		@include clear();
+	}
+	.wrapper{
+		overflow:visibility;
 	}
 
 	.welcome{
@@ -444,6 +454,7 @@ input[type=submit].icon-search{
 				//border-bottom: 1px solid white;
 				margin-bottom: 1em;
 				padding-bottom: 0.5em;
+				line-height: 1.2;
 			}
 		}
 		.overImage{
@@ -629,6 +640,9 @@ table{
 	min-height: 100px;
 	margin-bottom: 1em;
 	position:relative;
+	select{
+		margin:10px 0;
+	}
 	&:after{
 		@include clear();
 	}
@@ -758,7 +772,7 @@ table{
 
 	.article{
 		height:300px;
-		margin-left: 0;
+		margin-left: 0.5%;
 		.image{
 			height:70%;
 		}

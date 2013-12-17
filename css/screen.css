@@ -402,7 +402,7 @@ img {
 
 /* GENERAL */
 body {
-  background-color: #d8d8d8; }
+  background-color: #EFE8D6; }
 
 .hero {
   display: inline-block;
@@ -453,9 +453,6 @@ body {
 
 /* END GENERAL */
 /* MAIN */
-.main {
-  padding-bottom: 1em; }
-
 /* END MAIN*/
 /* SEARCH */
 .search {
@@ -599,13 +596,17 @@ input[type=submit].icon-search {
   display: none;
   position: absolute;
   width: 100%;
-  z-index: 10;
+  z-index: 30;
   background-color: #f2f2f2;
   padding: 1em 1em; }
+  .panierItem a {
+    pointer-events: auto; }
 
 .panier {
   position: relative;
   pointer-events: none; }
+  .panier .hero {
+    pointer-events: auto; }
 
 #quantite {
   width: 50px;
@@ -637,6 +638,8 @@ input[type=submit].icon-search {
     height: 0;
     clear: both;
     visibility: hidden; }
+  .banner .wrapper {
+    overflow: visibility; }
   .banner .welcome {
     display: block;
     height: 125px; }
@@ -813,7 +816,8 @@ input[type=submit].icon-search {
       transition: all 0.3s ease-out; }
       .selection .article .image:hover .overImage h3 {
         margin-bottom: 1em;
-        padding-bottom: 0.5em; }
+        padding-bottom: 0.5em;
+        line-height: 1.2; }
     .selection .article .overImage {
       position: absolute;
       top: 50%;
@@ -1034,6 +1038,8 @@ table {
   min-height: 100px;
   margin-bottom: 1em;
   position: relative; }
+  .panierProduit select {
+    margin: 10px 0; }
   .panierProduit:after {
     content: "";
     display: block;
@@ -1200,7 +1206,7 @@ table {
 
 .selection.categorie .article {
   height: 300px;
-  margin-left: 0; }
+  margin-left: 0.5%; }
   .selection.categorie .article .image {
     height: 70%; }
   .selection.categorie .article .overImage h3 {
@@ -1559,6 +1565,12 @@ table {
             -o-transition: all 0.3s ease;
             transition: all 0.3s ease;
             color: white; }
+          .nav .invisible-link li a:hover + .maxDev, .nav .invisible-link li a:focus + .maxDev {
+            -webkit-transition: all 0.3s ease;
+            -webkit-transition-delay: 0.3s;
+            -moz-transition: all 0.3s ease 0.3s;
+            -o-transition: all 0.3s ease 0.3s;
+            transition: all 0.3s ease 0.3s; }
         .nav .invisible-link li #maxDev {
           padding-left: 0; }
         .nav .invisible-link li .maxDev {
@@ -1634,6 +1646,10 @@ table {
               vertical-align: middle;
               background-color: #2e70ea;
               color: white; }
+          .nav .invisible-link li .maxDev .underLink.categorie a {
+            display: block;
+            padding-top: 50px;
+            background-color: #2e70ea; }
       .nav .invisible-link li + li {
         width: 16.66667%;
         float: left;
@@ -2058,7 +2074,10 @@ table {
     padding-left: 6px; }
 
   .produit {
-    padding: 2em 1.5em; } }
+    padding: 2em 1.5em; }
+
+  .invisible-link li a {
+    padding-top: 8px; } }
 @media (max-width: 1200px) {
   .invisible-link li:first-child {
     border-left: 0; }
