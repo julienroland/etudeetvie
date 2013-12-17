@@ -1242,6 +1242,13 @@ table {
 .order {
   margin: 1em 0; }
 
+.order1:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
 .orderSteps {
   display: block;
   height: 40px;
@@ -1318,12 +1325,212 @@ table {
       background-color: #5c90ef; }
 
 .headerTableCommande {
-  height: auto; }
+  height: auto;
+  display: block; }
   .headerTableCommande thead {
     background-color: #666666;
     color: white;
+    display: block;
     padding: 0.5em;
-    min-height: 30px; }
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box; }
+    .headerTableCommande thead tr {
+      display: block;
+      width: 100%;
+      height: 100%; }
+      .headerTableCommande thead tr th {
+        width: 28.16667%;
+        float: left;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        display: block;
+        box-sizing: border-box;
+        margin-bottom: 1%;
+        text-align: left; }
+        .headerTableCommande thead tr th:after {
+          content: "";
+          display: block;
+          height: 0;
+          clear: both;
+          visibility: hidden; }
+        .headerTableCommande thead tr th + th {
+          width: 28.16667%;
+          margin-left: 0.5%;
+          margin-right: 0.5%;
+          float: left;
+          display: block;
+          box-sizing: border-box; }
+          .headerTableCommande thead tr th + th:after {
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden; }
+        .headerTableCommande thead tr th.action {
+          width: 11.5%;
+          margin-left: 0.5%;
+          margin-right: 0.5%;
+          float: left;
+          display: block;
+          box-sizing: border-box; }
+          .headerTableCommande thead tr th.action:after {
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden; }
+        .headerTableCommande thead tr th.optionnal {
+          display: none; }
+  .headerTableCommande tbody {
+    width: 100%;
+    display: block;
+    height: 100%;
+    padding-top: 0.5em; }
+    .headerTableCommande tbody tr {
+      height: 40px;
+      width: 100%;
+      display: block; }
+      .headerTableCommande tbody tr td {
+        width: 28.16667%;
+        float: left;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        display: block;
+        box-sizing: border-box;
+        margin-bottom: 1%; }
+        .headerTableCommande tbody tr td:after {
+          content: "";
+          display: block;
+          height: 0;
+          clear: both;
+          visibility: hidden; }
+        .headerTableCommande tbody tr td + td {
+          width: 28.16667%;
+          margin-left: 0.5%;
+          margin-right: 0.5%;
+          float: left;
+          display: block;
+          box-sizing: border-box; }
+          .headerTableCommande tbody tr td + td:after {
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden; }
+        .headerTableCommande tbody tr td.action {
+          width: 11.5%;
+          margin-left: 0.5%;
+          margin-right: 0.5%;
+          float: left;
+          display: block;
+          box-sizing: border-box; }
+          .headerTableCommande tbody tr td.action:after {
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden; }
+        .headerTableCommande tbody tr td.action.delete {
+          text-indent: -999999px;
+          background-image: url('../img/framework/icon/delete.png?1387050668');
+          background-repeat: no-repeat; }
+          .headerTableCommande tbody tr td.action.delete a {
+            display: block;
+            width: 16px; }
+        .headerTableCommande tbody tr td.optionnal {
+          display: none; }
+
+.totalProduit {
+  display: block;
+  text-align: right;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  display: block;
+  float: none;
+  box-sizing: border-box;
+  background-color: #737373;
+  color: white;
+  box-sizing: border-box; }
+  .totalProduit:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+  .totalProduit .title {
+    padding: 1em; }
+  .totalProduit .number {
+    display: inline-block;
+    height: 100%;
+    padding: 1em;
+    background-color: #2e70ea;
+    font-weight: bold;
+    text-align: right; }
+
+.fraisPort {
+  display: block;
+  text-align: right;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  display: block;
+  float: none;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #bfbfbf; }
+  .fraisPort:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+  .fraisPort .title {
+    padding: 1em;
+    height: 100%;
+    display: inline-block; }
+  .fraisPort .number {
+    padding: 1em;
+    text-align: right; }
+
+.total {
+  display: block;
+  text-align: right;
+  padding: 1em;
+  background-color: #f2f2f2; }
+
+.continuer {
+  background-color: #5c90ef;
+  width: 100%;
+  margin: auto;
+  display: block;
+  float: none;
+  box-sizing: border-box;
+  height: 50px;
+  vertical-align: middle;
+  margin-top: 1em; }
+  .continuer:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+
+.commander {
+  width: 100%;
+  margin: auto;
+  display: block;
+  float: none;
+  box-sizing: border-box;
+  height: 50px;
+  background-color: #2e70ea; }
+  .commander:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
 
 /* END ORDERSTEPS */
 /* MEDIA QUERIES */
@@ -2073,7 +2280,7 @@ table {
       height: 100%; }
 
   .what {
-    width: 49%;
+    width: 57.33333%;
     margin-left: 0.5%;
     margin-right: 0.5%;
     float: left;

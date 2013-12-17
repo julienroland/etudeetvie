@@ -273,6 +273,7 @@ input[type=submit].icon-search{
 .what{
 	display:none;
 	box-sizing:border-box;
+
 	&:after{
 		visibility: visible!important;
 		height:28px!important;
@@ -817,7 +818,7 @@ table{
 					line-height: 1.3;
 				}
 			}
-		
+
 		}
 	}
 }
@@ -833,6 +834,11 @@ table{
 /* ORDERSTEPS */
 .order{
 	margin:1em 0;
+}
+.order1{
+	&:after{
+		@include clear();
+	}
 }
 .orderSteps{
 	display:block;
@@ -879,8 +885,8 @@ table{
 			background-color: $mc;
 			color:white;
 			&:hover,&:focus{
-			background-color: lighten($mc,10%);
-		}
+				background-color: lighten($mc,10%);
+			}
 		}
 		
 	}
@@ -888,13 +894,127 @@ table{
 }
 .headerTableCommande{
 	height:auto;
-		thead{
-			background-color: $greyD2;
-			color:white;
-			padding:0.5em;
-			min-height: 30px;
+	display:block;
+	thead{
+		background-color: $greyD2;
+		color:white;
+		display:block;
+		padding:0.5em;
+		height: 40px;
+		width:100%;
+		box-sizing: border-box;
+		tr{
+			display:block;
+			width:100%;
+			height:100%;
+			th{
+				@include cfl(3.5);
+				text-align: left;
+				& + th{
+					@include cl(3.5);
+				}
+				&.action{
+					@include cl(1.5);
+				}
+				&.optionnal{
+					display:none;
+				}
+			}
 		}
 	}
+	tbody{
+		width:100%;
+		display:block;
+		height:100%;
+		padding-top: 0.5em;
+		tr{
+			height:40px;
+			width:100%;
+			display:block;
+			td{
+				@include cfl(3.5);
+				& + td{
+					@include cl(3.5);
+				}
+				&.action{
+					@include cl(1.5);
+				}
+				&.action.delete{
+					text-indent: -999999px;
+					background-image: image-url('framework/icon/delete.png');
+					background-repeat: no-repeat;
+					a{
+						display:block;
+						width:16px;
+					}
+
+				}
+				&.optionnal{
+					display:none;
+				}
+			}
+		}
+	}
+	
+
+}
+.totalProduit{
+	display:block;
+	text-align: right;
+	height:auto;
+	@include c(12);
+	background-color: $greyD;
+	color:white;
+	box-sizing: border-box;
+	.title{
+		padding:1em;
+	}
+	.number{
+		display:inline-block;
+		height:100%;
+		padding:1em;
+		background-color: $mc;
+		font-weight: bold;
+		text-align: right;
+	}
+}
+.fraisPort{
+	display:block;
+	text-align: right;
+	height:auto;
+	@include c(12);
+	box-sizing:border-box;
+	background-color: $greyL2;
+	.title{
+		padding:1em;
+		height:100%;
+
+		display:inline-block;
+	}
+	.number{
+		padding:1em;
+
+		text-align: right;
+	}
+}
+.total{
+	display:block;
+	text-align: right;
+	padding:1em;
+	background-color: $greyL;
+}
+.continuer{
+	background-color: lighten($mc,10%);
+	@include c(12);
+	height:50px;
+	vertical-align: middle;
+	margin-top: 1em;
+}
+.commander{
+	@include c(12);
+	height:50px;
+	background-color: $mc;
+}
 /* END ORDERSTEPS */
 /* MEDIA QUERIES */
 @import "responsive";
