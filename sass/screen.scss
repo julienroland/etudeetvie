@@ -856,7 +856,7 @@ table{
 		@include clear();
 	}
 	.creerCompte{
-		@include c(6);
+		@include c(12);
 		background-color: white;
 		padding:1em;
 	}
@@ -872,6 +872,49 @@ table{
 	input{
 		float:none;
 	}
+	.text{
+		@include c(12); 
+		vertical-align: middle;
+		label{
+			@include c(12);
+			text-align: center;
+		}
+		input{
+			@include c(12);
+		}
+		select{
+			margin-top: 1em;
+		}
+
+	}
+	.part1Inscription{
+		margin:1em 0;
+		button{
+			@include c(12);
+			height:30px;
+			margin-top: 1em;
+		}
+	}
+	.part2Inscription{
+		label{
+			float:left;
+			width:auto;
+			text-align: left;
+			padding-bottom: 0;
+		}
+		input[type="radio"]{
+			text-align: center;
+			width:auto;
+			min-width: 20px;
+			margin: auto;
+			float:left;
+			display:inline-block;
+		}
+
+	}
+	#newsletter{
+			padding-left: 30px;
+		}
 }
 .orderSteps{
 	display:block;

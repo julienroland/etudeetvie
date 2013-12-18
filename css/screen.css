@@ -1268,11 +1268,10 @@ table {
     clear: both;
     visibility: hidden; }
   .order2 .creerCompte {
-    width: 49%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    float: left;
+    width: 100%;
+    margin: auto;
     display: block;
+    float: none;
     box-sizing: border-box;
     background-color: white;
     padding: 1em; }
@@ -1290,6 +1289,76 @@ table {
       font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif; }
   .order2 input {
     float: none; }
+  .order2 .text {
+    width: 100%;
+    margin: auto;
+    display: block;
+    float: none;
+    box-sizing: border-box;
+    vertical-align: middle; }
+    .order2 .text:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    .order2 .text label {
+      width: 100%;
+      margin: auto;
+      display: block;
+      float: none;
+      box-sizing: border-box;
+      text-align: center; }
+      .order2 .text label:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .order2 .text input {
+      width: 100%;
+      margin: auto;
+      display: block;
+      float: none;
+      box-sizing: border-box; }
+      .order2 .text input:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .order2 .text select {
+      margin-top: 1em; }
+  .order2 .part1Inscription {
+    margin: 1em 0; }
+    .order2 .part1Inscription button {
+      width: 100%;
+      margin: auto;
+      display: block;
+      float: none;
+      box-sizing: border-box;
+      height: 30px;
+      margin-top: 1em; }
+      .order2 .part1Inscription button:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+  .order2 .part2Inscription label {
+    float: left;
+    width: auto;
+    text-align: left;
+    padding-bottom: 0; }
+  .order2 .part2Inscription input[type="radio"] {
+    text-align: center;
+    width: auto;
+    min-width: 20px;
+    margin: auto;
+    float: left;
+    display: inline-block; }
+  .order2 #newsletter {
+    padding-left: 30px; }
 
 .orderSteps {
   display: block;
@@ -1880,8 +1949,6 @@ table {
     right: 0;
     bottom: 0;
     margin: auto; }
-    .nav .moreLink:hover + .maxDev, .nav .moreLink:focus + .maxDev {
-      display: block; }
     .nav .invisible-link {
       display: inline-block;
       background-color: #666666;
@@ -1916,35 +1983,28 @@ table {
           box-sizing: border-box; }
           .nav .invisible-link li a:hover, .nav .invisible-link li a:focus {
             background-color: #2e70ea;
-            -webkit-transition: all 0.3s ease;
-            -moz-transition: all 0.3s ease;
-            -o-transition: all 0.3s ease;
-            transition: all 0.3s ease;
             color: white; }
           .nav .invisible-link li a:hover + .maxDev, .nav .invisible-link li a:focus + .maxDev {
             -webkit-transition: all 0.3s ease;
             -webkit-transition-delay: 0.3s;
             -moz-transition: all 0.3s ease 0.3s;
             -o-transition: all 0.3s ease 0.3s;
-            transition: all 0.3s ease 0.3s; }
+            transition: all 0.3s ease 0.3s;
+            height: 400px;
+            padding: 1em 0; }
         .nav .invisible-link li #maxDev {
           padding-left: 0; }
         .nav .invisible-link li .maxDev {
-          -webkit-transition: all 0.3s ease-in;
-          -webkit-transition-delay: 0.3s;
-          -moz-transition: all 0.3s ease-in 0.3s;
-          -o-transition: all 0.3s ease-in 0.3s;
-          transition: all 0.3s ease-in 0.3s;
           top: 50px;
           left: 0;
           right: 0;
           position: absolute;
           z-index: 100;
-          height: 400px;
-          display: none;
+          height: 0;
+          display: block;
           overflow: hidden;
           width: 100%;
-          padding: 1em 0;
+          padding: 0;
           background-color: #737373; }
           .nav .invisible-link li .maxDev li {
             height: 100%; }
