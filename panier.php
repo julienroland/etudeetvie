@@ -3,7 +3,7 @@
      	<div class=" hero"><a class="showItems"href=""><span class="icon icon-shop-white">Panier</span>0 produit - 0 €</a></div>
      	<div class="panierItem ">
      		<p>Votre panier est vide !</p>
-     		<a href="order.php" class="btn">Commander</a>
-     		<a href="" class="btn">Panier</a>
+     		<a href="order1.php" class="btn">Commander</a>
+     		<a href="" class="btn btn-panier">Panier</a>
      	</div>
      </section>

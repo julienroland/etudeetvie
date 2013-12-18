@@ -23,7 +23,6 @@
 .connexion {
 	@include cr(5);
 	height: 40px;
-	padding: 0.5em 0;
 	max-width: 400px;
 }
 .hero {
@@ -31,7 +30,6 @@
 		font-size: 1.2em;
 	}
 }
-
 .intro {
 	background-image: url('../img/framework/slide/1/background.jpg');
 	background-size: cover;
@@ -154,6 +152,7 @@
     .welcome {
       //height:0;
       @include cfl(3);
+    
   }
 }
   /* MENU */
@@ -333,6 +332,32 @@
 }
 
 @media(min-width: 625px) {
+	.orderSteps{
+		li{
+			.number{
+				display:inline-block;
+				&:after{
+					content:".";
+					margin-right: 5px;
+				}
+			}
+			.title{
+				display:inline-block;
+			}
+		}
+	}
+	.banner{
+		  .wrapper{
+      	overflow:hidden;
+      }
+	}
+	.commander{
+		float:right;
+	}
+	.continuer{
+		float:left;
+		margin-top: 1em;
+	}
 	.intro {
 
 		h3 {

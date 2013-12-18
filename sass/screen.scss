@@ -291,7 +291,7 @@ input[type=submit].icon-search{
 		@include clear();
 	}
 	.wrapper{
-		overflow:visibility;
+		overflow:visible;
 	}
 
 	.welcome{
@@ -648,6 +648,9 @@ table{
 		@include clear();
 	}
 }
+.btn-panier{
+	background-color: rgb(10,150,23);
+}
 
 .tab{
 	height: 40px;
@@ -834,17 +837,50 @@ table{
 /* ORDERSTEPS */
 .order{
 	margin:1em 0;
+	padding:1em;
 }
 .order1{
+	h3{
+		margin:1em 0;
+		border-bottom: 0;
+		text-align: left;
+
+	}
 	&:after{
 		@include clear();
 	}
 }
+.order2{
+	margin-top: 1em;
+	&:after{
+		@include clear();
+	}
+	.creerCompte{
+		@include c(6);
+		background-color: white;
+		padding:1em;
+	}
+	fieldset{
+		border:1px solid $greyD;
+		padding:1em;
+		legend{
+			font-size: 1.2em;
+			font-family: $ff2;
+
+		}
+	}
+	input{
+		float:none;
+	}
+}
 .orderSteps{
 	display:block;
+	max-width: 800px;	
 
 	height:40px;
 	@include horizontal-list();
+	margin: auto;
+	width:100%;
 	li{
 		
 		@include cfl(2.4);
@@ -926,6 +962,7 @@ table{
 		width:100%;
 		display:block;
 		height:100%;
+
 		padding-top: 0.5em;
 		tr{
 			height:40px;
@@ -966,6 +1003,7 @@ table{
 	@include c(12);
 	background-color: $greyD;
 	color:white;
+
 	box-sizing: border-box;
 	.title{
 		//padding:1em;
@@ -974,6 +1012,7 @@ table{
 		display:inline-block;
 		height:100%;
 		padding:1em;
+
 		font-size: 1.2em;
 		background-color: $mc;
 		font-weight: bold;
@@ -985,6 +1024,7 @@ table{
 	text-align: right;
 	height:auto;
 	@include c(12);
+
 	box-sizing:border-box;
 	background-color: $greyL2;
 	.title{
@@ -1001,24 +1041,46 @@ table{
 }
 .total{
 	display:block;
-	text-align: right;
-	padding:1em;
 
+	text-align: right;
 	background-color: darken($greyL,5%);
+	margin: auto;
+	box-sizing: border-box;
+	padding:1em;
+	.title{
+
+
+	}
+	.number{
+
+	}
 }
 .continuer{
-	background-color: lighten($mc,10%);
+	background-color: white;
 	@include c(12);
 	height:50px;
-	max-width: 300px;
-	vertical-align: middle;
+	max-width: 200px;
+	padding-top: 12px;
+	color:$tc;
+
 	//margin-top: 1em;
+	&:visited{
+		color:$tc;
+	}
+	.icon{
+		float:none;
+		vertical-align: middle;
+	}
+	&:hover,&:focus{
+		background-color: white;
+	}
 }
 .commander{
 	@include c(12);
 	margin-top: 1em;
 	height:50px;
-	max-width: 300px;
+	padding-top: 12px;
+	max-width: 200px;
 	background-color: $mc;
 	position:relative;
 	.icon{

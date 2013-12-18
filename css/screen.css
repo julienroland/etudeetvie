@@ -335,6 +335,8 @@ img {
   background-image: url("../img/framework/icon/menu2White.png"); }
 
 .icon-chevron-left-little {
+  width: 16px;
+  height: 16px;
   background-image: url("../img/framework/icon/chevron-left-little.png"); }
 
 .icon-chevron-right-little {
@@ -639,7 +641,7 @@ input[type=submit].icon-search {
     clear: both;
     visibility: hidden; }
   .banner .wrapper {
-    overflow: visibility; }
+    overflow: visible; }
   .banner .welcome {
     display: block;
     height: 125px; }
@@ -1047,6 +1049,9 @@ table {
     clear: both;
     visibility: hidden; }
 
+.btn-panier {
+  background-color: #0a9617; }
+
 .tab {
   height: 40px;
   text-align: center;
@@ -1240,8 +1245,13 @@ table {
 /*END CATEGORIE*/
 /* ORDERSTEPS */
 .order {
-  margin: 1em 0; }
+  margin: 1em 0;
+  padding: 1em; }
 
+.order1 h3 {
+  margin: 1em 0;
+  border-bottom: 0;
+  text-align: left; }
 .order1:after {
   content: "";
   display: block;
@@ -1249,14 +1259,49 @@ table {
   clear: both;
   visibility: hidden; }
 
+.order2 {
+  margin-top: 1em; }
+  .order2:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+  .order2 .creerCompte {
+    width: 49%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 1em; }
+    .order2 .creerCompte:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+  .order2 fieldset {
+    border: 1px solid #737373;
+    padding: 1em; }
+    .order2 fieldset legend {
+      font-size: 1.2em;
+      font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif; }
+  .order2 input {
+    float: none; }
+
 .orderSteps {
   display: block;
+  max-width: 800px;
   height: 40px;
   margin: 0;
   padding: 0;
   border: 0;
   overflow: hidden;
-  *zoom: 1; }
+  *zoom: 1;
+  margin: auto;
+  width: 100%; }
   .orderSteps li {
     list-style-image: none;
     list-style-type: none;
@@ -1497,25 +1542,35 @@ table {
 .total {
   display: block;
   text-align: right;
-  padding: 1em;
-  background-color: #e5e5e5; }
+  background-color: #e5e5e5;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 1em; }
 
 .continuer {
-  background-color: #5c90ef;
+  background-color: white;
   width: 100%;
   margin: auto;
   display: block;
   float: none;
   box-sizing: border-box;
   height: 50px;
-  max-width: 300px;
-  vertical-align: middle; }
+  max-width: 200px;
+  padding-top: 12px;
+  color: #111111; }
   .continuer:after {
     content: "";
     display: block;
     height: 0;
     clear: both;
     visibility: hidden; }
+  .continuer:visited {
+    color: #111111; }
+  .continuer .icon {
+    float: none;
+    vertical-align: middle; }
+  .continuer:hover, .continuer:focus {
+    background-color: white; }
 
 .commander {
   width: 100%;
@@ -1525,7 +1580,8 @@ table {
   box-sizing: border-box;
   margin-top: 1em;
   height: 50px;
-  max-width: 300px;
+  padding-top: 12px;
+  max-width: 200px;
   background-color: #2e70ea;
   position: relative; }
   .commander:after {
@@ -1613,7 +1669,6 @@ table {
     display: block;
     box-sizing: border-box;
     height: 40px;
-    padding: 0.5em 0;
     max-width: 400px; }
     .connexion:after {
       content: "";
@@ -2049,6 +2104,24 @@ table {
 
   /* END MENU */ }
 @media (min-width: 625px) {
+  .orderSteps li .number {
+    display: inline-block; }
+    .orderSteps li .number:after {
+      content: ".";
+      margin-right: 5px; }
+  .orderSteps li .title {
+    display: inline-block; }
+
+  .banner .wrapper {
+    overflow: hidden; }
+
+  .commander {
+    float: right; }
+
+  .continuer {
+    float: left;
+    margin-top: 1em; }
+
   .intro h3 {
     border-bottom: 0; }
   .intro .textIntro {
