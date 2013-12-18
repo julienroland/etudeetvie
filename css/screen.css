@@ -1392,6 +1392,7 @@ table {
       width: 100%;
       display: block; }
       .headerTableCommande tbody tr td {
+        line-height: 1.1;
         width: 28.16667%;
         float: left;
         margin-left: 0.5%;
@@ -1459,8 +1460,6 @@ table {
     height: 0;
     clear: both;
     visibility: hidden; }
-  .totalProduit .title {
-    padding: 1em; }
   .totalProduit .number {
     display: inline-block;
     height: 100%;
@@ -1508,8 +1507,7 @@ table {
   float: none;
   box-sizing: border-box;
   height: 50px;
-  vertical-align: middle;
-  margin-top: 1em; }
+  vertical-align: middle; }
   .continuer:after {
     content: "";
     display: block;
@@ -1523,14 +1521,19 @@ table {
   display: block;
   float: none;
   box-sizing: border-box;
+  margin-top: 1em;
   height: 50px;
-  background-color: #2e70ea; }
+  background-color: #2e70ea;
+  position: relative; }
   .commander:after {
     content: "";
     display: block;
     height: 0;
     clear: both;
     visibility: hidden; }
+  .commander .icon {
+    float: none;
+    vertical-align: middle; }
 
 /* END ORDERSTEPS */
 /* MEDIA QUERIES */

@@ -932,6 +932,7 @@ table{
 			width:100%;
 			display:block;
 			td{
+				line-height: 1.1;
 				@include cfl(3.5);
 				& + td{
 					@include cl(3.5);
@@ -967,7 +968,7 @@ table{
 	color:white;
 	box-sizing: border-box;
 	.title{
-		padding:1em;
+		//padding:1em;
 	}
 	.number{
 		display:inline-block;
@@ -1001,6 +1002,7 @@ table{
 	display:block;
 	text-align: right;
 	padding:1em;
+
 	background-color: $greyL;
 }
 .continuer{
@@ -1008,12 +1010,18 @@ table{
 	@include c(12);
 	height:50px;
 	vertical-align: middle;
-	margin-top: 1em;
+	//margin-top: 1em;
 }
 .commander{
 	@include c(12);
+	margin-top: 1em;
 	height:50px;
 	background-color: $mc;
+	position:relative;
+	.icon{
+		float:none;
+		vertical-align: middle;
+	}
 }
 /* END ORDERSTEPS */
 /* MEDIA QUERIES */
