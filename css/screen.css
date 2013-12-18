@@ -1464,6 +1464,7 @@ table {
     display: inline-block;
     height: 100%;
     padding: 1em;
+    font-size: 1.2em;
     background-color: #2e70ea;
     font-weight: bold;
     text-align: right; }
@@ -1497,7 +1498,7 @@ table {
   display: block;
   text-align: right;
   padding: 1em;
-  background-color: #f2f2f2; }
+  background-color: #e5e5e5; }
 
 .continuer {
   background-color: #5c90ef;
@@ -1507,6 +1508,7 @@ table {
   float: none;
   box-sizing: border-box;
   height: 50px;
+  max-width: 300px;
   vertical-align: middle; }
   .continuer:after {
     content: "";
@@ -1523,6 +1525,7 @@ table {
   box-sizing: border-box;
   margin-top: 1em;
   height: 50px;
+  max-width: 300px;
   background-color: #2e70ea;
   position: relative; }
   .commander:after {

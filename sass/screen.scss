@@ -974,6 +974,7 @@ table{
 		display:inline-block;
 		height:100%;
 		padding:1em;
+		font-size: 1.2em;
 		background-color: $mc;
 		font-weight: bold;
 		text-align: right;
@@ -1003,12 +1004,13 @@ table{
 	text-align: right;
 	padding:1em;
 
-	background-color: $greyL;
+	background-color: darken($greyL,5%);
 }
 .continuer{
 	background-color: lighten($mc,10%);
 	@include c(12);
 	height:50px;
+	max-width: 300px;
 	vertical-align: middle;
 	//margin-top: 1em;
 }
@@ -1016,6 +1018,7 @@ table{
 	@include c(12);
 	margin-top: 1em;
 	height:50px;
+	max-width: 300px;
 	background-color: $mc;
 	position:relative;
 	.icon{
