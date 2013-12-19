@@ -11,6 +11,109 @@
   .order {
     padding: 1em;
   }
+  .orderSteps{
+    height: 200px;
+    overflow: visible;
+    li{
+      background-color: transparent;
+      padding:0;
+      overflow: visible;
+      a{
+        padding:1em;
+        overflow: visible;
+        box-sizing: border-box;
+        &:hover,&:focus{
+          background-color: transparent;
+        }
+      }
+      span{
+        vertical-align: middle;
+        color:$tc;
+        font-size: 1.4em;
+      }
+    }
+    .active{
+      background-color: white;
+      @include box-shadow($greyD 2px 2px 4px 1px);
+      padding:0;
+    }
+    .resume{
+      a{
+      background-image: image-url('framework/icon/resumeOut.png');
+      background-repeat: no-repeat;
+        background-position: bottom;
+        position: relative;
+        background-color: transparent;
+
+      }
+      &.active{
+        a{
+          background-image: image-url('framework/icon/resume.png');
+          background-repeat: no-repeat;
+          background-position: bottom;
+          position: relative;
+          background-color: transparent;
+        }
+      }
+      }
+    .identifier{
+      a{
+        background-image: image-url('framework/icon/identifierOut.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        position: relative;
+        background-color: transparent;
+
+      }
+      &.active{
+        a{
+          background-image: image-url('framework/icon/identifier.png');
+          background-repeat: no-repeat;
+          background-position: bottom;
+          position: relative;
+          background-color: transparent;
+        }
+      }
+    }
+    .adresse{
+      a{
+        background-image: image-url('framework/icon/livraisonOut.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        position: relative;
+        background-color: transparent;
+
+      }
+      &.active{
+        a{
+          background-image: image-url('framework/icon/livraison.png');
+          background-repeat: no-repeat;
+          background-position: bottom;
+          position: relative;
+          background-color: transparent;
+        }
+      }
+    }
+    .paiement{
+      a{
+        background-image: image-url('framework/icon/paiementOut.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        position: relative;
+        background-color: transparent;
+
+      }
+      &.active{
+        a{
+          background-image: image-url('framework/icon/paiement.png');
+          background-repeat: no-repeat;
+          background-position: bottom;
+          position: relative;
+          background-color: transparent;
+        }
+      }
+    }
+  }
   .order2 {
     input[type="submit"] {
       height: 50px;

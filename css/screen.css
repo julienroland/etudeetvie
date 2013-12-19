@@ -1271,8 +1271,7 @@ table {
 .order1 {
   background-color: white;
   padding: 1em;
-  margin-top: 1em;
-  font-size: 18px; }
+  margin-top: 1em; }
   .order1 h3 {
     margin: 1em 0;
     border-bottom: 0;
@@ -1542,7 +1541,7 @@ table {
     .orderSteps li.last {
       padding-right: 0; }
   .orderSteps li {
-    width: 19%;
+    width: 24%;
     float: left;
     margin-left: 0.5%;
     margin-right: 0.5%;
@@ -1575,7 +1574,7 @@ table {
     .orderSteps li .title {
       display: none; }
     .orderSteps li + li {
-      width: 19%;
+      width: 24%;
       margin-left: 0.5%;
       margin-right: 0.5%;
       float: left;
@@ -1875,6 +1874,78 @@ table {
 
   .order {
     padding: 1em; }
+
+  .orderSteps {
+    height: 200px;
+    overflow: visible; }
+    .orderSteps li {
+      background-color: transparent;
+      padding: 0;
+      overflow: visible; }
+      .orderSteps li a {
+        padding: 1em;
+        overflow: visible;
+        box-sizing: border-box; }
+        .orderSteps li a:hover, .orderSteps li a:focus {
+          background-color: transparent; }
+      .orderSteps li span {
+        vertical-align: middle;
+        color: #111111;
+        font-size: 1.4em; }
+    .orderSteps .active {
+      background-color: white;
+      -webkit-box-shadow: #737373 2px 2px 4px 1px;
+      -moz-box-shadow: #737373 2px 2px 4px 1px;
+      box-shadow: #737373 2px 2px 4px 1px;
+      padding: 0; }
+    .orderSteps .resume a {
+      background-image: url('../img/framework/icon/resumeOut.png?1387469988');
+      background-repeat: no-repeat;
+      background-position: bottom;
+      position: relative;
+      background-color: transparent; }
+    .orderSteps .resume.active a {
+      background-image: url('../img/framework/icon/resume.png?1387469639');
+      background-repeat: no-repeat;
+      background-position: bottom;
+      position: relative;
+      background-color: transparent; }
+    .orderSteps .identifier a {
+      background-image: url('../img/framework/icon/identifierOut.png?1387469886');
+      background-repeat: no-repeat;
+      background-position: bottom;
+      position: relative;
+      background-color: transparent; }
+    .orderSteps .identifier.active a {
+      background-image: url('../img/framework/icon/identifier.png?1387469737');
+      background-repeat: no-repeat;
+      background-position: bottom;
+      position: relative;
+      background-color: transparent; }
+    .orderSteps .adresse a {
+      background-image: url('../img/framework/icon/livraisonOut.png?1387469947');
+      background-repeat: no-repeat;
+      background-position: bottom;
+      position: relative;
+      background-color: transparent; }
+    .orderSteps .adresse.active a {
+      background-image: url('../img/framework/icon/livraison.png?1387469670');
+      background-repeat: no-repeat;
+      background-position: bottom;
+      position: relative;
+      background-color: transparent; }
+    .orderSteps .paiement a {
+      background-image: url('../img/framework/icon/paiementOut.png?1387469967');
+      background-repeat: no-repeat;
+      background-position: bottom;
+      position: relative;
+      background-color: transparent; }
+    .orderSteps .paiement.active a {
+      background-image: url('../img/framework/icon/paiement.png?1387469694');
+      background-repeat: no-repeat;
+      background-position: bottom;
+      position: relative;
+      background-color: transparent; }
 
   .order2 input[type="submit"] {
     height: 50px; }

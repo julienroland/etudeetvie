@@ -875,7 +875,7 @@ table {
   background-color: white;
   padding: 1em;
   margin-top: 1em;
-  font-size: 18px;
+
   h3 {
     margin: 1em 0;
     border-bottom: 0;
@@ -1060,7 +1060,7 @@ table {
   width: 100%;
   li {
 
-    @include cfl(2.4);
+    @include cfl(3);
     height: 100%;
 
     a {
@@ -1087,7 +1087,7 @@ table {
       display: none;
     }
     & + li {
-      @include cl(2.4);
+      @include cl(3);
     }
 
   }

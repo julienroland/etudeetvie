@@ -51,10 +51,6 @@
                     </a></li>
                     <li><a href="">
                         <span class="number">4</span>
-                        <span class="title">Frais de port</span>
-                    </a></li>
-                    <li><a href="">
-                        <span class="number">5</span>
                         <span class="title">Paiement</span>
                     </a></li>
                 </ul>
