@@ -1514,6 +1514,18 @@ table {
     .order2 .formInscription .newsletter input {
       float: none; }
 
+.order3 {
+  background-color: white;
+  margin-top: 1em; }
+  .order3 h3 {
+    text-align: left; }
+  .order3 .livraison h3, .order3 .facturation h3 {
+    display: block;
+    background-color: #666666;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: white; }
+
 .orderSteps {
   display: block;
   max-width: 800px;
@@ -1887,16 +1899,16 @@ table {
         overflow: visible;
         box-sizing: border-box; }
         .orderSteps li a:hover, .orderSteps li a:focus {
-          background-color: transparent; }
+          background-color: rgba(255, 255, 255, 0.7); }
       .orderSteps li span {
         vertical-align: middle;
         color: #111111;
         font-size: 1.4em; }
     .orderSteps .active {
       background-color: white;
-      -webkit-box-shadow: #737373 2px 2px 4px 1px;
-      -moz-box-shadow: #737373 2px 2px 4px 1px;
-      box-shadow: #737373 2px 2px 4px 1px;
+      -webkit-box-shadow: rgba(115, 115, 115, 0.6) 3px 3px 4px 1px;
+      -moz-box-shadow: rgba(115, 115, 115, 0.6) 3px 3px 4px 1px;
+      box-shadow: rgba(115, 115, 115, 0.6) 3px 3px 4px 1px;
       padding: 0; }
     .orderSteps .resume a {
       background-image: url('../img/framework/icon/resumeOut.png?1387469988');
@@ -1904,7 +1916,7 @@ table {
       background-position: bottom;
       position: relative;
       background-color: transparent; }
-    .orderSteps .resume.active a {
+    .orderSteps .resume.active a, .orderSteps .resume.done a {
       background-image: url('../img/framework/icon/resume.png?1387469639');
       background-repeat: no-repeat;
       background-position: bottom;
@@ -1916,7 +1928,7 @@ table {
       background-position: bottom;
       position: relative;
       background-color: transparent; }
-    .orderSteps .identifier.active a {
+    .orderSteps .identifier.active a, .orderSteps .identifier.done a {
       background-image: url('../img/framework/icon/identifier.png?1387469737');
       background-repeat: no-repeat;
       background-position: bottom;
@@ -1928,7 +1940,7 @@ table {
       background-position: bottom;
       position: relative;
       background-color: transparent; }
-    .orderSteps .adresse.active a {
+    .orderSteps .adresse.active a, .orderSteps .adresse.done a {
       background-image: url('../img/framework/icon/livraison.png?1387469670');
       background-repeat: no-repeat;
       background-position: bottom;
@@ -1940,7 +1952,7 @@ table {
       background-position: bottom;
       position: relative;
       background-color: transparent; }
-    .orderSteps .paiement.active a {
+    .orderSteps .paiement.active a, .orderSteps .paiement.done a {
       background-image: url('../img/framework/icon/paiement.png?1387469694');
       background-repeat: no-repeat;
       background-position: bottom;

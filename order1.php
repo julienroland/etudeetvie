@@ -36,25 +36,26 @@
                <section role="main" class="main" id="main">
                 <h1 class="section">Contenu principal du site</h1>
                 <div class="order">
-                 <ul class="orderSteps">
-                    <li class="active"><a href="order1.php">
-                        <span class="number">1</span>
-                        <span class="title">Résumé</span>
-                    </a></li>
-                    <li><a href="">
-                        <span class="number">2</span>
-                        <span class="title">Identification</span>
-                    </a></li>
-                    <li><a href="">
-                        <span class="number">3</span>
-                        <span class="title">Adresse</span>
-                    </a></li>
-                    <li><a href="">
-                        <span class="number">4</span>
-                        <span class="title">Paiement</span>
-                    </a></li>
-                </ul>
-                <div class="order1 wrapper">
+                    <ul class="orderSteps">
+                        <li class="active resume"><a href="order1.php">
+                                <span class="number">1</span>
+                                <span class="title">Résumé</span>
+                            </a></li>
+                        <li class="identifier"><a href="javascript:void()">
+                                <span class="number">2</span>
+                                <span class="title">Identification</span>
+                            </a></li>
+                        <li class="adresse"><a href="javascript:void()">
+                                <span class="number">3</span>
+                                <span class="title">Adresse</span>
+                            </a></li>
+                        <li class="paiement"><a href="javascript:void()">
+                                <span class="number">4</span>
+                                <span class="title">Paiement</span>
+                            </a></li>
+                    </ul>
+                <div class="order1 ">
+                    <div class="wrapper">
                     <h3>Résumé de votre commande</h3>
                     <table class="headerTableCommande">
                         <thead>
@@ -98,8 +99,8 @@
                     </div>
                     <a href="order2.php" class="btn commander">Valider la commande</a>
                     <a href="index.php" class="btn continuer"><span class="icon icon-chevron-left-little"></span>Continuer mes achats</a>
-                    
 
+                    </div>
                 </div>
             </div>
         </section>

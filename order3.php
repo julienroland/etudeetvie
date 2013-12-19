@@ -37,69 +37,63 @@
         <h1 class="section">Contenu principal du site</h1>
         <div class="order">
             <ul class="orderSteps">
-                <li class="active resume"><a href="order1.php">
+                <li class=" resume done"><a href="order1.php">
                         <span class="number">1</span>
                         <span class="title">Résumé</span>
                     </a></li>
-                <li class="identifier"><a href="">
+                <li class="identifier done"><a href="order2.php">
                         <span class="number">2</span>
                         <span class="title">Identification</span>
                     </a></li>
-                <li class="adresse"><a href="">
+                <li class="adresse active "><a href="order3.php">
                         <span class="number">3</span>
                         <span class="title">Adresse</span>
                     </a></li>
-                <li class="paiement"><a href="">
+                <li class="paiement"><a href="javascript:void()">
                         <span class="number">4</span>
                         <span class="title">Paiement</span>
                     </a></li>
             </ul>
-            <div class="order1 wrapper">
-                <h3>Résumé de votre commande</h3>
-                <table class="headerTableCommande">
-                    <thead>
-                    <tr>
-                        <th>Article</th>
-                        <th class="optionnal">Prix unitaire TTC</th>
-                        <th>Quantité</th>
-                        <th>Total TTC</th>
-                        <th class="action">Action</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>Lunette Prisma</td>
-                        <td class="optionnal">200€</td>
-                        <td>
-                            <select name="quantite" id="quantite">
-                                <option value="1" selected>1</option>
-                                <option value="2" >2</option>
-                                <option value="3" >3</option>
-                                <option value="4" >4</option>
-                                <option value="5" >5</option>
-                            </select>
-                        </td>
-                        <td>200€</td>
-                        <td class="action delete"><a href="">Supprimer</a></td>
-                    </tr>
-                    </tbody>
-                </table>
-                <div class="totalProduit">
-                    <span class="title">Total produit TTC</span>
-                    <span class="number">1000 €</span>
+            <div class="order3 ">
+                <div class="wrapper">
+             <p class="text">
+                 <label for="adresse">
+                     Choisissez une adresse de livraison
+                 </label>
+                 <select name="adresse" id="adresse">
+                     <option value="1">Adresse Personelle</option>
+                 </select>
+             </p>
+                <p class="text">
+                    <label for="sameAdresse">Utiliser la même adresse pour la facturation ?</label>
+                    <input type="checkbox" name="sameAdresse" id="sameAdresse"/>
+                </p>
+                <div class="livraison">
+                    <h3>Votre adresse de livraison</h3>
+                    <ul>
+                        <li>Julien Roland</li>
+                        <li>Rue des pas content</li>
+                        <li>5000 Namur</li>
+                        <li>Belgique</li>
+                        <li><a href="">Modifier</a></li>
+                    </ul>
                 </div>
-                <div class="fraisPort">
-                    <span class="title">Frais de port</span>
-                    <span class="number">13.63 €</span>
+                <div class="facturation">
+                    <h3>Votre adresse de facturation</h3>
+                    <ul>
+                        <li>Julien Roland</li>
+                        <li>Rue des pas content</li>
+                        <li>5000 Namur</li>
+                        <li>Belgique</li>
+                        <li><a href="">Modifier</a></li>
+                    </ul>
                 </div>
-                <div class="total">
-                    <span class="title">Total TTC</span>
-                    <span class="number">1013.63 €</span>
+                <a class="btn" href="">Ajouter une nouvelle adresse</a>
+                <p class="text">
+                    <label for="commentaire">Ecrire un commentaire à propos de votre adresse</label>
+                    <textarea name="commentaire" id="commentaire" cols="30" rows="10">Ex: Emprunter une route en terre</textarea>
+                </p>
                 </div>
-                <a href="order2.php" class="btn commander">Valider la commande</a>
-                <a href="index.php" class="btn continuer"><span class="icon icon-chevron-left-little"></span>Continuer mes achats</a>
-
-
             </div>
         </div>
     </section>

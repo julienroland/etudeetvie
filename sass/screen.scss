@@ -1049,7 +1049,28 @@ table {
   }
 
 }
+.order3{
+  background-color: white;
+  margin-top: 1em;
+  h3{
+    text-align: left;
+  }
+  .livraison,.facturation{
+    h3{
+      display: block;
+      background-color: $greyD2;
+      padding-top:0.5em ;
+      padding-bottom:0.5em ;
+      color:white;
+    }
+  }
+  .facturation{
 
+  }
+  .livraison{
+
+  }
+}
 .orderSteps {
   display: block;
   max-width: 800px;
