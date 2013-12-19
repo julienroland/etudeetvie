@@ -1268,16 +1268,21 @@ table {
   margin: 1em 0;
   padding: 1em; }
 
-.order1 h3 {
-  margin: 1em 0;
-  border-bottom: 0;
-  text-align: left; }
-.order1:after {
-  content: "";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden; }
+.order1 {
+  background-color: white;
+  padding: 1em;
+  margin-top: 1em;
+  font-size: 18px; }
+  .order1 h3 {
+    margin: 1em 0;
+    border-bottom: 0;
+    text-align: left; }
+  .order1:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
 
 .order2 {
   margin-top: 1em; }
@@ -1428,7 +1433,6 @@ table {
       color: red;
       font-size: 1.2em;
       font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
-      height: 5px;
       vertical-align: middle;
       margin-left: 0.5em; }
     .order2 .part2Inscription .civilite span {
@@ -1678,8 +1682,7 @@ table {
   display: block;
   float: none;
   box-sizing: border-box;
-  box-sizing: border-box;
-  background-color: #bfbfbf; }
+  box-sizing: border-box; }
   .fraisPort:after {
     content: "";
     display: block;
@@ -1701,6 +1704,10 @@ table {
   margin: auto;
   box-sizing: border-box;
   padding: 1em; }
+  .total .number {
+    font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
+    font-size: 1.2em;
+    margin-left: 0.5em; }
 
 .continuer {
   background-color: white;
@@ -1709,10 +1716,14 @@ table {
   display: block;
   float: none;
   box-sizing: border-box;
-  height: 50px;
+  min-height: 50px;
   max-width: 200px;
   padding-top: 12px;
-  color: #111111; }
+  color: #111111;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
   .continuer:after {
     content: "";
     display: block;
@@ -1725,7 +1736,10 @@ table {
     float: none;
     vertical-align: middle; }
   .continuer:hover, .continuer:focus {
-    background-color: white; }
+    background-color: white;
+    -webkit-box-shadow: 0 0 0 0;
+    -moz-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0; }
 
 .commander {
   width: 100%;
@@ -1734,11 +1748,18 @@ table {
   float: none;
   box-sizing: border-box;
   margin-top: 1em;
-  height: 50px;
+  min-height: 50px;
   padding-top: 12px;
   max-width: 200px;
+  font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
   background-color: #2e70ea;
-  position: relative; }
+  position: relative;
+  -moz-border-radius-topright: 2em;
+  -webkit-border-top-right-radius: 2em;
+  border-top-right-radius: 2em;
+  -moz-border-radius-bottomright: 2em;
+  -webkit-border-bottom-right-radius: 2em;
+  border-bottom-right-radius: 2em; }
   .commander:after {
     content: "";
     display: block;

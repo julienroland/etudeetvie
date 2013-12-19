@@ -840,6 +840,10 @@ table{
 	padding:1em;
 }
 .order1{
+	background-color: white;
+	padding:1em;
+	margin-top: 1em;
+	font-size: 18px;
 	h3{
 		margin:1em 0;
 		border-bottom: 0;
@@ -945,14 +949,10 @@ table{
 
 		}
 		sup{
-
 			color:red;
 			font-size: 1.2em;
 			font-family: $ff2;
-
-			height:5px;
 			vertical-align: middle;
-
 			margin-left: 0.5em;
 		}
 		.civilite{
@@ -1136,7 +1136,7 @@ table{
 	@include c(12);
 
 	box-sizing:border-box;
-	background-color: $greyL2;
+
 	.title{
 		padding:1em;
 		height:100%;
@@ -1151,7 +1151,6 @@ table{
 }
 .total{
 	display:block;
-
 	text-align: right;
 	background-color: darken($greyL,5%);
 	margin: auto;
@@ -1162,17 +1161,19 @@ table{
 
 	}
 	.number{
-
+		font-family: $ff2;
+		font-size: 1.2em;
+		margin-left: 0.5em;
 	}
 }
 .continuer{
 	background-color: white;
 	@include c(12);
-	height:50px;
+	min-height:50px;
 	max-width: 200px;
 	padding-top: 12px;
 	color:$tc;
-
+@include transition(all 0.3s ease-in);
 	//margin-top: 1em;
 	&:visited{
 		color:$tc;
@@ -1183,16 +1184,21 @@ table{
 	}
 	&:hover,&:focus{
 		background-color: white;
+		@include box-shadow(0 0 0 0);
+
+
 	}
 }
 .commander{
 	@include c(12);
 	margin-top: 1em;
-	height:50px;
+	min-height:50px;
 	padding-top: 12px;
 	max-width: 200px;
+	font-family: $ff2;
 	background-color: $mc;
 	position:relative;
+	@include border-right-radius( 2em);
 	.icon{
 		float:none;
 		vertical-align: middle;

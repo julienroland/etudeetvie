@@ -37,7 +37,7 @@
                 <h1 class="section">Contenu principal du site</h1>
                 <div class="order">
                  <ul class="orderSteps">
-                    <li class="active"><a href="">
+                    <li class="active"><a href="order1.php">
                         <span class="number">1</span>
                         <span class="title">Résumé</span>
                     </a></li>
@@ -58,7 +58,7 @@
                         <span class="title">Paiement</span>
                     </a></li>
                 </ul>
-                <div class="order1">
+                <div class="order1 wrapper">
                     <h3>Résumé de votre commande</h3>
                     <table class="headerTableCommande">
                         <thead>
@@ -100,7 +100,7 @@
                         <span class="title">Total TTC</span>
                         <span class="number">1013.63 €</span>
                     </div>
-                    <a href="order2.php" class="btn commander">Valider la commande <span class="icon icon-chevron-right-little-white"></span>   </a>
+                    <a href="order2.php" class="btn commander">Valider la commande</a>
                     <a href="index.php" class="btn continuer"><span class="icon icon-chevron-left-little"></span>Continuer mes achats</a>
                     
 
