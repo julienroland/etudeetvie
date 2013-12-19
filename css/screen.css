@@ -95,9 +95,23 @@ html {
   height: 100%; }
 
 a {
-  color: #2e70ea; }
+  color: #2e70ea;
+  text-decoration: none;
+  border-bottom: 1px dotted #2e70ea;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  padding-left: 1px;
+  padding-right: 1px; }
   a:hover, a:focus, a:active {
     text-decoration: none;
+    border: 1px solid #2e70ea;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    border-radius: 0.3em;
+    border-bottom: 0;
+    border-top: 0;
     outline: 0; }
 
 p {
@@ -150,7 +164,12 @@ h6 {
 
 .logo {
   margin: 1em 0;
-  border-bottom: 0; }
+  border-bottom: 0;
+  border: 0 !important; }
+  .logo a {
+    border: 0 !important; }
+    .logo a:hover, .logo a:focus {
+      border: 0 !important; }
 
 @media (max-width: 600px) {
   h1 {
@@ -178,7 +197,7 @@ h6 {
   position: absolute;
   height: 0;
   text-indent: -99999999px;
-  border: none;
+  border: 0 !important;
   padding: 0;
   margin: 0; }
 
@@ -187,7 +206,7 @@ h6 {
   position: absolute;
   height: 0;
   text-indent: -99999999px;
-  border: none; }
+  border: 0 !important; }
 
 .hide {
   display: none !important; }
@@ -370,6 +389,7 @@ img {
 .icon-chevron-right-little-white {
   height: 16px;
   width: 16px;
+  float: right;
   background-image: url("../img/framework/icon/chevron-right-littleWhite.png"); }
 
 .icon-chevron-bottom-white {
@@ -969,9 +989,18 @@ input[type=submit].icon-search {
     margin-top: 4px; }
   .footer a {
     color: white;
+    border-bottom: 1px dotted white;
     text-decoration: none; }
     .footer a:hover {
-      text-decoration: underline; }
+      text-decoration: underline;
+      -webkit-border-radius: 0.3em;
+      -moz-border-radius: 0.3em;
+      -ms-border-radius: 0.3em;
+      -o-border-radius: 0.3em;
+      border-radius: 0.3em;
+      border: 1px solid white;
+      border-top: 0;
+      border-bottom: 0; }
   .footer .informationsShop {
     width: 100%;
     margin: auto;
@@ -1315,8 +1344,7 @@ table {
       clear: both;
       visibility: hidden; }
   .order2 p {
-    margin: auto;
-    font-size: 18px; }
+    margin: auto; }
     .order2 p sup {
       margin-left: 0; }
   .order2 fieldset {
@@ -1334,7 +1362,8 @@ table {
     display: block;
     float: none;
     box-sizing: border-box;
-    vertical-align: middle; }
+    vertical-align: middle;
+    overflow: hidden; }
     .order2 .text:after {
       content: "";
       display: block;
@@ -1516,15 +1545,95 @@ table {
 
 .order3 {
   background-color: white;
-  margin-top: 1em; }
-  .order3 h3 {
-    text-align: left; }
-  .order3 .livraison h3, .order3 .facturation h3 {
+  margin-top: 1em;
+  padding-bottom: 3em; }
+  .order3 .wrapper {
+    padding: 0 1em; }
+  .order3 .btn {
+    float: right; }
+    .order3 .btn .icon {
+      margin-top: 2px;
+      margin-right: 0; }
+  .order3 input[type="checkbox"]:hover, .order3 input[type="checkbox"]:focus {
+    -webkit-box-shadow: 0 0 0 0;
+    -moz-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0; }
+  .order3 textarea {
+    margin: auto;
     display: block;
-    background-color: #666666;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    color: white; }
+    width: 100%;
+    margin: auto;
+    display: block;
+    float: none;
+    box-sizing: border-box;
+    min-height: 100px; }
+    .order3 textarea:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+  .order3 h2 {
+    text-align: left;
+    font-size: 1.6em; }
+  .order3 .livraison, .order3 .facturation {
+    border: 1px solid #666666;
+    width: 100%;
+    margin: auto;
+    display: block;
+    float: none;
+    box-sizing: border-box;
+    margin-top: 1em; }
+    .order3 .livraison:after, .order3 .facturation:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    .order3 .livraison ul, .order3 .facturation ul {
+      padding: 0.5em; }
+      .order3 .livraison ul li, .order3 .facturation ul li {
+        width: 100%;
+        margin: auto;
+        display: block;
+        float: none;
+        box-sizing: border-box;
+        display: block; }
+        .order3 .livraison ul li:after, .order3 .facturation ul li:after {
+          content: "";
+          display: block;
+          height: 0;
+          clear: both;
+          visibility: hidden; }
+        .order3 .livraison ul li + li, .order3 .facturation ul li + li {
+          width: 100%;
+          margin: auto;
+          display: block;
+          float: none;
+          box-sizing: border-box; }
+          .order3 .livraison ul li + li:after, .order3 .facturation ul li + li:after {
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden; }
+    .order3 .livraison .rue, .order3 .facturation .rue {
+      font-style: italic; }
+    .order3 .livraison .pays:after, .order3 .facturation .pays:after {
+      content: "";
+      display: inline-block;
+      overflow: visible;
+      width: 16px;
+      height: 16px;
+      margin-left: 0.5em;
+      visibility: visible;
+      vertical-align: middle;
+      background-image: url('../img/framework/icon/pays/belgium.png?1182000326'); }
+    .order3 .livraison h2, .order3 .facturation h2 {
+      display: block;
+      background-color: #666666;
+      padding: 0.5em;
+      color: white; }
 
 .orderSteps {
   display: block;
@@ -1574,13 +1683,15 @@ table {
       text-align: center;
       display: block;
       height: 100%;
+      border: 0;
       vertical-align: middle;
       font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif; }
       .orderSteps li a span {
         padding-top: 10px; }
       .orderSteps li a:hover, .orderSteps li a:focus {
         background-color: #5c90ef;
-        color: white; }
+        color: white;
+        border: 0; }
     .orderSteps li .number {
       display: block; }
     .orderSteps li .title {
@@ -1897,9 +2008,11 @@ table {
       .orderSteps li a {
         padding: 1em;
         overflow: visible;
-        box-sizing: border-box; }
+        box-sizing: border-box;
+        border: 0; }
         .orderSteps li a:hover, .orderSteps li a:focus {
-          background-color: rgba(255, 255, 255, 0.7); }
+          background-color: rgba(255, 255, 255, 0.7);
+          border: 0; }
       .orderSteps li span {
         vertical-align: middle;
         color: #111111;
@@ -2857,6 +2970,34 @@ table {
       visibility: hidden; }
 
   /* END ARTICLE */ }
+@media (min-width: 750px) {
+  .order3 .livraison {
+    width: 49%;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 1%; }
+    .order3 .livraison:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+  .order3 .facturation {
+    width: 49%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    float: left;
+    display: block;
+    box-sizing: border-box; }
+    .order3 .facturation:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; } }
 @media (min-width: 1200px) {
   .hero h2 {
     padding-left: 6px; }

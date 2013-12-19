@@ -22,8 +22,10 @@
         padding:1em;
         overflow: visible;
         box-sizing: border-box;
+        border:0;
         &:hover,&:focus{
           background-color: rgba(white,0.7);
+          border:0;
           //@include box-shadow($grey 2px 2px 4px 1px);
         }
       }
@@ -491,6 +493,9 @@
       }
     }
   }
+  .order3{
+
+  }
   .banner {
     .wrapper {
       overflow: hidden;
@@ -686,7 +691,16 @@
   }
   /* END ARTICLE */
 }
-
+@media(min-width: 750px){
+  .order3{
+    .livraison{
+      @include cfl(6);
+    }
+    .facturation{
+      @include cl(6);
+    }
+  }
+}
 @media (min-width: $mw) {
   .hero {
     h2 {

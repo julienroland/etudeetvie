@@ -575,9 +575,14 @@ input[type=submit].icon-search {
   }
   a {
     color: white;
+    border-bottom: 1px dotted white;
     text-decoration: none;
     &:hover {
       text-decoration: underline;
+      @include border-radius(0.3em);
+      border:1px solid white;
+      border-top: 0;
+      border-bottom: 0;
     }
   }
   .informationsShop {
@@ -910,7 +915,6 @@ table {
   }
   p {
     margin: auto;
-    font-size: 18px;
     sup {
       margin-left: 0;
     }
@@ -931,6 +935,8 @@ table {
   .text {
     @include c(12);
     vertical-align: middle;
+    overflow: hidden;
+
     label {
       @include c(12);
       text-align: left;
@@ -949,7 +955,7 @@ table {
     margin: 1em 0;
     margin: auto;
     max-width: 500px;
-    .inscription{
+    .inscription {
       margin-top: 23px;
     }
     button {
@@ -1049,28 +1055,82 @@ table {
   }
 
 }
-.order3{
+
+.order3 {
   background-color: white;
   margin-top: 1em;
-  h3{
-    text-align: left;
+  padding-bottom: 3em;
+  .wrapper {
+    padding: 0 1em;
   }
-  .livraison,.facturation{
-    h3{
-      display: block;
-      background-color: $greyD2;
-      padding-top:0.5em ;
-      padding-bottom:0.5em ;
-      color:white;
+  .btn {
+    float: right;
+    .icon{
+      margin-top: 2px;
+      margin-right: 0;
     }
   }
-  .facturation{
+
+  input[type="checkbox"] {
+    &:hover, &:focus {
+      @include box-shadow(0 0 0 0);
+    }
+  }
+  textarea {
+    margin: auto;
+    display: block;
+    @include c(12);
+    min-height: 100px;
+  }
+  h2 {
+    text-align: left;
+    font-size: 1.6em;
+  }
+  .livraison, .facturation {
+    border: 1px solid $greyD2;
+    @include c(12);
+    margin-top: 1em;
+    ul {
+      padding: 0.5em;
+      li {
+        @include c(12);
+        display: block;
+        & + li {
+          @include c(12);
+        }
+      }
+    }
+    .rue {
+      font-style: italic;
+    }
+    .pays {
+      &:after {
+        content: "";
+        display: inline-block;
+        overflow: visible;
+        width: 16px;
+        height: 16px;
+        margin-left: 0.5em;
+        visibility: visible;
+        vertical-align: middle;
+        background-image: image-url('framework/icon/pays/belgium.png');
+      }
+    }
+    h2 {
+      display: block;
+      background-color: $greyD2;
+      padding: 0.5em;
+      color: white;
+    }
+  }
+  .facturation {
 
   }
-  .livraison{
+  .livraison {
 
   }
 }
+
 .orderSteps {
   display: block;
   max-width: 800px;
@@ -1091,6 +1151,7 @@ table {
       text-align: center;
       display: block;
       height: 100%;
+      border: 0;
       vertical-align: middle;
       font-family: $ff2;
       span {
@@ -1099,6 +1160,7 @@ table {
       &:hover, &:focus {
         background-color: lighten($mc, 10%);
         color: white;
+        border: 0;
       }
     }
     .number {

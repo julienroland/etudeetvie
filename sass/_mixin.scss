@@ -20,11 +20,19 @@
   }
   a {
     color: $mc;
-
+    text-decoration: none;
+    border-bottom: 1px dotted $mc;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    padding-left:1px;
+    padding-right:1px;
     &:hover, &:focus, &:active {
       text-decoration: none;
+      border:1px solid $mc;
+      @include border-radius(0.3em);
+      border-bottom: 0;
+      border-top: 0;
       outline: 0;
-
     }
 
   }
@@ -141,6 +149,13 @@
   .logo {
     margin: 1em 0;
     border-bottom: 0;
+    border:0!important;
+    a{
+      border:0!important;
+      &:hover,&:focus{
+        border:0!important;
+      }
+    }
   }
 
   @media (max-width: $m1) {
@@ -175,7 +190,7 @@
     position: absolute;
     height: 0;
     text-indent: -99999999px;
-    border: none;
+    border: 0!important;
     padding: 0;
     margin: 0;
   }
@@ -184,8 +199,9 @@
     position: absolute;
     height: 0;
     text-indent: -99999999px;
-    border: none;
+    border: 0!important;
   }
+
   .hide {
     display: none !important;
   }

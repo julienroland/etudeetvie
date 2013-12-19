@@ -69,31 +69,33 @@
                     <input type="checkbox" name="sameAdresse" id="sameAdresse"/>
                 </p>
                 <div class="livraison">
-                    <h3>Votre adresse de livraison</h3>
+                    <h2>Votre adresse de livraison</h2>
                     <ul>
-                        <li>Julien Roland</li>
-                        <li>Rue des pas content</li>
+                        <li class="nom">Julien Roland</li>
+                        <li class="rue">Rue des pas content</li>
                         <li>5000 Namur</li>
-                        <li>Belgique</li>
+                        <li class="pays">Belgique</li>
                         <li><a href="">Modifier</a></li>
                     </ul>
                 </div>
                 <div class="facturation">
-                    <h3>Votre adresse de facturation</h3>
+                    <h2>Votre adresse de facturation</h2>
                     <ul>
-                        <li>Julien Roland</li>
-                        <li>Rue des pas content</li>
+                        <li class="nom">Julien Roland</li>
+                        <li class="rue">Rue des pas content</li>
                         <li>5000 Namur</li>
-                        <li>Belgique</li>
+                        <li class="pays">Belgique</li>
                         <li><a href="">Modifier</a></li>
                     </ul>
                 </div>
                 <a class="btn" href="">Ajouter une nouvelle adresse</a>
                 <p class="text">
                     <label for="commentaire">Ecrire un commentaire à propos de votre adresse</label>
-                    <textarea name="commentaire" id="commentaire" cols="30" rows="10">Ex: Emprunter une route en terre</textarea>
+                    <textarea name="commentaire" id="commentaire" >Ex: Emprunter une route en terre</textarea>
                 </p>
+                    <a class="next btn" href="order4.php">Dernière étape<span class="icon icon-chevron-right-little-white"></étapespan></a>
                 </div>
+
             </div>
         </div>
     </section>
