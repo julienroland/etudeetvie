@@ -250,7 +250,8 @@ h1, h2, h3, h4 {
   margin: 5px 0;
   display: inline-block;
   text-decoration: none;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  cursor: pointer; }
   .btn:hover, input[type=submit]:hover, button:hover {
     -webkit-box-shadow: #5c90ef 0 0 2px 1px;
     -moz-box-shadow: #5c90ef 0 0 2px 1px;
@@ -438,7 +439,7 @@ body {
   text-align: left;
   vertical-align: middle;
   position: relative;
-  font-family: Oswald,'helvetica neue',arial; }
+  font-family: Oswald, 'helvetica neue', arial; }
   .hero a {
     color: white;
     text-decoration: none;
@@ -514,9 +515,9 @@ input[type=submit].icon-search {
   -moz-box-shadow: rgba(0, 0, 0, 0.6) 0 2px 4px 0px;
   box-shadow: rgba(0, 0, 0, 0.6) 0 2px 4px 0px;
   /* &>a:first-child{
-  	&:hover,&:focus{
-  		background-color: $mc;
-  	}
+      &:hover,&:focus{
+          background-color: $mc;
+      }
   } */ }
 
 .hyperlinks {
@@ -531,7 +532,7 @@ input[type=submit].icon-search {
     overflow: visible;
     background-color: #666666;
     font-weight: 400;
-    font-family: Oswald,'helvetica neue','helvetica',arial;
+    font-family: Oswald, 'helvetica neue', 'helvetica', arial;
     text-transform: uppercase; }
     .nav .invisible-link li {
       display: inline-block;
@@ -1265,8 +1266,7 @@ table {
 /*END CATEGORIE*/
 /* ORDERSTEPS */
 .order {
-  margin: 1em 0;
-  padding: 1em; }
+  margin: 1em 0; }
 
 .order1 {
   background-color: white;
@@ -1294,7 +1294,7 @@ table {
     box-sizing: border-box;
     height: auto;
     vertical-align: middle;
-    margin-left: 0.5em; }
+    margin-left: 0.3em; }
   .order2:after {
     content: "";
     display: block;
@@ -1316,7 +1316,6 @@ table {
       clear: both;
       visibility: hidden; }
   .order2 p {
-    max-width: 500px;
     margin: auto;
     font-size: 18px; }
     .order2 p sup {
@@ -1373,16 +1372,29 @@ table {
     .order2 .text select {
       margin-top: 1em; }
   .order2 .part1Inscription {
-    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    display: block;
+    float: none;
+    box-sizing: border-box;
     margin: 1em 0;
-    margin: auto; }
+    margin: auto;
+    max-width: 500px; }
+    .order2 .part1Inscription:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    .order2 .part1Inscription .inscription {
+      margin-top: 23px; }
     .order2 .part1Inscription button {
       width: 100%;
       margin: auto;
       display: block;
       float: none;
       box-sizing: border-box;
-      height: 30px;
+      height: 50px;
       margin-top: 1em; }
       .order2 .part1Inscription button:after {
         content: "";
@@ -1402,52 +1414,105 @@ table {
         height: 0;
         clear: both;
         visibility: hidden; }
+    .order2 .part1Inscription label {
+      padding-bottom: 0; }
   .order2 .part2Inscription {
+    width: 100%;
+    margin: auto;
+    display: block;
+    float: none;
+    box-sizing: border-box;
+    margin: 1em 0;
+    margin: auto;
+    max-width: 500px; }
+    .order2 .part2Inscription:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    .order2 .part2Inscription button {
+      width: 100%;
+      margin: auto;
+      display: block;
+      float: none;
+      box-sizing: border-box;
+      height: 30px;
+      margin-top: 1em; }
+      .order2 .part2Inscription button:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .order2 .part2Inscription input {
+      width: 100%;
+      margin: auto;
+      display: block;
+      float: none;
+      box-sizing: border-box; }
+      .order2 .part2Inscription input:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .order2 .part2Inscription label {
+      padding-bottom: 0; }
+    .order2 .part2Inscription input[type="submit"] {
+      margin-top: 1em; }
+  .order2 .formInscription {
     max-width: 500px;
     margin: auto;
     margin-top: 1em; }
-    .order2 .part2Inscription label {
+    .order2 .formInscription .requirement sup {
+      margin-left: 0; }
+    .order2 .formInscription label {
       width: auto;
       text-align: left;
       padding-bottom: 0; }
-    .order2 .part2Inscription input[type="radio"] {
+    .order2 .formInscription input[type="radio"] {
       text-align: center;
       width: auto;
       min-width: 20px;
       margin: auto;
       float: left;
       display: inline-block; }
-    .order2 .part2Inscription input[type="submit"] {
+      .order2 .formInscription input[type="radio"]:hover, .order2 .formInscription input[type="radio"]:focus {
+        -webkit-box-shadow: 0 0 0 0;
+        -moz-box-shadow: 0 0 0 0;
+        box-shadow: 0 0 0 0; }
+    .order2 .formInscription input[type="submit"] {
       width: 100%;
       margin: auto;
       display: block;
       float: none;
       box-sizing: border-box; }
-      .order2 .part2Inscription input[type="submit"]:after {
+      .order2 .formInscription input[type="submit"]:after {
         content: "";
         display: block;
         height: 0;
         clear: both;
         visibility: hidden; }
-    .order2 .part2Inscription sup {
+    .order2 .formInscription sup {
       color: red;
       font-size: 1.2em;
       font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
       vertical-align: middle;
-      margin-left: 0.5em; }
-    .order2 .part2Inscription .civilite span {
+      margin-left: 0.3em; }
+    .order2 .formInscription .civilite span {
       float: left;
       padding-top: 10px;
       display: block;
       margin-right: 0.5em; }
-    .order2 .part2Inscription .civilite label {
+    .order2 .formInscription .civilite label {
       float: left; }
-    .order2 .part2Inscription .civilite #civilite1 {
+    .order2 .formInscription .civilite #civilite1 {
       margin-right: 0.7em; }
-    .order2 .part2Inscription .newsletter label {
+    .order2 .formInscription .newsletter label {
       float: left;
       margin-left: 20px; }
-    .order2 .part2Inscription .newsletter input {
+    .order2 .formInscription .newsletter input {
       float: none; }
 
 .orderSteps {
@@ -1807,6 +1872,101 @@ table {
       height: 0;
       clear: both;
       visibility: hidden; }
+
+  .order {
+    padding: 1em; }
+
+  .order2 input[type="submit"] {
+    height: 50px; }
+  .order2 .part1Inscription {
+    width: 49%;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+    max-width: 100%;
+    min-height: 250px; }
+    .order2 .part1Inscription:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    .order2 .part1Inscription fieldset {
+      min-height: 250px; }
+  .order2 .part2Inscription {
+    width: 49%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 250px; }
+    .order2 .part2Inscription:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    .order2 .part2Inscription fieldset {
+      min-height: 250px; }
+  .order2 .formInscription {
+    width: 100%;
+    margin: auto;
+    display: block;
+    float: none;
+    box-sizing: border-box;
+    max-width: 100%; }
+    .order2 .formInscription:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    .order2 .formInscription fieldset {
+      min-height: 900px;
+      width: 49%;
+      float: left;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      display: block;
+      box-sizing: border-box;
+      margin-bottom: 1%; }
+      .order2 .formInscription fieldset:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+      .order2 .formInscription fieldset + fieldset {
+        width: 49%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        float: left;
+        display: block;
+        box-sizing: border-box; }
+        .order2 .formInscription fieldset + fieldset:after {
+          content: "";
+          display: block;
+          height: 0;
+          clear: both;
+          visibility: hidden; }
+    .order2 .formInscription input[type="submit"] {
+      width: 49%;
+      float: right;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      display: block;
+      box-sizing: border-box; }
+      .order2 .formInscription input[type="submit"]:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
 
   /* HEADER */
   .logo {
@@ -2393,6 +2553,8 @@ table {
   .produit .buyContent {
     width: 44.83333%;
     float: right;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
     margin-left: 3.16667%;
@@ -2410,6 +2572,8 @@ table {
     margin-top: 2em;
     width: 44.83333%;
     float: right;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
     margin-left: 3.16667%; }
