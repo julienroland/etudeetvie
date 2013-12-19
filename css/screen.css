@@ -88,6 +88,9 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased; }
 
+em {
+  font-style: italic; }
+
 html {
   height: 100%; }
 
@@ -312,6 +315,23 @@ input, textarea {
     box-shadow: #2e70ea 0 0 2px 1px; }
   input:hover label, textarea:hover label {
     background-color: red; }
+
+input[type="radio"]:hover, input[type="radio"]:focus {
+  -webkit-box-shadow: 0 0 0 0;
+  -moz-box-shadow: 0 0 0 0;
+  box-shadow: 0 0 0 0; }
+
+input:focus:valid {
+  border: 1px solid #14b432;
+  -webkit-box-shadow: #14b432 0 0 2px 0;
+  -moz-box-shadow: #14b432 0 0 2px 0;
+  box-shadow: #14b432 0 0 2px 0; }
+
+input:focus:invalid {
+  border: 1px solid #b41428;
+  -webkit-box-shadow: #b41428 0 0 2px 0;
+  -moz-box-shadow: #b41428 0 0 2px 0;
+  box-shadow: #b41428 0 0 2px 0; }
 
 @media (max-width: 600px) {
   input {
@@ -1261,6 +1281,15 @@ table {
 
 .order2 {
   margin-top: 1em; }
+  .order2 sup {
+    display: inline-block;
+    color: red;
+    font-size: 1.2em;
+    font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
+    box-sizing: border-box;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 0.5em; }
   .order2:after {
     content: "";
     display: block;
@@ -1281,9 +1310,16 @@ table {
       height: 0;
       clear: both;
       visibility: hidden; }
+  .order2 p {
+    max-width: 500px;
+    margin: auto;
+    font-size: 18px; }
+    .order2 p sup {
+      margin-left: 0; }
   .order2 fieldset {
     border: 1px solid #737373;
-    padding: 1em; }
+    padding: 1em;
+    margin-bottom: 1em; }
     .order2 fieldset legend {
       font-size: 1.2em;
       font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif; }
@@ -1308,7 +1344,7 @@ table {
       display: block;
       float: none;
       box-sizing: border-box;
-      text-align: center; }
+      text-align: left; }
       .order2 .text label:after {
         content: "";
         display: block;
@@ -1316,11 +1352,13 @@ table {
         clear: both;
         visibility: hidden; }
     .order2 .text input {
-      width: 100%;
-      margin: auto;
+      width: 90.66667%;
+      float: left;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
       display: block;
-      float: none;
-      box-sizing: border-box; }
+      box-sizing: border-box;
+      margin-bottom: 1%; }
       .order2 .text input:after {
         content: "";
         display: block;
@@ -1330,7 +1368,9 @@ table {
     .order2 .text select {
       margin-top: 1em; }
   .order2 .part1Inscription {
-    margin: 1em 0; }
+    max-width: 500px;
+    margin: 1em 0;
+    margin: auto; }
     .order2 .part1Inscription button {
       width: 100%;
       margin: auto;
@@ -1345,20 +1385,66 @@ table {
         height: 0;
         clear: both;
         visibility: hidden; }
-  .order2 .part2Inscription label {
-    float: left;
-    width: auto;
-    text-align: left;
-    padding-bottom: 0; }
-  .order2 .part2Inscription input[type="radio"] {
-    text-align: center;
-    width: auto;
-    min-width: 20px;
+    .order2 .part1Inscription input {
+      width: 100%;
+      margin: auto;
+      display: block;
+      float: none;
+      box-sizing: border-box; }
+      .order2 .part1Inscription input:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+  .order2 .part2Inscription {
+    max-width: 500px;
     margin: auto;
-    float: left;
-    display: inline-block; }
-  .order2 #newsletter {
-    padding-left: 30px; }
+    margin-top: 1em; }
+    .order2 .part2Inscription label {
+      width: auto;
+      text-align: left;
+      padding-bottom: 0; }
+    .order2 .part2Inscription input[type="radio"] {
+      text-align: center;
+      width: auto;
+      min-width: 20px;
+      margin: auto;
+      float: left;
+      display: inline-block; }
+    .order2 .part2Inscription input[type="submit"] {
+      width: 100%;
+      margin: auto;
+      display: block;
+      float: none;
+      box-sizing: border-box; }
+      .order2 .part2Inscription input[type="submit"]:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .order2 .part2Inscription sup {
+      color: red;
+      font-size: 1.2em;
+      font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
+      height: 5px;
+      vertical-align: middle;
+      margin-left: 0.5em; }
+    .order2 .part2Inscription .civilite span {
+      float: left;
+      padding-top: 10px;
+      display: block;
+      margin-right: 0.5em; }
+    .order2 .part2Inscription .civilite label {
+      float: left; }
+    .order2 .part2Inscription .civilite #civilite1 {
+      margin-right: 0.7em; }
+    .order2 .part2Inscription .newsletter label {
+      float: left;
+      margin-left: 20px; }
+    .order2 .part2Inscription .newsletter input {
+      float: none; }
 
 .orderSteps {
   display: block;

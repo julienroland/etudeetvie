@@ -852,6 +852,17 @@ table{
 }
 .order2{
 	margin-top: 1em;
+	sup{
+		display:inline-block;
+		color:red;
+		font-size: 1.2em;
+		font-family: $ff2;
+		box-sizing:border-box;
+		height:auto;
+		vertical-align: middle;
+
+		margin-left: 0.5em;
+	}
 	&:after{
 		@include clear();
 	}
@@ -860,9 +871,18 @@ table{
 		background-color: white;
 		padding:1em;
 	}
+	p{
+		max-width: 500px;
+		margin: auto;
+		font-size: 18px;
+		sup{
+			margin-left: 0;
+		}
+	}
 	fieldset{
 		border:1px solid $greyD;
 		padding:1em;
+		margin-bottom: 1em;
 		legend{
 			font-size: 1.2em;
 			font-family: $ff2;
@@ -877,10 +897,11 @@ table{
 		vertical-align: middle;
 		label{
 			@include c(12);
-			text-align: center;
+			text-align: left;
 		}
 		input{
-			@include c(12);
+			@include cfl(11);
+
 		}
 		select{
 			margin-top: 1em;
@@ -888,16 +909,25 @@ table{
 
 	}
 	.part1Inscription{
+		max-width: 500px;
+
 		margin:1em 0;
+		margin: auto;
 		button{
 			@include c(12);
 			height:30px;
 			margin-top: 1em;
 		}
+		input{
+			@include c(12);
+		}
 	}
 	.part2Inscription{
+		max-width: 500px;
+		margin: auto;
+		margin-top: 1em;
 		label{
-			float:left;
+			//float:left;
 			width:auto;
 			text-align: left;
 			padding-bottom: 0;
@@ -910,11 +940,47 @@ table{
 			float:left;
 			display:inline-block;
 		}
+		input[type="submit"]{
+			@include c(12);
+
+		}
+		sup{
+
+			color:red;
+			font-size: 1.2em;
+			font-family: $ff2;
+
+			height:5px;
+			vertical-align: middle;
+
+			margin-left: 0.5em;
+		}
+		.civilite{
+			span{
+				float:left;
+				padding-top: 10px;
+				display:block;
+				margin-right: 0.5em;
+			}
+			label{
+				float:left;
+			}
+			#civilite1{
+				margin-right: 0.7em;
+			}
+		}
+		.newsletter{
+			label{
+				float:left;
+				margin-left: 20px;
+			}
+			input{
+				float:none;
+			}
+		}
 
 	}
-	#newsletter{
-			padding-left: 30px;
-		}
+	
 }
 .orderSteps{
 	display:block;
@@ -1039,6 +1105,7 @@ table{
 	
 
 }
+
 .totalProduit{
 	display:block;
 	text-align: right;

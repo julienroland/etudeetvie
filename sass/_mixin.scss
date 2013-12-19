@@ -11,6 +11,9 @@
     text-rendering:optimizeLegibility;
     -webkit-font-smoothing:antialiased;
   }
+  em{
+    font-style: italic;
+  }
   html{
     height: 100%;
   }
@@ -58,11 +61,11 @@
   }
 }
 @mixin tab(){
-  
+
   .tab{
 
     a{
-      
+
       font-family: $ff2;
     }
   }
@@ -264,6 +267,21 @@ h6{
   &:hover  label{
     background-color: red;
   }
+
+}
+input[type="radio"]{
+
+  &:hover,&:focus{
+    @include box-shadow( 0 0 0 0 );
+  }
+}
+input:focus:valid{
+  border:1px solid $success;
+  @include box-shadow( $success 0 0 2px 0);
+}
+input:focus:invalid{
+  border:1px solid $error;
+  @include box-shadow( $error 0 0 2px 0);
 }
 @media(max-width: $m1){
  input{
