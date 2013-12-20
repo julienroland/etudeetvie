@@ -101,8 +101,7 @@
 
                     <div class="comm">
                         <label for="commentaire">Ecrire un commentaire à propos de votre adresse</label>
-                        <textarea name="commentaire" id="commentaire">Ex: Emprunter une route en terre puis rouler 300
-                            mètres</textarea>
+                        <textarea name="commentaire" id="commentaire">Ex: Emprunter une route en terre puis rouler 300 mètres</textarea>
                     </div>
                 </div>
                 <div class="wrapper fraisPort">
@@ -114,7 +113,7 @@
 
                     </ul>
                 </div>
-                <div class="wrapper">
+                <div class="wrapper navigationOrder">
                     <a class="next btn" href="order4.php">Dernière étape<span
                             class="icon icon-chevron-right-little-white"></span></a>
                     <a class=" continuer btn" href="order2.php"><span class="icon icon-chevron-left-little"></span>Revenir

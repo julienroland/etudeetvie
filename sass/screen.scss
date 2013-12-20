@@ -16,6 +16,7 @@
 @include btn();
 @include label();
 @include input();
+@include form();
 @include img();
 @include icon();
 @include tab();
@@ -1056,57 +1057,70 @@ table {
 
 }
 
+.navigationOrder {
+  margin-top: 1em;
+  .continuer {
+    width: auto;
+    padding-left: 0;
+  }
+}
+
 .order3 {
   background-color: white;
+  @include c(12);
+  margin: auto;
   margin-top: 1em;
   padding-bottom: 3em;
-  .fraisPort{
-    ul{
-      padding:1em 0;
-      li{
-        input{
+  .fraisPort {
+    ul {
+      padding: 1em 0;
+      li {
+        border: 5px solid $greyD2;
+        max-width: 200px;
+        padding: 1em;
+        input {
           text-align: center;
           display: block;
           margin: auto;
-          width:20px;
+          width: 20px;
 
         }
-        input[type="radio"]{
+        input[type="radio"] {
           display: block;
-          float:none;
+          float: none;
           -webkit-appearance: none;
-          width:25px;
-          padding:0;
+          width: 25px;
+          padding: 0;
           height: 24px;
-          border:1px dotted $grey;
-          &:checked,&:hover,&:focus{
-            @include transition(all,0.3s,ease);
+          border: 1px dotted $grey;
+          &:checked, &:hover, &:focus {
+            @include transition(all, 0.3s, ease);
             background-image: image-url('framework/icon/true.png');
             background-size: contain;
             background-repeat: no-repeat;
-            border:1px dotted green;
-            &:hover,&:focus{
-              border:1px solid green;
+            border: 1px dotted green;
+            &:hover, &:focus {
+              border: 1px solid green;
             }
           }
         }
-        label{
+        label {
           @include c(12);
         }
-        .timing{
+        .timing {
           display: block;
           text-align: center;
           font-style: italic;
         }
-        .price{
+        .price {
           display: block;
           text-align: center;
-          b{
-          font-size: 1.2em;
-            color:$mc;
+          b {
+            font-size: 1.2em;
+            color: $mc;
           }
         }
-        img{
+        img {
           max-width: 100%;
           margin: auto;
           display: block;
@@ -1114,7 +1128,7 @@ table {
       }
     }
   }
-  h3{
+  h3 {
     margin-top: 1em;
     text-align: left;
   }
@@ -1199,21 +1213,96 @@ table {
   }
 }
 
+.order4 {
+  background-color: white;
+  margin-top: 1em;
+  padding: 1em;
+  padding-bottom: 3em;
+  text-align: center;
+  span {
+    margin: 1em 0;
+    display: inline-block;
+    font-size: 18px;
+  }
+  &.virement{
+    font-size: 18px;
+    text-align: left;
+    p{
+      text-align: left;
+    }
+    ul{
+      li{
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+  .choixPaiement {
+    li {
+
+      @include c(12);
+      margin-bottom: 1em;
+      max-width: 400px;
+
+      a {
+        @include c(12);
+        display: inline-block;
+        height: 100%;
+        border-left: 0;
+        border-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        border: 1px dotted $tc;
+        @include transition(background-color 0.3s ease);
+        &:hover, &:focus {
+          background-color: $mc;
+          @include transition(background-color 0.3s ease);
+          @include border-radius(0);
+        }
+        .image {
+          @include c(12);
+          img {
+            max-width: 100%;
+            display: block;
+            margin: auto;
+          }
+        }
+        .text {
+          @include c(12);
+          text-align: center;
+          display: inline-block;
+          vertical-align: middle;
+          background-color: $mc;
+          min-height: 40px;
+          box-sizing: border-box;
+          padding: 10px;
+          color: white;
+          font-family: $ff2;
+        }
+      }
+    }
+  }
+  .navigationOrder {
+    .next, .continuer {
+      @include c(12);
+    }
+  }
+}
+
 .adresseChange {
   background-color: white;
-  padding:1em 0;
+  padding: 1em 0;
   padding-bottom: 3em;
-  .continuer{
+  .continuer {
     margin-top: 0;
     display: inline-block;
-    width:auto;
+    width: auto;
   }
-  input[type="submit"]{
-    width:100%;
+  input[type="submit"] {
+    width: 100%;
     max-width: 300px;
-    float:right;
+    float: right;
   }
-  form{
+  form {
     max-width: 500px;
     margin: auto;
   }
@@ -1261,7 +1350,6 @@ table {
 .orderSteps {
   display: block;
   max-width: 800px;
-
   height: 40px;
   @include horizontal-list();
   margin: auto;

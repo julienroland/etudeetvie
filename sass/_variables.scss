@@ -2,6 +2,8 @@
 /* CONFIG */
 $mw:1200px;
 
+$nMw: 1200;
+
 $gutter: 24px;
 
 $nbG:1.618; // nombre d'or
@@ -22,6 +24,12 @@ $tc: rgb(17,17,17); //text-color 333333
 $success :rgb(20,180,50);
 
 $error: rgb(180,20,40);
+
+$errorBackground: lighten(red,40%);
+
+$infosBackground: lighten(yellow,40%);
+
+$succesBackground: lighten(green,60%);
 /* END typography */
 
 /*media*/

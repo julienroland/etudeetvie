@@ -10,57 +10,80 @@
   }
   .order {
     padding: 1em;
+    @include c(12);
   }
-  .orderSteps{
+  .order4 {
+    .choixPaiement {
+      display: block;
+      li {
+        @include cfl(4);
+        margin-left: colFix(4, 12);
+        & + li {
+          @include cl(4);
+        }
+      }
+    }
+    .navigationOrder {
+      a {
+        float: left!important;
+      }
+
+    }
+  }
+  .orderSteps {
     height: 200px;
     overflow: visible;
-    li{
+    li {
       background-color: transparent;
-      padding:0;
+      padding: 0;
       overflow: visible;
-      a{
-        padding:1em;
+      a {
+        padding: 1em;
         overflow: visible;
         box-sizing: border-box;
-        border:0;
-        &:hover,&:focus{
-          background-color: rgba(white,0.7);
-          border:0;
+        border: 0;
+        &:hover, &:focus {
+          background-color: rgba(white, 0.7);
+          border: 0;
           //@include box-shadow($grey 2px 2px 4px 1px);
         }
       }
-      span{
+      span {
         vertical-align: middle;
-        color:$tc;
+        color: $tc;
         font-size: 1.4em;
       }
     }
-    .active{
+    .active {
       background-color: white;
-      @include box-shadow(rgba($greyD,0.6) 3px 3px 4px 1px);
-      padding:0;
+      @include box-shadow(rgba($greyD, 0.6) 3px 3px 4px 1px);
+      padding: 0;
+
     }
-    .resume{
-      a{
-      background-image: image-url('framework/icon/resumeOut.png');
-      background-repeat: no-repeat;
+    .resume {
+      a {
+        background-image: image-url('framework/icon/resumeOut.png');
+        background-repeat: no-repeat;
         background-position: bottom;
         position: relative;
         background-color: transparent;
 
       }
-      &.active,&.done{
-        a{
+      &.active, &.done {
+        a {
           background-image: image-url('framework/icon/resume.png');
           background-repeat: no-repeat;
           background-position: bottom;
           position: relative;
           background-color: transparent;
         }
+        &:hover,&:focus{
+          background-color: rgba(white,0.7);
+        }
       }
-      }
-    .identifier{
-      a{
+    }
+    .identifier {
+      a {
         background-image: image-url('framework/icon/identifierOut.png');
         background-repeat: no-repeat;
         background-position: bottom;
@@ -68,18 +91,21 @@
         background-color: transparent;
 
       }
-      &.active,&.done{
-        a{
+      &.active, &.done {
+        a {
           background-image: image-url('framework/icon/identifier.png');
           background-repeat: no-repeat;
           background-position: bottom;
           position: relative;
           background-color: transparent;
         }
+        &:hover,&:focus{
+          background-color: rgba(white,0.7);
+        }
       }
     }
-    .adresse{
-      a{
+    .adresse {
+      a {
         background-image: image-url('framework/icon/livraisonOut.png');
         background-repeat: no-repeat;
         background-position: bottom;
@@ -87,18 +113,21 @@
         background-color: transparent;
 
       }
-      &.active,&.done{
-        a{
+      &.active, &.done {
+        a {
           background-image: image-url('framework/icon/livraison.png');
           background-repeat: no-repeat;
           background-position: bottom;
           position: relative;
           background-color: transparent;
         }
+        &:hover,&:focus{
+          background-color: rgba(white,0.7);
+        }
       }
     }
-    .paiement{
-      a{
+    .paiement {
+      a {
         background-image: image-url('framework/icon/paiementOut.png');
         background-repeat: no-repeat;
         background-position: bottom;
@@ -106,13 +135,16 @@
         background-color: transparent;
 
       }
-      &.active,&.done{
-        a{
+      &.active, &.done {
+        a {
           background-image: image-url('framework/icon/paiement.png');
           background-repeat: no-repeat;
           background-position: bottom;
           position: relative;
           background-color: transparent;
+        }
+        &:hover,&:focus{
+          background-color: rgba(white,0.7);
         }
       }
     }
@@ -479,15 +511,20 @@
 }
 
 @media(min-width: 625px) {
-  .adresseChange{
-    form{
+  .adresseChange {
+    form {
 
     }
   }
   .orderSteps {
     li {
+      max-height: 200px;
+      a {
+        height: 100%;
+      }
       .number {
         display: inline-block;
+
         &:after {
           content: ".";
           margin-right: 5px;
@@ -498,11 +535,13 @@
       }
     }
   }
-  .order3{
-.comm{
+  .order3 {
+    .comm {
 
-  label{float:left;}
-}
+      label {
+        float: left;
+      }
+    }
   }
   .banner {
     .wrapper {
@@ -699,19 +738,21 @@
   }
   /* END ARTICLE */
 }
-@media(min-width: 750px){
-  .order3{
-    .livraison{
+
+@media(min-width: 750px) {
+  .order3 {
+    .livraison {
       @include cfl(6);
       margin-left: 0;
     }
-    .facturation{
+    .facturation {
       @include cl(6);
       margin-right: 0;
-      width:49.50%;
+      width: 49.50%;
     }
   }
 }
+
 @media (min-width: $mw) {
   .hero {
     h2 {
