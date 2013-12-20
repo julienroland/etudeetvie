@@ -138,7 +138,7 @@ p {
     visibility: hidden; }
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 0.75;
+  line-height: 1.125;
   font-weight: bold;
   padding-bottom: 0.2em;
   margin-bottom: 0;
@@ -272,6 +272,11 @@ h1, h2, h3, h4 {
   margin: 5px 0;
   display: inline-block;
   text-decoration: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
   box-sizing: border-box;
   cursor: pointer; }
   .btn:hover, input[type=submit]:hover, button:hover {
@@ -504,13 +509,15 @@ body {
     text-decoration: none;
     display: inline-block;
     width: 100%;
+    border: 0;
     height: 100%;
     padding: 0 1em;
     vertical-align: middle;
     padding-top: 5px;
     box-sizing: border-box; }
     .hero a:hover, .hero a:focus {
-      background-color: #666666; }
+      background-color: #666666;
+      border: 0; }
   .hero h2 {
     font-size: 16px;
     text-decoration: none;
@@ -607,6 +614,7 @@ input[type=submit].icon-search {
         color: white;
         text-decoration: none;
         display: block;
+        border: 0;
         width: 100%;
         height: 100%;
         float: left; }
@@ -756,7 +764,8 @@ input[type=submit].icon-search {
   height: auto;
   border: 2px solid #bfbfbf; }
   .connexion a {
-    color: #111111; }
+    color: #111111;
+    border: 0; }
 
 /* END CONNEXION */
 .content {
@@ -1000,8 +1009,7 @@ input[type=submit].icon-search {
           clear: both;
           visibility: hidden; }
   .selection .article + .article {
-    margin-top: 0;
-    margin-left: 24px; }
+    margin-top: 0; }
   .selection:after {
     content: "";
     display: block;
@@ -2365,7 +2373,11 @@ table {
       margin: auto;
       display: block;
       float: none;
-      box-sizing: border-box; }
+      box-sizing: border-box;
+      min-height: 200px;
+      font-size: 18px;
+      font-family: palatino, "palatino lt std", "palatino linotype", "book antiqua", garamond, serif;
+      color: #666666; }
       .contact .wrapper textarea:after {
         content: "";
         display: block;
@@ -3103,6 +3115,10 @@ table {
 
   /* END MENU */ }
 @media (min-width: 625px) {
+  .contact .wrapper {
+    max-width: 600px;
+    margin: auto; }
+
   .orderSteps li {
     max-height: 200px; }
     .orderSteps li a {
