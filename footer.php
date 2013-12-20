@@ -16,6 +16,7 @@
                 <li><a href="livraisons.php"><span class="icon icon-chevron-right-little-white"></span>Livraison</a></li>
                 <li><a href="cgv.php"><span class="icon icon-chevron-right-little-white"></span>Conditions générales de vente</a></li>
                 <li><a href="reservation.php"><span class="icon icon-chevron-right-little-white"></span>Procédure de réservation</a></li>
+                <li><a href="contact.php"><span class="icon icon-chevron-right-little-white"></span>Contact</a></li>
             </ul>
         </nav>
         <div class="informationsShop foot">

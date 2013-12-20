@@ -2313,6 +2313,72 @@ table {
     text-align: left; }
 
 /* END CMS */
+/* CONTACT */
+.contact {
+  margin: 1em 0;
+  background-color: white;
+  font-size: 18px; }
+  .contact .wrapper {
+    padding: 3em 1em; }
+    .contact .wrapper p {
+      margin: 1em 0; }
+    .contact .wrapper label {
+      padding-bottom: 0;
+      width: 100%;
+      margin: auto;
+      display: block;
+      float: none;
+      box-sizing: border-box; }
+      .contact .wrapper label:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .contact .wrapper input {
+      width: 100%;
+      margin: auto;
+      display: block;
+      float: none;
+      box-sizing: border-box; }
+      .contact .wrapper input:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .contact .wrapper select {
+      width: 100%;
+      margin: auto;
+      display: block;
+      float: none;
+      box-sizing: border-box; }
+      .contact .wrapper select:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .contact .wrapper textarea {
+      margin-top: 0;
+      width: 100%;
+      margin: auto;
+      display: block;
+      float: none;
+      box-sizing: border-box; }
+      .contact .wrapper textarea:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .contact .wrapper input[type="submit"] {
+      margin-top: 1em; }
+    .contact .wrapper fieldset {
+      border: 1px solid #111111;
+      padding: 0.5em; }
+
+/* END CONTACT */
 /* END ORDERSTEPS */
 /* MEDIA QUERIES */
 /* CONFIG */

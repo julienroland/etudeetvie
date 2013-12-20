@@ -1585,7 +1585,7 @@ table {
     padding: 1em;
     max-width: 50em;
   }
-  h3, h2 ,h4{
+  h3, h2, h4 {
     border-bottom: 0;
     text-align: center;
     margin-bottom: 0.5em;
@@ -1593,20 +1593,20 @@ table {
   h3 {
     line-height: 1;
   }
-  h4{
+  h4 {
     font-size: 1.5em;
     margin-bottom: 0.5em;
     border-bottom: 1px solid $tc;
     display: inline-block;
   }
-  h2{
+  h2 {
     line-height: 1;
   }
   p {
     display: block;
     margin: auto;
     margin-bottom: 1em;
-    a{
+    a {
       display: inline;
     }
   }
@@ -1622,25 +1622,62 @@ table {
     margin-top: 1em;
     display: inline-block;
   }
-  .cgv{
-    h2{
+  .cgv {
+    h2 {
       line-height: 1;
     }
 
-    h3{
+    h3 {
       text-align: left;
       margin-bottom: 0;
       line-height: 1.2;
     }
   }
-  .reservation{
-    h3,h4{
+  .reservation {
+    h3, h4 {
       text-align: left;
     }
   }
 }
 
 /* END CMS */
+/* CONTACT */
+.contact {
+  margin: 1em 0;
+  background-color: white;
+  font-size: 18px;
+  .wrapper {
+    padding: 3em 1em;
+    p{
+      margin: 1em 0;
+
+    }
+    label{
+      padding-bottom: 0;
+      @include c(12);
+    }
+    input{
+      @include c(12);
+    }
+    select{
+      @include c(12);
+    }
+    textarea{
+      margin-top: 0;
+      @include c(12);
+    }
+    input[type="submit"]{
+      margin-top: 1em;
+    }
+    fieldset{
+      border:1px solid $tc;
+      padding:0.5em;
+    }
+
+  }
+}
+
+/* END CONTACT */
 /* END ORDERSTEPS */
 /* MEDIA QUERIES */
 @import "responsive";
