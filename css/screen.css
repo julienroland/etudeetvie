@@ -407,7 +407,8 @@ img {
   margin-right: 0.5em;
   top: 0;
   text-indent: -999999px;
-  background-size: 100%; }
+  background-size: 100%;
+  vertical-align: middle; }
 
 .icon-menu {
   background-image: url("../img/framework/icon/menu2White.png"); }
@@ -1030,7 +1031,6 @@ input[type=submit].icon-search {
     border-bottom: 1px dotted white;
     text-decoration: none; }
     .footer a:hover {
-      text-decoration: underline;
       -webkit-border-radius: 0.3em;
       -moz-border-radius: 0.3em;
       -ms-border-radius: 0.3em;
@@ -2265,9 +2265,36 @@ table {
     clear: both;
     visibility: hidden; }
   .commander .icon {
+    float: none; }
+
+/* CMS */
+.cms {
+  background-color: white;
+  margin: 1em 0;
+  padding: 3em 0;
+  font-size: 18px; }
+  .cms .wrapper {
+    padding: 1em; }
+  .cms h3, .cms h2 {
+    border-bottom: 0;
+    text-align: center;
+    margin-bottom: 0.5em; }
+  .cms h3 {
+    line-height: 1; }
+  .cms p {
+    display: block;
+    margin: auto;
+    max-width: 50em; }
+  .cms em {
+    color: #1557d0; }
+  .cms .icon {
     float: none;
     vertical-align: middle; }
+  .cms a {
+    margin-top: 1em;
+    display: inline-block; }
 
+/* END CMS */
 /* END ORDERSTEPS */
 /* MEDIA QUERIES */
 /* CONFIG */

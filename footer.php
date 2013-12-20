@@ -13,8 +13,8 @@
         <nav class="foot">
             <h2 role="heading" aria-level="2">Services</h2>
             <ul>
-                <li><a href=""><span class="icon icon-chevron-right-little-white"></span>Livraison</a></li>
-                <li><a href=""><span class="icon icon-chevron-right-little-white"></span>Conditions d'utilisation général</a></li>
+                <li><a href="livraisons.php"><span class="icon icon-chevron-right-little-white"></span>Livraison</a></li>
+                <li><a href="cgv.php"><span class="icon icon-chevron-right-little-white"></span>Conditions générales de vente</a></li>
             </ul>
         </nav>
         <div class="informationsShop foot">
