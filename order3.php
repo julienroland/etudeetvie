@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +21,8 @@
 </head>
 <body>
 <!--[if lt IE 7]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
 <![endif]-->
 <h1 class="section" role="heading" aria-level="1">Page d'accueil du site e-commerce etude et vie</h1>
 <section class="container ">
@@ -35,6 +40,7 @@
 
     <section role="main" class="main" id="main">
         <h1 class="section">Contenu principal du site</h1>
+
         <div class="order">
             <ul class="orderSteps">
                 <li class=" resume done"><a href="order1.php">
@@ -55,48 +61,68 @@
                     </a></li>
             </ul>
             <div class="order3 ">
-                <div class="wrapper">
-             <p class="text">
-                 <label for="adresse">
-                     Choisissez une adresse de livraison
-                 </label>
-                 <select name="adresse" id="adresse">
-                     <option value="1">Adresse Personelle</option>
-                 </select>
-             </p>
-                <p class="text">
-                    <label for="sameAdresse">Utiliser la même adresse pour la facturation ?</label>
-                    <input type="checkbox" name="sameAdresse" id="sameAdresse"/>
-                </p>
-                <div class="livraison">
-                    <h2>Votre adresse de livraison</h2>
-                    <ul>
-                        <li class="nom">Julien Roland</li>
-                        <li class="rue">Rue des pas content</li>
-                        <li>5000 Namur</li>
-                        <li class="pays">Belgique</li>
-                        <li><a href="">Modifier</a></li>
-                    </ul>
-                </div>
-                <div class="facturation">
-                    <h2>Votre adresse de facturation</h2>
-                    <ul>
-                        <li class="nom">Julien Roland</li>
-                        <li class="rue">Rue des pas content</li>
-                        <li>5000 Namur</li>
-                        <li class="pays">Belgique</li>
-                        <li><a href="">Modifier</a></li>
-                    </ul>
-                </div>
-                <a class="btn" href="">Ajouter une nouvelle adresse</a>
-                <p class="text">
-                    <label for="commentaire">Ecrire un commentaire à propos de votre adresse</label>
-                    <textarea name="commentaire" id="commentaire" >Ex: Emprunter une route en terre</textarea>
-                </p>
-                    <a class="next btn" href="order4.php">Dernière étape<span class="icon icon-chevron-right-little-white"></étapespan></a>
-                </div>
+                <div class="wrapper yourAdresse">
+                    <h3>Votre adresse</h3>
 
+                    <p class="text">
+                        <label for="adresse">
+                            Choisissez une adresse de livraison
+                        </label>
+                        <select name="adresse" id="adresse">
+                            <option value="1">Adresse Personelle</option>
+                        </select>
+                    </p>
+                    <p class="text">
+                        <label for="sameAdresse">Utiliser la même adresse pour la facturation ?</label>
+                        <input type="checkbox" name="sameAdresse" id="sameAdresse"/>
+                    </p>
+
+                    <div class="livraison">
+                        <h2>Votre adresse de livraison</h2>
+                        <ul>
+                            <li class="nom">Julien Roland</li>
+                            <li class="rue">Rue des pas content</li>
+                            <li>5000 Namur</li>
+                            <li class="pays">Belgique</li>
+                            <li><a href="">Modifier</a></li>
+                        </ul>
+                    </div>
+                    <div class="facturation">
+                        <h2>Votre adresse de facturation</h2>
+                        <ul>
+                            <li class="nom">Julien Roland</li>
+                            <li class="rue">Rue des pas content</li>
+                            <li>5000 Namur</li>
+                            <li class="pays">Belgique</li>
+                            <li><a href="">Modifier</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn" href="adresse.php">Ajouter une nouvelle adresse</a>
+
+                    <div class="comm">
+                        <label for="commentaire">Ecrire un commentaire à propos de votre adresse</label>
+                        <textarea name="commentaire" id="commentaire">Ex: Emprunter une route en terre puis rouler 300
+                            mètres</textarea>
+                    </div>
+                </div>
+                <div class="wrapper fraisPort">
+                    <h3>Frais de port</h3>
+                    <ul>
+                        <li><input type="radio" name="livreur1" id="livreur1"/></li>
+                        <li><label for="livreur1"><img src="./img/framework/icon/livreurs/ups.jpg" alt=""/></label></li>
+                        <li>1 à 2 jours ouvrables</li>
+                        <li><b>13€</b> TTC</li>
+                    </ul>
+                </div>
+                <div class="wrapper">
+                <a class="next btn" href="order4.php">Dernière étape<span
+                        class="icon icon-chevron-right-little-white"></span></a>
+                <a class=" continuer btn" href="order2.php"><span class="icon icon-chevron-left-little"></span>Revenir
+                    en arrière</a>
             </div>
+            </div>
+
+        </div>
         </div>
     </section>
     <?php include('footer.php'); ?>

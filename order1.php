@@ -97,7 +97,7 @@
                         <span class="title">Total TTC</span>
                         <span class="number">1013.63 €</span>
                     </div>
-                    <a href="order2.php" class="btn commander">Valider la commande</a>
+                    <a href="order2.php" class="btn commander">Valider la commande <span class="icon icon-chevron-right-little-white"></span></a>
                     <a href="index.php" class="btn continuer"><span class="icon icon-chevron-left-little"></span>Continuer mes achats</a>
 
                     </div>

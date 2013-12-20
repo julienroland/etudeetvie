@@ -479,6 +479,11 @@
 }
 
 @media(min-width: 625px) {
+  .adresseChange{
+    form{
+
+    }
+  }
   .orderSteps {
     li {
       .number {
@@ -494,7 +499,10 @@
     }
   }
   .order3{
+.comm{
 
+  label{float:left;}
+}
   }
   .banner {
     .wrapper {
@@ -695,9 +703,12 @@
   .order3{
     .livraison{
       @include cfl(6);
+      margin-left: 0;
     }
     .facturation{
       @include cl(6);
+      margin-right: 0;
+      width:49.50%;
     }
   }
 }

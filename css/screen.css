@@ -1547,6 +1547,40 @@ table {
   background-color: white;
   margin-top: 1em;
   padding-bottom: 3em; }
+  .order3 .fraisPort ul li input {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 20px; }
+  .order3 .fraisPort ul li input[type="radio"] {
+    -webkit-appearance: none;
+    width: 30px; }
+    .order3 .fraisPort ul li input[type="radio"]:checked {
+      background-image: url('../img/true.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      border: 1px dotted green; }
+      .order3 .fraisPort ul li input[type="radio"]:checked:hover, .order3 .fraisPort ul li input[type="radio"]:checked:focus {
+        border: 1px solid green; }
+  .order3 .fraisPort ul li label {
+    width: 100%;
+    margin: auto;
+    display: block;
+    float: none;
+    box-sizing: border-box; }
+    .order3 .fraisPort ul li label:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+  .order3 .fraisPort ul li img {
+    max-width: 100%;
+    margin: auto;
+    display: block; }
+  .order3 h3 {
+    margin-top: 1em;
+    text-align: left; }
   .order3 .wrapper {
     padding: 0 1em; }
   .order3 .btn {
@@ -1554,12 +1588,17 @@ table {
     .order3 .btn .icon {
       margin-top: 2px;
       margin-right: 0; }
+  .order3 .next {
+    margin-top: 1em; }
+  .order3 .continuer {
+    float: left; }
   .order3 input[type="checkbox"]:hover, .order3 input[type="checkbox"]:focus {
     -webkit-box-shadow: 0 0 0 0;
     -moz-box-shadow: 0 0 0 0;
     box-shadow: 0 0 0 0; }
   .order3 textarea {
     margin: auto;
+    text-align: left;
     display: block;
     width: 100%;
     margin: auto;
@@ -1576,6 +1615,19 @@ table {
   .order3 h2 {
     text-align: left;
     font-size: 1.6em; }
+  .order3 .comm {
+    width: 100%;
+    margin: auto;
+    display: block;
+    float: none;
+    box-sizing: border-box;
+    float: left; }
+    .order3 .comm:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
   .order3 .livraison, .order3 .facturation {
     border: 1px solid #666666;
     width: 100%;
@@ -1583,7 +1635,7 @@ table {
     display: block;
     float: none;
     box-sizing: border-box;
-    margin-top: 1em; }
+    margin-bottom: 1%; }
     .order3 .livraison:after, .order3 .facturation:after {
       content: "";
       display: block;
@@ -1635,6 +1687,67 @@ table {
       padding: 0.5em;
       color: white; }
 
+.adresseChange {
+  background-color: white;
+  padding: 1em 0;
+  padding-bottom: 3em; }
+  .adresseChange .continuer {
+    margin-top: 0;
+    display: inline-block;
+    width: auto; }
+  .adresseChange input[type="submit"] {
+    width: 100%;
+    max-width: 300px;
+    float: right; }
+  .adresseChange form {
+    max-width: 500px;
+    margin: auto; }
+  .adresseChange fieldset {
+    border: 1px solid #737373;
+    padding: 1em;
+    margin-bottom: 1em; }
+    .adresseChange fieldset legend {
+      font-size: 1.2em;
+      font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif; }
+  .adresseChange .text:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+  .adresseChange .text sup {
+    width: auto;
+    display: inline-block;
+    color: red;
+    font-size: 1.2em;
+    font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
+    box-sizing: border-box;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 0.3em; }
+  .adresseChange .text input {
+    float: left;
+    width: 90.66667%;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 1%; }
+    .adresseChange .text input:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+  .adresseChange .text label {
+    float: none;
+    width: auto;
+    width: 100%;
+    padding-bottom: 0;
+    text-align: left;
+    display: block; }
+
 .orderSteps {
   display: block;
   max-width: 800px;
@@ -1669,7 +1782,8 @@ table {
     display: block;
     box-sizing: border-box;
     margin-bottom: 1%;
-    height: 100%; }
+    height: 100%;
+    max-height: 40px; }
     .orderSteps li:after {
       content: "";
       display: block;
@@ -1685,7 +1799,14 @@ table {
       height: 100%;
       border: 0;
       vertical-align: middle;
-      font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif; }
+      font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
+      height: 40px; }
+      .orderSteps li a:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
       .orderSteps li a span {
         padding-top: 10px; }
       .orderSteps li a:hover, .orderSteps li a:focus {
@@ -1940,13 +2061,7 @@ table {
   max-width: 200px;
   font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
   background-color: #2e70ea;
-  position: relative;
-  -moz-border-radius-topright: 2em;
-  -webkit-border-top-right-radius: 2em;
-  border-top-right-radius: 2em;
-  -moz-border-radius-bottomright: 2em;
-  -webkit-border-bottom-right-radius: 2em;
-  border-bottom-right-radius: 2em; }
+  position: relative; }
   .commander:after {
     content: "";
     display: block;
@@ -2635,6 +2750,9 @@ table {
   .orderSteps li .title {
     display: inline-block; }
 
+  .order3 .comm label {
+    float: left; }
+
   .banner .wrapper {
     overflow: hidden; }
 
@@ -2978,7 +3096,8 @@ table {
     margin-right: 0.5%;
     display: block;
     box-sizing: border-box;
-    margin-bottom: 1%; }
+    margin-bottom: 1%;
+    margin-left: 0; }
     .order3 .livraison:after {
       content: "";
       display: block;
@@ -2991,7 +3110,9 @@ table {
     margin-right: 0.5%;
     float: left;
     display: block;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    margin-right: 0;
+    width: 49.50%; }
     .order3 .facturation:after {
       content: "";
       display: block;
