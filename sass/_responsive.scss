@@ -42,6 +42,9 @@
         overflow: visible;
         box-sizing: border-box;
         border: 0;
+        span{
+          padding-top: 0;
+        }
         &:hover, &:focus {
           background-color: rgba(white, 0.7);
           border: 0;
@@ -64,7 +67,7 @@
       a {
         background-image: image-url('framework/icon/resumeOut.png');
         background-repeat: no-repeat;
-        background-position: bottom;
+        background-position: 0 40px;
         position: relative;
         background-color: transparent;
 
@@ -73,7 +76,7 @@
         a {
           background-image: image-url('framework/icon/resume.png');
           background-repeat: no-repeat;
-          background-position: bottom;
+          background-position: 0 40px;
           position: relative;
           background-color: transparent;
         }
@@ -86,7 +89,7 @@
       a {
         background-image: image-url('framework/icon/identifierOut.png');
         background-repeat: no-repeat;
-        background-position: bottom;
+        background-position: 0 40px;
         position: relative;
         background-color: transparent;
 
@@ -95,7 +98,7 @@
         a {
           background-image: image-url('framework/icon/identifier.png');
           background-repeat: no-repeat;
-          background-position: bottom;
+          background-position: 0 40px;
           position: relative;
           background-color: transparent;
         }
@@ -108,7 +111,7 @@
       a {
         background-image: image-url('framework/icon/livraisonOut.png');
         background-repeat: no-repeat;
-        background-position: bottom;
+        background-position: 0 40px;
         position: relative;
         background-color: transparent;
 
@@ -117,7 +120,7 @@
         a {
           background-image: image-url('framework/icon/livraison.png');
           background-repeat: no-repeat;
-          background-position: bottom;
+          background-position: 0 40px;
           position: relative;
           background-color: transparent;
         }
@@ -130,7 +133,7 @@
       a {
         background-image: image-url('framework/icon/paiementOut.png');
         background-repeat: no-repeat;
-        background-position: bottom;
+        background-position: 0 40px;
         position: relative;
         background-color: transparent;
 
@@ -139,7 +142,7 @@
         a {
           background-image: image-url('framework/icon/paiement.png');
           background-repeat: no-repeat;
-          background-position: bottom;
+          background-position: 0 40px;
           position: relative;
           background-color: transparent;
         }

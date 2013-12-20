@@ -2365,6 +2365,8 @@ table {
         overflow: visible;
         box-sizing: border-box;
         border: 0; }
+        .orderSteps li a span {
+          padding-top: 0; }
         .orderSteps li a:hover, .orderSteps li a:focus {
           background-color: rgba(255, 255, 255, 0.7);
           border: 0; }
@@ -2381,13 +2383,13 @@ table {
     .orderSteps .resume a {
       background-image: url('../img/framework/icon/resumeOut.png?1387469988');
       background-repeat: no-repeat;
-      background-position: bottom;
+      background-position: 0 40px;
       position: relative;
       background-color: transparent; }
     .orderSteps .resume.active a, .orderSteps .resume.done a {
       background-image: url('../img/framework/icon/resume.png?1387469639');
       background-repeat: no-repeat;
-      background-position: bottom;
+      background-position: 0 40px;
       position: relative;
       background-color: transparent; }
     .orderSteps .resume.active:hover, .orderSteps .resume.active:focus, .orderSteps .resume.done:hover, .orderSteps .resume.done:focus {
@@ -2395,13 +2397,13 @@ table {
     .orderSteps .identifier a {
       background-image: url('../img/framework/icon/identifierOut.png?1387469886');
       background-repeat: no-repeat;
-      background-position: bottom;
+      background-position: 0 40px;
       position: relative;
       background-color: transparent; }
     .orderSteps .identifier.active a, .orderSteps .identifier.done a {
       background-image: url('../img/framework/icon/identifier.png?1387469737');
       background-repeat: no-repeat;
-      background-position: bottom;
+      background-position: 0 40px;
       position: relative;
       background-color: transparent; }
     .orderSteps .identifier.active:hover, .orderSteps .identifier.active:focus, .orderSteps .identifier.done:hover, .orderSteps .identifier.done:focus {
@@ -2409,13 +2411,13 @@ table {
     .orderSteps .adresse a {
       background-image: url('../img/framework/icon/livraisonOut.png?1387469947');
       background-repeat: no-repeat;
-      background-position: bottom;
+      background-position: 0 40px;
       position: relative;
       background-color: transparent; }
     .orderSteps .adresse.active a, .orderSteps .adresse.done a {
       background-image: url('../img/framework/icon/livraison.png?1387469670');
       background-repeat: no-repeat;
-      background-position: bottom;
+      background-position: 0 40px;
       position: relative;
       background-color: transparent; }
     .orderSteps .adresse.active:hover, .orderSteps .adresse.active:focus, .orderSteps .adresse.done:hover, .orderSteps .adresse.done:focus {
@@ -2423,13 +2425,13 @@ table {
     .orderSteps .paiement a {
       background-image: url('../img/framework/icon/paiementOut.png?1387469967');
       background-repeat: no-repeat;
-      background-position: bottom;
+      background-position: 0 40px;
       position: relative;
       background-color: transparent; }
     .orderSteps .paiement.active a, .orderSteps .paiement.done a {
       background-image: url('../img/framework/icon/paiement.png?1387469694');
       background-repeat: no-repeat;
-      background-position: bottom;
+      background-position: 0 40px;
       position: relative;
       background-color: transparent; }
     .orderSteps .paiement.active:hover, .orderSteps .paiement.active:focus, .orderSteps .paiement.done:hover, .orderSteps .paiement.done:focus {
