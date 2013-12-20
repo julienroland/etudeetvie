@@ -1583,8 +1583,9 @@ table {
   font-size: 18px;
   .wrapper {
     padding: 1em;
+    max-width: 50em;
   }
-  h3, h2 {
+  h3, h2 ,h4{
     border-bottom: 0;
     text-align: center;
     margin-bottom: 0.5em;
@@ -1592,10 +1593,22 @@ table {
   h3 {
     line-height: 1;
   }
+  h4{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid $tc;
+    display: inline-block;
+  }
+  h2{
+    line-height: 1;
+  }
   p {
     display: block;
     margin: auto;
-    max-width: 50em;
+    margin-bottom: 1em;
+    a{
+      display: inline;
+    }
   }
   em {
     color: darken($mc, 10%);
@@ -1608,6 +1621,22 @@ table {
   a {
     margin-top: 1em;
     display: inline-block;
+  }
+  .cgv{
+    h2{
+      line-height: 1;
+    }
+
+    h3{
+      text-align: left;
+      margin-bottom: 0;
+      line-height: 1.2;
+    }
+  }
+  .reservation{
+    h3,h4{
+      text-align: left;
+    }
   }
 }
 
