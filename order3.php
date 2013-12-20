@@ -108,18 +108,18 @@
                 <div class="wrapper fraisPort">
                     <h3>Frais de port</h3>
                     <ul>
-                        <li><input type="radio" name="livreur1" id="livreur1"/></li>
-                        <li><label for="livreur1"><img src="./img/framework/icon/livreurs/ups.jpg" alt=""/></label></li>
-                        <li>1 à 2 jours ouvrables</li>
-                        <li><b>13€</b> TTC</li>
+                        <li><input type="radio" name="livreur1" id="livreur1"/><label for="livreur1"><img
+                                    src="./img/framework/icon/livreurs/ups.jpg" alt=""/></label><span class="timing">1 à 2 jours ouvrables</span><span
+                                class="price"><b>13€</b> TTC</span></li>
+
                     </ul>
                 </div>
                 <div class="wrapper">
-                <a class="next btn" href="order4.php">Dernière étape<span
-                        class="icon icon-chevron-right-little-white"></span></a>
-                <a class=" continuer btn" href="order2.php"><span class="icon icon-chevron-left-little"></span>Revenir
-                    en arrière</a>
-            </div>
+                    <a class="next btn" href="order4.php">Dernière étape<span
+                            class="icon icon-chevron-right-little-white"></span></a>
+                    <a class=" continuer btn" href="order2.php"><span class="icon icon-chevron-left-little"></span>Revenir
+                        en arrière</a>
+                </div>
             </div>
 
         </div>

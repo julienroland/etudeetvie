@@ -1062,6 +1062,7 @@ table {
   padding-bottom: 3em;
   .fraisPort{
     ul{
+      padding:1em 0;
       li{
         input{
           text-align: center;
@@ -1071,10 +1072,16 @@ table {
 
         }
         input[type="radio"]{
+          display: block;
+          float:none;
           -webkit-appearance: none;
-          width:30px;
-          &:checked{
-            background-image: image-url('true.png');
+          width:25px;
+          padding:0;
+          height: 24px;
+          border:1px dotted $grey;
+          &:checked,&:hover,&:focus{
+            @include transition(all,0.3s,ease);
+            background-image: image-url('framework/icon/true.png');
             background-size: contain;
             background-repeat: no-repeat;
             border:1px dotted green;
@@ -1085,6 +1092,19 @@ table {
         }
         label{
           @include c(12);
+        }
+        .timing{
+          display: block;
+          text-align: center;
+          font-style: italic;
+        }
+        .price{
+          display: block;
+          text-align: center;
+          b{
+          font-size: 1.2em;
+            color:$mc;
+          }
         }
         img{
           max-width: 100%;
