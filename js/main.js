@@ -5,12 +5,17 @@
         /* DROPDOWN */
 
         $('.underLink a').focus(function () {
-            $('.maxDev').css({
+            $(this).parent().parent().parent().css({
                 height: 400,
                 padding: "1em 0",
             });
         });
-
+        $('.underLink a').focusout(function () {
+            $(this).parent().parent().parent().css({
+                height: 0,
+                padding: "0 0",
+            });
+        });
         if ($(window).width() < 940) {
             $('.menuLink').on('click', openMenu);
 

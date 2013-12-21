@@ -337,37 +337,56 @@
   /* MENU */
   .nav {
     height: 50px;
-    background-color: lighten($tc,15%);
-    @include box-shadow(rgba(0, 0, 0, 0.3) 0 3px 3px 0);
+    background-color: #FFF;
+    //@include box-shadow(rgba(0, 0, 0, 0.3) 0 3px 3px 0);
     @include abs-bot();
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid $greyL2;
     .moreLink {
       &:hover + .maxDev, &:focus + .maxDev {
         //display: block;
       }
     }
     .invisible-link {
-      display: inline-block;
-      background-color: lighten($tc,15%);
+      display: block;
       margin: auto;
       text-align: center;
       overflow: visible;
+      background-color: #FFF;
+
       li {
         @include cfl-nm(2);
         display: inline-block;
         border-bottom: none;
         height: 100%;
         height: 50px;
+
         padding: 0;
         text-align: center;
-        border-left: 1px solid white;
+        &:hover,&:focus{
+          background-color: #FFF;
+        }
+        & +li{
+         // border-left: 1px solid $tc;
+        }
         span.icon {
           display: none;
         }
         a {
+          text-align: center;
+          color:$tc;
+          display: inline-block;
+          width:auto;
+          float:none;
+          font-weight: 300;
+          box-sizing: border-box;
+          &:active{
+            border-bottom:4px solid $tc;
+          }
           &:hover, &:focus {
-            background-color: $mc;
+            //background-color: #FFF;
             //@include single-transition(all, 0.3s, ease,0.3s);
-            color: white;
           }
           &:hover + .maxDev, &:focus + .maxDev {
             @include single-transition(all, 0.3s, ease, 0.3s);
@@ -376,10 +395,9 @@
             padding: 1em 0;
           }
           //display:block;
-          width: 100%;
-          height: 100%;
+
           //padding:3px .5em;
-          box-sizing: border-box;
+
         }
         #maxDev {
           padding-left: 0;
@@ -388,6 +406,7 @@
           @include single-transition(all, 0.3s, ease, 0.3s);
           top: 50px;
           left: 0;
+          color:$tc;
           right: 0;
           position: absolute;
           z-index: 100;
@@ -398,6 +417,14 @@
           padding: 0;
           box-sizing: border-box;
           background-color: white;
+          h2{
+            text-align: left;
+            padding-top: 0.2em;
+            font-size: 2em;
+            margin-left: 0.5%;
+            border-bottom: 1px solid $tc;
+            margin-bottom: 0.5%;
+          }
           li {
             height: 100%;
             &:hover, &:focus {
@@ -477,9 +504,7 @@
         @include cl-nm(2);
 
       }
-      &:last-child {
-        border-right: 1px solid white;
-      }
+
     }
   }
   .menu {
@@ -596,6 +621,12 @@
     .iconIntro {
       @include cl(5);
       @include offsetL(1);
+      h4{
+        display: none;
+      }
+      span{
+        display: none;
+      }
     }
   }
   .titleCategorie {

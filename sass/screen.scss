@@ -22,9 +22,11 @@
 @include tab();
 /* GENERAL */
 body {
-  background-color: #EFE8D6;
+  //background-color: #EFE8D6;
+  background-image: image-url('framework/background/background.jpg');
 
 }
+
 
 .hero {
   display: inline-block;
@@ -88,6 +90,7 @@ body {
 .main {
   //background-color: $greyL2;
   //padding-bottom: 1em;
+
 }
 
 /* END MAIN*/
