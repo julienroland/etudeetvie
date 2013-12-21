@@ -2877,37 +2877,28 @@ table {
       visibility: hidden; }
 
   .search {
-    width: 40.66667%;
-    margin-left: 0.5%;
-    float: right;
-    display: block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    max-width: 400px; }
-    .search:after {
-      content: "";
-      display: block;
-      height: 0;
-      clear: both;
-      visibility: hidden; }
+    display: none; }
 
   .connexion {
-    width: 40.66667%;
-    margin-left: 0.5%;
-    float: right;
-    display: block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 40px;
-    max-width: 400px; }
-    .connexion:after {
-      content: "";
-      display: block;
-      height: 0;
-      clear: both;
-      visibility: hidden; }
+    display: inline-block;
+    float: left;
+    background-color: transparent;
+    color: white;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    border: 0; }
+    .connexion span {
+      display: none; }
+    .connexion a {
+      color: white;
+      font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
+      border-bottom: 1px dotted white;
+      padding-left: 1px;
+      padding-right: 1px; }
+      .connexion a:hover, .connexion a:focus {
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        padding: 0; }
 
   .hero h2 {
     font-size: 1.2em; }
@@ -3012,20 +3003,22 @@ table {
 
   /* PANIER */
   .panier {
-    width: 40.66667%;
-    margin-left: 0.5%;
-    float: right;
-    display: block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    max-width: 400px; }
-    .panier:after {
-      content: "";
-      display: block;
-      height: 0;
-      clear: both;
-      visibility: hidden; }
+    display: inline-block;
+    float: left;
+    text-indent: -999999px;
+    width: 32px;
+    height: 32px;
+    background-image: url('../img/framework/icon/shopWhite.png?1387467528');
+    background-repeat: no-repeat;
+    margin-top: 1.5em;
+    margin-left: 7.33333%; }
+    .panier .hero {
+      height: auto;
+      background-color: transparent; }
+      .panier .hero a {
+        padding: 0; }
+      .panier .hero span {
+        display: none; }
     .panier:after {
       content: "";
       display: block;
@@ -3198,6 +3191,9 @@ table {
           padding: 0;
           box-sizing: border-box;
           background-color: white; }
+          .nav .invisible-link li .maxDev .wrapper {
+            border: 1px solid #bfbfbf;
+            border-top: 0; }
           .nav .invisible-link li .maxDev h2 {
             text-align: left;
             padding-top: 0.2em;
@@ -3225,17 +3221,17 @@ table {
             box-sizing: border-box;
             margin-bottom: 1%;
             padding: 0;
-            border: 2px solid rgba(16, 67, 162, 0.6);
             padding-left: 0;
             padding-right: 0;
-            height: 150px;
-            background-color: white; }
+            height: 150px; }
             .nav .invisible-link li .maxDev .underLink:after {
               content: "";
               display: block;
               height: 0;
               clear: both;
               visibility: hidden; }
+            .nav .invisible-link li .maxDev .underLink:hover, .nav .invisible-link li .maxDev .underLink:focus {
+              background-color: transparent; }
             .nav .invisible-link li .maxDev .underLink + .underLink {
               width: 15.66667%;
               margin-left: 0.5%;
@@ -3260,7 +3256,6 @@ table {
               position: relative; }
               .nav .invisible-link li .maxDev .underLink .img img {
                 display: block;
-                max-height: 100%;
                 max-width: 100%;
                 margin: auto; }
             .nav .invisible-link li .maxDev .underLink span {
@@ -3272,26 +3267,32 @@ table {
               padding: 2% 0;
               display: inline-block;
               vertical-align: middle;
-              background-color: #1043a2;
-              color: white; }
+              color: #111111; }
             .nav .invisible-link li .maxDev .underLink a {
               padding-left: 0;
-              padding-right: 0; }
+              padding-right: 0;
+              color: #111111;
+              display: block; }
               .nav .invisible-link li .maxDev .underLink a:hover, .nav .invisible-link li .maxDev .underLink a:focus {
+                border-bottom: 0;
                 -webkit-border-radius: 0;
                 -moz-border-radius: 0;
                 -ms-border-radius: 0;
                 -o-border-radius: 0;
-                border-radius: 0;
-                background-color: #5c90ef; }
+                border-radius: 0; }
+                .nav .invisible-link li .maxDev .underLink a:hover span, .nav .invisible-link li .maxDev .underLink a:focus span {
+                  color: #1043a2; }
+                .nav .invisible-link li .maxDev .underLink a:hover img, .nav .invisible-link li .maxDev .underLink a:focus img {
+                  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+                  opacity: 0.5; }
           .nav .invisible-link li .maxDev .underLink.categorie a {
             display: block;
             padding-top: 50px;
-            color: #1043a2;
+            color: #111111;
             background-color: white; }
             .nav .invisible-link li .maxDev .underLink.categorie a:hover, .nav .invisible-link li .maxDev .underLink.categorie a:focus {
               color: white;
-              background-color: #5c90ef; }
+              background-color: #2d292a; }
       .nav .invisible-link li + li {
         width: 16.66667%;
         float: left;
@@ -3479,7 +3480,6 @@ table {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    height: 100%;
     font-size: 1.3em;
     font-style: italic;
     display: block;
@@ -3498,8 +3498,9 @@ table {
       visibility: hidden; }
     .what:after {
       display: block;
-      background-image: url("../img/framework/icon/apostrophe.png");
+      background-image: url("../img/framework/icon/quoteWhite.png");
       background-repeat: no-repeat;
+      background-size: contain;
       width: 32px;
       height: 28px;
       position: absolute;
@@ -3509,8 +3510,9 @@ table {
       visibility: visible; }
     .what:before {
       display: block;
-      background-image: url("../img/framework/icon/apostrophe2.png");
+      background-image: url("../img/framework/icon/quoteWhite1.png");
       background-repeat: no-repeat;
+      background-size: contain;
       width: 32px;
       height: 28px;
       position: absolute;

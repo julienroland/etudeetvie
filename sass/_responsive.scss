@@ -25,7 +25,7 @@
     }
     .navigationOrder {
       a {
-        float: left!important;
+        float: left !important;
       }
 
     }
@@ -42,7 +42,7 @@
         overflow: visible;
         box-sizing: border-box;
         border: 0;
-        span{
+        span {
           padding-top: 0;
         }
         &:hover, &:focus {
@@ -80,8 +80,8 @@
           position: relative;
           background-color: transparent;
         }
-        &:hover,&:focus{
-          background-color: rgba(white,0.7);
+        &:hover, &:focus {
+          background-color: rgba(white, 0.7);
         }
       }
     }
@@ -102,8 +102,8 @@
           position: relative;
           background-color: transparent;
         }
-        &:hover,&:focus{
-          background-color: rgba(white,0.7);
+        &:hover, &:focus {
+          background-color: rgba(white, 0.7);
         }
       }
     }
@@ -124,8 +124,8 @@
           position: relative;
           background-color: transparent;
         }
-        &:hover,&:focus{
-          background-color: rgba(white,0.7);
+        &:hover, &:focus {
+          background-color: rgba(white, 0.7);
         }
       }
     }
@@ -146,8 +146,8 @@
           position: relative;
           background-color: transparent;
         }
-        &:hover,&:focus{
-          background-color: rgba(white,0.7);
+        &:hover, &:focus {
+          background-color: rgba(white, 0.7);
         }
       }
     }
@@ -196,13 +196,36 @@
     height: 110px;
   }
   .search {
-    @include cr(5);
-    max-width: 400px;
+    //@include cr(5);
+    //max-width: 400px;
+    display: none;
   }
   .connexion {
-    @include cr(5);
-    height: 40px;
-    max-width: 400px;
+    display: inline-block;
+    float: left;
+    background-color: transparent;
+    color: white;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    border: 0;
+    p {
+
+    }
+    span {
+      display: none;
+    }
+    a {
+      color: white;
+      font-family: $ff2;
+      border-bottom: 1px dotted white;
+      padding-left: 1px;
+      padding-right: 1px;
+      &:hover, &:focus {
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        padding: 0;
+      }
+    }
   }
   .hero {
     h2 {
@@ -223,7 +246,7 @@
     h3 {
       font-family: $ff2;
       font-size: 3em;
-      color:$tc;
+      color: $tc;
       @include transition(all 0.6s ease-in-out);
       position: absolute;
       left: 0;
@@ -292,9 +315,27 @@
   }
   /* PANIER */
   .panier {
-    @include cr(5);
-    max-width: 400px;
-
+    //@include cr(5);
+    //max-width: 400px;
+    display: inline-block;
+    float: left;
+    text-indent: -999999px;
+    width: 32px;
+    height: 32px;
+    background-image: image-url('framework/icon/shopWhite.png');
+    background-repeat: no-repeat;
+    margin-top: 1.5em;
+    @include offsetL(1);
+    .hero {
+      height: auto;
+      background-color: transparent;
+      a {
+        padding: 0;
+      }
+      span {
+        display: none;
+      }
+    }
     &:after {
       @include clear();
     }
@@ -363,24 +404,24 @@
 
         padding: 0;
         text-align: center;
-        &:hover,&:focus{
+        &:hover, &:focus {
           background-color: #FFF;
         }
-        & +li{
-         // border-left: 1px solid $tc;
+        & + li {
+          // border-left: 1px solid $tc;
         }
         span.icon {
           display: none;
         }
         a {
           text-align: center;
-          color:$tc;
+          color: $tc;
           display: inline-block;
-          width:auto;
-          float:none;
+          width: auto;
+          float: none;
           font-weight: 300;
           box-sizing: border-box;
-          &.active{
+          &.active {
             border-bottom: 5px solid $tc;
           }
           &:hover, &:focus {
@@ -407,7 +448,7 @@
           @include single-transition(all, 0.3s, ease, 0.3s);
           top: 50px;
           left: 0;
-          color:$tc;
+          color: $tc;
           right: 0;
           position: absolute;
           z-index: 100;
@@ -418,7 +459,11 @@
           padding: 0;
           box-sizing: border-box;
           background-color: white;
-          h2{
+          .wrapper{
+            border:1px solid $greyL2;
+            border-top: 0;
+          }
+          h2 {
             text-align: left;
             padding-top: 0.2em;
             font-size: 2em;
@@ -441,11 +486,12 @@
           .underLink {
             @include cfl(2);
             padding: 0;
-            border:2px solid rgba($mc,0.6);
             padding-left: 0;
             padding-right: 0;
             height: 150px;
-            background-color: white;
+            &:hover, &:focus {
+              background-color: transparent;
+            }
             & + .underLink {
               @include cl(2);
             }
@@ -461,7 +507,7 @@
 
               img {
                 display: block;
-                max-height: 100%;
+                //max-height: 100%;
                 max-width: 100%;
                 margin: auto;
               }
@@ -473,15 +519,23 @@
               padding: 2% 0;
               display: inline-block;
               vertical-align: middle;
-              background-color: $mc;
-              color: white;
+              color: $tc;
             }
-            a{
-               padding-left: 0;
-               padding-right: 0;
-              &:hover,&:focus{
+            a {
+              padding-left: 0;
+              padding-right: 0;
+              color: $tc;
+              display: block;
+              &:hover, &:focus {
+                border-bottom: 0;
                 @include border-radius(0);
-                background-color: lighten($mc,30%);
+
+                span {
+                  color: $mc;
+                }
+                img {
+                  @include opacity(0.5);
+                }
               }
             }
 
@@ -490,11 +544,11 @@
             a {
               display: block;
               padding-top: 50px;
-              color:$mc;
+              color: $tc;
               background-color: white;
-              &:hover,&:focus{
-                color:white;
-                background-color: lighten($mc,30%);
+              &:hover, &:focus {
+                color: white;
+                background-color: $greyDB;
               }
             }
           }
@@ -566,8 +620,8 @@
 
     }
   }
-  .contact{
-  .wrapper{
+  .contact {
+    .wrapper {
       max-width: 600px;
       margin: auto;
     }
@@ -622,10 +676,10 @@
     .iconIntro {
       @include cl(5);
       @include offsetL(1);
-      h4{
+      h4 {
         display: none;
       }
-      span{
+      span {
         display: none;
       }
     }
@@ -641,22 +695,21 @@
   }
   .what {
     @include cl(4);
-    height: 100%;
     font-size: 1.3em;
     font-style: italic;
     display: block;
-
     line-height: 1.2;
     margin-top: 1.5em;
     font-weight: bold;
     position: relative;
-    color:white;
+    color: white;
     padding: 0 35px;
     text-align: center;
     &:after {
       display: block;
-      background-image: url('../img/framework/icon/apostrophe.png');
+      background-image: url('../img/framework/icon/quoteWhite.png');
       background-repeat: no-repeat;
+      background-size: contain;
       width: 32px;
       height: 28px;
       position: absolute;
@@ -668,8 +721,9 @@
     }
     &:before {
       display: block;
-      background-image: url('../img/framework/icon/apostrophe2.png');
+      background-image: url('../img/framework/icon/quoteWhite1.png');
       background-repeat: no-repeat;
+      background-size: contain;
       width: 32px;
       height: 28px;
       position: absolute;
