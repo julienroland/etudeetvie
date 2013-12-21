@@ -205,7 +205,7 @@
     float: left;
     background-color: transparent;
     color: white;
-    margin-top: 1.5em;
+    margin-top: 50px;
     margin-left: 1em;
     border: 0;
     p {
@@ -218,12 +218,13 @@
       color: white;
       font-family: $ff2;
       border-bottom: 1px dotted white;
-      padding-left: 1px;
-      padding-right: 1px;
+      padding-left: 2px;
+      padding-right: 2px;
       &:hover, &:focus {
         border-left: 1px solid white;
         border-right: 1px solid white;
-        padding: 0;
+        padding-left: 1px;
+        padding-right: 1px;
       }
     }
   }
@@ -233,7 +234,7 @@
     }
   }
   .intro {
-    //background-image: url('../img/framework/slide/1/background.jpg');
+    background-image: url('../img/framework/slide/1/background1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 40%;
@@ -327,7 +328,7 @@
     height: 32px;
     background-image: image-url('framework/icon/shopWhite.png');
     background-repeat: no-repeat;
-    margin-top: 1.5em;
+    margin-top: 50px;
     @include offsetL(1);
     .hero {
       height: auto;
@@ -702,7 +703,7 @@
     font-style: italic;
     display: block;
     line-height: 1.2;
-    margin-top: 1.5em;
+    margin-top: 50px;
     font-weight: bold;
     position: relative;
     color: white;

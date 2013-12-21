@@ -22,8 +22,8 @@
 @include tab();
 /* GENERAL */
 body {
-  //background-color: #EFE8D6;
-  background-image: image-url('framework/background/background.jpg');
+  background-color: white;
+  //background-image: image-url('framework/background/background.jpg');
 
 }
 
@@ -331,12 +331,18 @@ input[type=submit].icon-search {
       //padding: 1em 0;
       margin: 0 auto;
       display: block;
-      height: 100%;
+      margin-top: 20px;
+      height: 100px;
+      width:100px;
       background-position: center;
       text-indent: -999999px;
       background-image: url('../img/logo.png');
-      background-size: contain;
+      background-size: 100px 100px;
       background-repeat: no-repeat;
+      margin-top: 0;
+      &:hover{
+        background-color: $tc;
+      }
       a {
         display: block;
         height: 100%;
@@ -344,7 +350,11 @@ input[type=submit].icon-search {
         color:white;
         text-decoration: none;
         @include text-shadow(2px 2px 0 black, 4px 6px 2px white);
+        &:hover,&:focus{
+
+        }
       }
+
 
     }
   }
@@ -494,7 +504,7 @@ input[type=submit].icon-search {
       position: absolute;
       top: 0;
       bottom: 0;
-      background-color: $greyDB;
+      background-color: $mc;
       display: block;
       height: 266.6666px;
       width: 100%;
@@ -539,13 +549,13 @@ input[type=submit].icon-search {
         padding: 1em;
       }
       p {
-        color: $tc;
+        color: white;
       }
       h3 {
         border: none;
         font-weight: bold;
         font-size: 1.5em;
-        color: $tc;
+        color: white;
       }
     }
     h3 {

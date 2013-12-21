@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb3a2be-a23e-4094-bf9f-beef7f87f394" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/LOGO.ai" afterPath="$PROJECT_DIR$/img/LOGO.ai" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/LOGO.pdf" afterPath="$PROJECT_DIR$/img/LOGO.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/LOGO.png" afterPath="$PROJECT_DIR$/img/framework/icon/LOGO.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/f4378810f1e792c0a264b6aca61fcf7d1bc26fb2/_responsive.scssc" afterPath="$PROJECT_DIR$/.sass-cache/f4378810f1e792c0a264b6aca61fcf7d1bc26fb2/_responsive.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="$PROJECT_DIR$/img/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/f4378810f1e792c0a264b6aca61fcf7d1bc26fb2/screen.scssc" afterPath="$PROJECT_DIR$/.sass-cache/f4378810f1e792c0a264b6aca61fcf7d1bc26fb2/screen.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_responsive.scss" afterPath="$PROJECT_DIR$/sass/_responsive.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bestSales.php" afterPath="$PROJECT_DIR$/bestSales.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nav.php" afterPath="$PROJECT_DIR$/nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/populaires.php" afterPath="$PROJECT_DIR$/populaires.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="$PROJECT_DIR$/css/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/screen.scss" afterPath="$PROJECT_DIR$/sass/screen.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="etudeetvie2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,7 +53,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="nav.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="nav.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/nav.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="359" column="105" selection-start="20837" selection-end="20871" vertical-scroll-proportion="0.625585" vertical-offset="4984" max-vertical-offset="5625">
@@ -134,16 +134,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="screen.scss" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="screen.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/screen.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="343" column="20" selection-start="6120" selection-end="6120" vertical-scroll-proportion="0.6583851" vertical-offset="4721" max-vertical-offset="26130">
-                  <folding>
-                    <marker date="1387645424000" expanded="true" signature="7295:7320" placeholder="{...}" />
-                    <marker date="1387645424000" expanded="true" signature="7330:7355" placeholder="{...}" />
-                    <marker date="1387645424000" expanded="true" signature="8986:9022" placeholder="{...}" />
-                    <marker date="1387645424000" expanded="true" signature="9614:9643" placeholder="{...}" />
-                  </folding>
+                <state line="29" column="5" selection-start="582" selection-end="586" vertical-scroll-proportion="0.33229813" vertical-offset="221" max-vertical-offset="26280">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -151,7 +146,7 @@
           <file leaf-file-name="_icons.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/_icons.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="8" selection-start="244" selection-end="244" vertical-scroll-proportion="-4.591837" vertical-offset="0" max-vertical-offset="1605">
+                <state line="15" column="8" selection-start="244" selection-end="244" vertical-scroll-proportion="-2.6533334" vertical-offset="26" max-vertical-offset="1605">
                   <folding />
                 </state>
               </provider>
@@ -160,7 +155,7 @@
           <file leaf-file-name="_responsive.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/_responsive.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="256" column="16" selection-start="5545" selection-end="5545" vertical-scroll-proportion="-6.0533333" vertical-offset="3386" max-vertical-offset="13665">
+                <state line="236" column="63" selection-start="5159" selection-end="5159" vertical-scroll-proportion="-3.0533333" vertical-offset="3311" max-vertical-offset="13680">
                   <folding />
                 </state>
               </provider>
@@ -236,11 +231,11 @@
         <option value="$PROJECT_DIR$/connexion.php" />
         <option value="$PROJECT_DIR$/sass/_variables.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/sass/_responsive.scss" />
-        <option value="$PROJECT_DIR$/sass/screen.scss" />
         <option value="$PROJECT_DIR$/populaires.php" />
         <option value="$PROJECT_DIR$/bestSales.php" />
         <option value="$PROJECT_DIR$/nav.php" />
+        <option value="$PROJECT_DIR$/sass/_responsive.scss" />
+        <option value="$PROJECT_DIR$/sass/screen.scss" />
       </list>
     </option>
   </component>
@@ -398,13 +393,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="105" selection-start="130" selection-end="142" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/what.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="73" selection-start="90" selection-end="90" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
@@ -466,29 +454,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_responsive.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="16" selection-start="5545" selection-end="5545" vertical-scroll-proportion="-6.0533333" vertical-offset="3386" max-vertical-offset="13665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="1110" selection-end="1110" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="480">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/screen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="343" column="20" selection-start="6120" selection-end="6120" vertical-scroll-proportion="0.6583851" vertical-offset="4721" max-vertical-offset="26130">
-          <folding>
-            <marker date="1387645424000" expanded="true" signature="7295:7320" placeholder="{...}" />
-            <marker date="1387645424000" expanded="true" signature="7330:7355" placeholder="{...}" />
-            <marker date="1387645424000" expanded="true" signature="8986:9022" placeholder="{...}" />
-            <marker date="1387645424000" expanded="true" signature="9614:9643" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -516,6 +485,27 @@
     <entry file="file://$PROJECT_DIR$/nav.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="359" column="105" selection-start="20837" selection-end="20871" vertical-scroll-proportion="0.625585" vertical-offset="4984" max-vertical-offset="5625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="236" column="63" selection-start="5159" selection-end="5159" vertical-scroll-proportion="-3.0533333" vertical-offset="3311" max-vertical-offset="13680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_icons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="8" selection-start="244" selection-end="244" vertical-scroll-proportion="-2.6533334" vertical-offset="26" max-vertical-offset="1605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/screen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="5" selection-start="582" selection-end="586" vertical-scroll-proportion="0.33229813" vertical-offset="221" max-vertical-offset="26280">
           <folding />
         </state>
       </provider>

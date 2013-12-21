@@ -507,7 +507,7 @@ img {
 
 /* GENERAL */
 body {
-  background-image: url('../img/framework/background/background.jpg?1384347576'); }
+  background-color: white; }
 
 .hero {
   display: inline-block;
@@ -777,12 +777,17 @@ input[type=submit].icon-search {
     .banner .welcome .logo {
       margin: 0 auto;
       display: block;
-      height: 100%;
+      margin-top: 20px;
+      height: 100px;
+      width: 100px;
       background-position: center;
       text-indent: -999999px;
       background-image: url("../img/logo.png");
-      background-size: contain;
-      background-repeat: no-repeat; }
+      background-size: 100px 100px;
+      background-repeat: no-repeat;
+      margin-top: 0; }
+      .banner .welcome .logo:hover {
+        background-color: #111111; }
       .banner .welcome .logo a {
         display: block;
         height: 100%;
@@ -957,7 +962,7 @@ input[type=submit].icon-search {
       position: absolute;
       top: 0;
       bottom: 0;
-      background-color: #2d292a;
+      background-color: #1043a2;
       display: block;
       height: 266.6666px;
       width: 100%;
@@ -1004,12 +1009,12 @@ input[type=submit].icon-search {
         text-indent: 0;
         padding: 1em; }
       .selection .article .overImage p {
-        color: #111111; }
+        color: white; }
       .selection .article .overImage h3 {
         border: none;
         font-weight: bold;
         font-size: 1.5em;
-        color: #111111; }
+        color: white; }
     .selection .article h3 {
       font-size: 15px;
       font-weight: 400;
@@ -2894,7 +2899,7 @@ table {
     float: left;
     background-color: transparent;
     color: white;
-    margin-top: 1.5em;
+    margin-top: 50px;
     margin-left: 1em;
     border: 0; }
     .connexion span {
@@ -2903,17 +2908,19 @@ table {
       color: white;
       font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
       border-bottom: 1px dotted white;
-      padding-left: 1px;
-      padding-right: 1px; }
+      padding-left: 2px;
+      padding-right: 2px; }
       .connexion a:hover, .connexion a:focus {
         border-left: 1px solid white;
         border-right: 1px solid white;
-        padding: 0; }
+        padding-left: 1px;
+        padding-right: 1px; }
 
   .hero h2 {
     font-size: 1.2em; }
 
   .intro, .oneCategorie {
+    background-image: url("../img/framework/slide/1/background1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 40%;
@@ -3022,7 +3029,7 @@ table {
     height: 32px;
     background-image: url('../img/framework/icon/shopWhite.png?1387467528');
     background-repeat: no-repeat;
-    margin-top: 1.5em;
+    margin-top: 50px;
     margin-left: 7.33333%; }
     .panier .hero {
       height: auto;
@@ -3496,7 +3503,7 @@ table {
     font-style: italic;
     display: block;
     line-height: 1.2;
-    margin-top: 1.5em;
+    margin-top: 50px;
     font-weight: bold;
     position: relative;
     color: white;
