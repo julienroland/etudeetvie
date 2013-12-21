@@ -3185,7 +3185,7 @@ table {
           width: 100%;
           padding: 0;
           box-sizing: border-box;
-          background-color: #7c7c7c; }
+          background-color: white; }
           .nav .invisible-link li .maxDev li {
             height: 100%; }
             .nav .invisible-link li .maxDev li:hover, .nav .invisible-link li .maxDev li:focus {
@@ -3206,8 +3206,11 @@ table {
             box-sizing: border-box;
             margin-bottom: 1%;
             padding: 0;
+            border: 2px solid rgba(16, 67, 162, 0.6);
+            padding-left: 0;
+            padding-right: 0;
             height: 150px;
-            background-color: #f2f2f2; }
+            background-color: white; }
             .nav .invisible-link li .maxDev .underLink:after {
               content: "";
               display: block;
@@ -3233,7 +3236,7 @@ table {
               content: "";
               display: none; }
             .nav .invisible-link li .maxDev .underLink .img {
-              height: 70%;
+              height: 65%;
               overflow: hidden;
               position: relative; }
               .nav .invisible-link li .maxDev .underLink .img img {
@@ -3242,8 +3245,13 @@ table {
                 max-width: 100%;
                 margin: auto; }
             .nav .invisible-link li .maxDev .underLink span {
-              height: 30%;
-              display: block;
+              height: 35%;
+              width: 100%;
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              padding: 2% 0;
+              display: inline-block;
               vertical-align: middle;
               background-color: #1043a2;
               color: white; }
@@ -3255,7 +3263,8 @@ table {
                 -moz-border-radius: 0;
                 -ms-border-radius: 0;
                 -o-border-radius: 0;
-                border-radius: 0; }
+                border-radius: 0;
+                background-color: #5c90ef; }
           .nav .invisible-link li .maxDev .underLink.categorie a {
             display: block;
             padding-top: 50px;
@@ -3263,7 +3272,7 @@ table {
             background-color: white; }
             .nav .invisible-link li .maxDev .underLink.categorie a:hover, .nav .invisible-link li .maxDev .underLink.categorie a:focus {
               color: white;
-              background-color: #1043a2; }
+              background-color: #5c90ef; }
       .nav .invisible-link li + li {
         width: 16.66667%;
         float: left;

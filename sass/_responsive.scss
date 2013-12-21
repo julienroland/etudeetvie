@@ -397,7 +397,7 @@
           width: 100%;
           padding: 0;
           box-sizing: border-box;
-          background-color: $grey;
+          background-color: white;
           li {
             height: 100%;
             &:hover, &:focus {
@@ -413,8 +413,11 @@
           .underLink {
             @include cfl(2);
             padding: 0;
+            border:2px solid rgba($mc,0.6);
+            padding-left: 0;
+            padding-right: 0;
             height: 150px;
-            background-color: $greyL;
+            background-color: white;
             & + .underLink {
               @include cl(2);
             }
@@ -424,9 +427,10 @@
               display: none;
             }
             .img {
-              height: 70%;
+              height: 65%;
               overflow: hidden;
               position: relative;
+
               img {
                 display: block;
                 max-height: 100%;
@@ -435,8 +439,11 @@
               }
             }
             span {
-              height: 30%;
-              display: block;
+              height: 35%;
+              width: 100%;
+              @include box-sizing(border-box);
+              padding: 2% 0;
+              display: inline-block;
               vertical-align: middle;
               background-color: $mc;
               color: white;
@@ -446,6 +453,7 @@
                padding-right: 0;
               &:hover,&:focus{
                 @include border-radius(0);
+                background-color: lighten($mc,30%);
               }
             }
 
@@ -458,7 +466,7 @@
               background-color: white;
               &:hover,&:focus{
                 color:white;
-                background-color: $mc;
+                background-color: lighten($mc,30%);
               }
             }
           }

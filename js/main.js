@@ -4,11 +4,11 @@
     $(function () {
         /* DROPDOWN */
 
-        $('.underLink a').focus(function(){
-           $('.maxDev').css({
-               height:400,
-               padding:"1em 0",
-           });
+        $('.underLink a').focus(function () {
+            $('.maxDev').css({
+                height: 400,
+                padding: "1em 0",
+            });
         });
 
         if ($(window).width() < 940) {
@@ -17,6 +17,9 @@
 
         }
         else if ($(window).width() > 940) {
+            $('.moreLink').on('mouseenter', ariaOpen);
+            $('.maxDev').on('mouseenter', ariaOpen);
+            $('.moreLink').on('mouseleave', ariaClose);
             /*
              $('.invisible-link a.moreLink').on('mouseenter', showDropDown);
              $('.maxDev').on('mouseenter', showDropDown);
@@ -72,19 +75,29 @@
         /* END INTRO */
 
     });
-    function isEmpty(el) {
+    var isEmpty = function (el) {
         return !$.trim(el)
     }
 
-    function scrollTo(hash) {
+    var scrollTo = function (hash) {
         location.hash = "#" + hash;
     }
 
-    function validateEmail(email) {
+    var validateEmail = function (email) {
         var re = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
         return re.test(email);
     }
+    var ariaOpen = function (e) {
+        $target = $(e.currentTarget);
+        $target.attr('aria-expanded', 'true');
+        $target.parent().find('.maxDev').attr('aria-expanded', 'true').attr('aria-hidden', 'false');
 
+    }
+    var ariaClose = function (e) {
+        $target = $(e.currentTarget);
+        $target.attr('aria-expanded', 'false');
+        $target.parent().find('.maxDev').attr('aria-expanded', 'false').attr('aria-hidden', 'true');
+    }
     var showIncriptionForm = function () {
         var $Email = $('#email').val(),
             $Form = $('.formInscription'),
