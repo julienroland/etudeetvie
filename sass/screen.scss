@@ -298,6 +298,7 @@ input[type=submit].icon-search {
 
 .what {
   display: none;
+
   @include box-sizing(border-box);
 
   &:after {
@@ -310,7 +311,7 @@ input[type=submit].icon-search {
   position: relative;
   //background-image: url('../img/framework/background/grid.png');
   background-position: bottom;
-  background-color: white;
+  background-color: #2d292a;
   min-height: 285px;
   display: block;
   &:after {
@@ -379,7 +380,6 @@ input[type=submit].icon-search {
 /* INTRO */
 .intro {
   display: none;
-  background-color: $mc;
   padding: 1em 1em;
   overflow: hidden;
   color: white;
