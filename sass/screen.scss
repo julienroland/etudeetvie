@@ -43,8 +43,8 @@ body {
   a {
     color: white;
     text-decoration: none;
-    display: inline-block;
-    width: 100%;
+    display: block;
+    max-width: 100%;
     border:0;
     height: 100%;
     padding: 0 1em;
@@ -110,15 +110,17 @@ input[type=submit] {
 input[type=search] {
   width: 90%;
   height: 100%;
+  @include box-sizing(border-box);
   &:hover, &:focus {
     @include box-shadow(0 0 0 0);
   }
 }
 
 input[type=submit].icon-search {
-  width: 10%;
   background-color: $greyL;
   height: 100%;
+  width:10%;
+  @include box-sizing(border-box);
   &:hover, &:focus {
     @include box-shadow(0 0 0 0);
   }
@@ -160,7 +162,7 @@ input[type=submit].icon-search {
       color: white;
       padding: 0.6em 1em;
       border-bottom: 1px solid darken($greyD2H, 5%);
-      box-sizing: border-box;
+      @include box-sizing(border-box);
       margin: 0;
       top: 0;
       text-align: left;
@@ -290,7 +292,7 @@ input[type=submit].icon-search {
 
 .what {
   display: none;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
 
   &:after {
     visibility: visible !important;
@@ -374,7 +376,7 @@ input[type=submit].icon-search {
   color: white;
   height: 30%;
   font-family: $ff;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
 
   h3 {
     margin-bottom: 1em;
@@ -437,7 +439,7 @@ input[type=submit].icon-search {
       padding-bottom: 1em;
       height: 132px;
       position: relative;
-      box-sizing: border-box;
+      @include box-sizing(border-box);
     }
     .image {
       margin: auto;
@@ -492,7 +494,7 @@ input[type=submit].icon-search {
       display: block;
       height: 0;
       width: 100%;
-      box-sizing: border-box;
+      @include box-sizing(border-box);
       z-index: 10;
       color: white;
       text-align: left;
@@ -680,7 +682,14 @@ table {
 }
 
 .btn-panier {
-  background-color: rgb(10, 150, 23);
+  background-color: white;
+  color:$tc;
+  &:hover,&:focus{
+background-color: white;
+  }
+  &:visited{
+    color:$tc;
+  }
 }
 
 .tab {
@@ -904,7 +913,7 @@ table {
     color: red;
     font-size: 1.2em;
     font-family: $ff2;
-    box-sizing: border-box;
+    @include box-sizing(border-box);
     height: auto;
     vertical-align: middle;
 
@@ -1277,7 +1286,7 @@ table {
           vertical-align: middle;
           background-color: $mc;
           min-height: 40px;
-          box-sizing: border-box;
+          @include box-sizing(border-box);
           padding: 10px;
           color: white;
           font-family: $ff2;
@@ -1330,7 +1339,7 @@ table {
       color: red;
       font-size: 1.2em;
       font-family: $ff2;
-      box-sizing: border-box;
+      @include box-sizing(border-box);
       height: auto;
       vertical-align: middle;
 
@@ -1422,7 +1431,7 @@ table {
     padding: 0.5em;
     height: 40px;
     width: 100%;
-    box-sizing: border-box;
+    @include box-sizing(border-box);
     tr {
       display: block;
       width: 100%;
@@ -1488,7 +1497,7 @@ table {
   background-color: $greyD;
   color: white;
 
-  box-sizing: border-box;
+  @include box-sizing(border-box);
   .title {
     //padding:1em;
   }
@@ -1510,7 +1519,7 @@ table {
   height: auto;
   @include c(12);
 
-  box-sizing: border-box;
+  @include box-sizing(border-box);
 
   .title {
     padding: 1em;
@@ -1530,7 +1539,7 @@ table {
   text-align: right;
   background-color: darken($greyL, 5%);
   margin: auto;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
   padding: 1em;
   .title {
 

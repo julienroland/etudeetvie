@@ -4,6 +4,6 @@
      	<div class="panierItem ">
      		<p>Votre panier est vide !</p>
      		<a href="order1.php" class="btn">Commander</a>
-     		<a href="" class="btn btn-panier">Panier</a>
+     		<a href="order1.php" class="btn btn-panier">Panier</a>
      	</div>
      </section>

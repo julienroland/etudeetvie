@@ -399,7 +399,7 @@
     background-size: 16px;
     background-repeat: no-repeat;
     background-position: center;
-
+    box-sizing: border-box;
   }
 }
 
@@ -409,7 +409,7 @@
   color: white;
   position: fixed;
   width: 100%;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
   bottom: 0;
   left: 0;
   right: 0;
@@ -438,11 +438,11 @@
         text-decoration: none;
         color: white;
         font-weight: bold;
-        box-sizing: border-box;
+        @include box-sizing(border-box);
         border-top: 5px solid #efefef;
         &:hover, &:focus {
           // background-color: darken($greyDH,2%);
-          box-sizing: border-box;
+          @include box-sizing(border-box);
           border-top: 5px solid darken($greyDH, 20%);
           outline: none;
         }
@@ -472,7 +472,7 @@
   //margin-left: 0;
   display: block;
   float: none;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
 
   &:after {
     @include clear();
@@ -484,7 +484,7 @@
   width: colf($nNumber);
   display: block;
   float: none;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
   margin: 0;
   &:after {
     @include clear();
@@ -498,7 +498,7 @@
   margin-right: gutter();
   float: left;
   display: block;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
   &:after {
     @include clear();
   }
@@ -509,7 +509,7 @@
   width: colAlone($nNumber);
   float: left;
   display: block;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
   &:after {
     @include clear();
   }
@@ -532,7 +532,7 @@
   margin-left: gutter();
   margin-right: gutter();
   display: block;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
   //margin-top:0; 
   margin-bottom: gutter() * 2;
   &:after {
@@ -545,7 +545,7 @@
   width: colAlone($nNumber);
   float: left;
   display: block;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
   margin-top: 0;
   margin-bottom: 0;
   &:after {
@@ -559,7 +559,7 @@
   margin-left: gutter();
   float: right;
   display: block;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
   &:after {
     @include clear();
   }
@@ -572,7 +572,7 @@
   margin-left: gutter();
   margin-right: gutter();
   display: block;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
   &:after {
     @include clear();
   }
@@ -584,7 +584,7 @@
   margin: auto;
   text-align: center;
   float: none;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
   &:after {
     @include clear();
   }
