@@ -389,6 +389,17 @@ input[type=submit].icon-search {
     padding-bottom: 0.5em;
     border-bottom: 0;
   }
+  a{
+    display: block;
+    text-indent: -99999px;
+    width:100%;
+    height: 100%;
+    border:0;
+    &:hover,&:focus{
+      border:0;
+      @include border-radius(0);
+    }
+  }
 
   p {
     font-size: 1em;

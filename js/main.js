@@ -4,6 +4,13 @@
     $(function () {
         /* DROPDOWN */
 
+        $('.underLink a').focus(function(){
+           $('.maxDev').css({
+               height:400,
+               padding:"1em 0",
+           });
+        });
+
         if ($(window).width() < 940) {
             $('.menuLink').on('click', openMenu);
 
@@ -68,73 +75,76 @@
     function isEmpty(el) {
         return !$.trim(el)
     }
+
     function scrollTo(hash) {
         location.hash = "#" + hash;
     }
-    function validateEmail(email) {
-        var re =/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
-            return re.test(email);
-            }
-            var showIncriptionForm = function () {
-                var $Email = $('#email').val(),
-                $Form = $('.formInscription'),
-                $root = $('html, body');
 
-                if (!isEmpty($Email)) {
-                if(validateEmail($Email)){
+    function validateEmail(email) {
+        var re = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+        return re.test(email);
+    }
+
+    var showIncriptionForm = function () {
+        var $Email = $('#email').val(),
+            $Form = $('.formInscription'),
+            $root = $('html, body');
+
+        if (!isEmpty($Email)) {
+            if (validateEmail($Email)) {
                 console.log("not");
                 $('.formInscription').fadeIn();
 
 
                 $root.animate({
-                scrollTop: $($Form).offset().top
+                    scrollTop: $($Form).offset().top
                 }, 500);
-            return false;
-            }else{
+                return false;
+            } else {
                 console.log('emailNot');
-                }
-
             }
-            else {
-                console.log('empty');
-                }
 
-            };
-            var showDropDown = function (e) {
+        }
+        else {
+            console.log('empty');
+        }
 
-                $(this).parent().find('.maxDev').slideDown();
+    };
+    var showDropDown = function (e) {
 
-                };
-            var hideDropDown = function (e) {
+        $(this).parent().find('.maxDev').slideDown();
 
-                $(this).parent().find('.maxDev').slideUp();
+    };
+    var hideDropDown = function (e) {
 
-                };
-            var showDev = function (e) {
+        $(this).parent().find('.maxDev').slideUp();
 
-                $(this).css('opacity', '1');
-                };
-            var openMenu = function (e) {
-                e.preventDefault();
-                $('.invisible-link').slideToggle();
-                };
-            var openLink = function (e) {
-                var $findMenu = $(this).parent().find('.maxDev');
-                e.preventDefault();
-                $findMenu.slideToggle();
-                //$findMenu.css('height','100%');
-                if ($(this).find('span').hasClass('icon icon-chevron-right-white') && $findMenu) {
-                $(this).find('span').removeClass('icon icon-chevron-right-white').addClass('icon icon-chevron-bottom-white');
-                }
-            else {
-                $(this).find('span').removeClass('icon icon-chevron-bottom-white').addClass('icon icon-chevron-right-white');
-                }
+    };
+    var showDev = function (e) {
 
-            };
-            var openBasket = function (e) {
-                e.preventDefault();
-                $('.panierItem').slideToggle();
-                };
+        $(this).css('opacity', '1');
+    };
+    var openMenu = function (e) {
+        e.preventDefault();
+        $('.invisible-link').slideToggle();
+    };
+    var openLink = function (e) {
+        var $findMenu = $(this).parent().find('.maxDev');
+        e.preventDefault();
+        $findMenu.slideToggle();
+        //$findMenu.css('height','100%');
+        if ($(this).find('span').hasClass('icon icon-chevron-right-white') && $findMenu) {
+            $(this).find('span').removeClass('icon icon-chevron-right-white').addClass('icon icon-chevron-bottom-white');
+        }
+        else {
+            $(this).find('span').removeClass('icon icon-chevron-bottom-white').addClass('icon icon-chevron-right-white');
+        }
+
+    };
+    var openBasket = function (e) {
+        e.preventDefault();
+        $('.panierItem').slideToggle();
+    };
 
 
-            }).call(this, jQuery);
+}).call(this, jQuery);
