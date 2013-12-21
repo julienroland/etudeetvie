@@ -323,18 +323,24 @@
     //max-width: 400px;
     display: inline-block;
     float: left;
-    text-indent: -999999px;
-    width: 32px;
-    height: 32px;
+    width: 50px;
+    height: 50px;
     background-image: image-url('framework/icon/shopWhite.png');
     background-repeat: no-repeat;
+    background-position: center;
     margin-top: 50px;
     @include offsetL(1);
     .hero {
-      height: auto;
+      height: 100%;
       background-color: transparent;
       a {
         padding: 0;
+        &:hover,&:focus{
+          background-image: image-url('framework/icon/shopWhite.png');
+          background-color: $tc;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
       }
       span {
         display: none;
@@ -343,10 +349,33 @@
     &:after {
       @include clear();
     }
+    .showItems{
+      text-indent: -99999px;
+      &:hover,&:focus{
+        .panierItem{
+          display: block;
+        }
+      }
+    }
   }
   .panierItem {
-    @include c(12);
+    position: absolute;
+    width: 250px;
     display: none;
+    text-indent: 0;
+    background-color: $tc;
+    color:white;
+    p{
+      color:white;
+
+    }
+    a{
+      width:100px;
+    }
+    .btn-panier{
+      width:70px;
+      margin-left: 0.5em;
+    }
   }
   /* END PANIER */
 
@@ -373,7 +402,7 @@
     //background-size: cover;
     height: 200px;
     min-height: 30%;
-
+    overflow: visible;
     .welcome {
       //height:0;
       @include cfl(3);

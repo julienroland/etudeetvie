@@ -3024,18 +3024,23 @@ table {
   .panier {
     display: inline-block;
     float: left;
-    text-indent: -999999px;
-    width: 32px;
-    height: 32px;
+    width: 50px;
+    height: 50px;
     background-image: url('../img/framework/icon/shopWhite.png?1387467528');
     background-repeat: no-repeat;
+    background-position: center;
     margin-top: 50px;
     margin-left: 7.33333%; }
     .panier .hero {
-      height: auto;
+      height: 100%;
       background-color: transparent; }
       .panier .hero a {
         padding: 0; }
+        .panier .hero a:hover, .panier .hero a:focus {
+          background-image: url('../img/framework/icon/shopWhite.png?1387467528');
+          background-color: #111111;
+          background-repeat: no-repeat;
+          background-position: center; }
       .panier .hero span {
         display: none; }
     .panier:after {
@@ -3044,22 +3049,25 @@ table {
       height: 0;
       clear: both;
       visibility: hidden; }
+    .panier .showItems {
+      text-indent: -99999px; }
+      .panier .showItems:hover .panierItem, .panier .showItems:focus .panierItem {
+        display: block; }
 
   .panierItem {
-    width: 100%;
-    margin: auto;
-    display: block;
-    float: none;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: none; }
-    .panierItem:after {
-      content: "";
-      display: block;
-      height: 0;
-      clear: both;
-      visibility: hidden; }
+    position: absolute;
+    width: 250px;
+    display: none;
+    text-indent: 0;
+    background-color: #111111;
+    color: white; }
+    .panierItem p {
+      color: white; }
+    .panierItem a {
+      width: 100px; }
+    .panierItem .btn-panier {
+      width: 70px;
+      margin-left: 0.5em; }
 
   /* END PANIER */
   /* END HEADER */
@@ -3104,7 +3112,8 @@ table {
   /* END ARTICLE */
   .banner {
     height: 200px;
-    min-height: 30%; }
+    min-height: 30%;
+    overflow: visible; }
     .banner .welcome {
       width: 24%;
       float: left;
