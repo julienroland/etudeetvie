@@ -22,16 +22,16 @@
     height: 100%;
   }
   a {
-    color: $mc;
+    color: darken($mc,10%);
     text-decoration: none;
-    border-bottom: 1px dotted $mc;
+    border-bottom: 1px dotted darken($mc,10%);
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;
     padding-left:1px;
     padding-right:1px;
     &:hover, &:focus, &:active {
       text-decoration: none;
-      border:1px solid $mc;
+      border:1px solid darken($mc,10%);
       @include border-radius(0.3em);
       border-bottom: 0;
       border-top: 0;
@@ -192,6 +192,8 @@
     display: inline-block;
     position: absolute;
     height: 0;
+    background-color: white;
+    color:$tc!important;
     text-indent: -99999999px;
     border: 0!important;
     padding: 0;
@@ -201,8 +203,13 @@
     display: inline-block;
     position: absolute;
     height: 0;
+    background-color: white;
+    color:$tc!important;
     text-indent: -99999999px;
     border: 0!important;
+  }
+  a.reader{
+    color:$tc!important;
   }
 
   .hide {

@@ -337,7 +337,7 @@
   /* MENU */
   .nav {
     height: 50px;
-    background-color: $greyD2;
+    background-color: lighten($tc,15%);
     @include box-shadow(rgba(0, 0, 0, 0.3) 0 3px 3px 0);
     @include abs-bot();
     .moreLink {
@@ -347,7 +347,7 @@
     }
     .invisible-link {
       display: inline-block;
-      background-color: $greyD2;
+      background-color: lighten($tc,15%);
       margin: auto;
       text-align: center;
       overflow: visible;
@@ -604,7 +604,7 @@
     margin-top: 1.5em;
     font-weight: bold;
     position: relative;
-    color: $greyD2;
+    color: $tc;
     padding: 0 35px;
     text-align: center;
     &:after {

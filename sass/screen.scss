@@ -39,6 +39,7 @@ body {
   text-align: left;
   vertical-align: middle;
   position: relative;
+  overflow: hidden;
   font-family: Oswald, 'helvetica neue', arial;
   a {
     color: white;
@@ -48,6 +49,7 @@ body {
     border:0;
     height: 100%;
     padding: 0 1em;
+    @include border-radius(0);
     vertical-align: middle;
     padding-top: 5px;
     box-sizing: border-box;
@@ -119,6 +121,7 @@ input[type=search] {
 input[type=submit].icon-search {
   background-color: $greyL;
   height: 100%;
+  color:$tc;
   width:10%;
   @include box-sizing(border-box);
   &:hover, &:focus {
@@ -302,10 +305,9 @@ input[type=submit].icon-search {
 
 .banner {
   position: relative;
-  background-image: url('../img/framework/background/grid.png');
-
+  //background-image: url('../img/framework/background/grid.png');
   background-position: bottom;
-  background-color: $greyL;
+  background-color: white;
   min-height: 285px;
   display: block;
   &:after {
@@ -354,7 +356,11 @@ input[type=submit].icon-search {
   border: 2px solid $greyL2;
   a {
     color: $tc;
-    border:0;
+    border-left:0;
+    border-right:0;
+    &:hover,&:focus{
+
+    }
     .icon {
 
     }
@@ -415,7 +421,7 @@ input[type=submit].icon-search {
 }
 
 .selection {
-  background-color: lighten($greyL2, 10%);
+  //background-color: lighten($greyL2, 10%);
   padding-bottom: $gutter/2;
   text-align: center;
   .article {
@@ -599,8 +605,8 @@ input[type=submit].icon-search {
   .info {
     display: inline-block;
     padding: 0.5em;
-
-    background-color: lighten($mc, 5%);
+    color:$tc;
+    background-color: white;
     @include c(12);
     margin: 0.5em auto;
 
