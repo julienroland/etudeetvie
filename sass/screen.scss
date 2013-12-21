@@ -27,11 +27,10 @@ body {
 
 }
 
-
 .hero {
   display: inline-block;
   width: 100%;
-  background-color: $mc;
+  background-color: $greyDB;
   font-weight: 400;
   color: white;
   font-size: 16px;
@@ -42,13 +41,14 @@ body {
   vertical-align: middle;
   position: relative;
   overflow: hidden;
+  max-width: $mw;
   font-family: Oswald, 'helvetica neue', arial;
   a {
     color: white;
     text-decoration: none;
     display: block;
     max-width: 100%;
-    border:0;
+    border: 0;
     height: 100%;
     padding: 0 1em;
     @include border-radius(0);
@@ -57,7 +57,7 @@ body {
     box-sizing: border-box;
     &:hover, &:focus {
       background-color: $greyD2;
-      border:0;
+      border: 0;
     }
   }
   h2 {
@@ -124,8 +124,8 @@ input[type=search] {
 input[type=submit].icon-search {
   background-color: $greyL;
   height: 100%;
-  color:$tc;
-  width:10%;
+  color: $tc;
+  width: 10%;
   @include box-sizing(border-box);
   &:hover, &:focus {
     @include box-shadow(0 0 0 0);
@@ -176,7 +176,7 @@ input[type=submit].icon-search {
         color: white;
         text-decoration: none;
         display: block;
-        border:0;
+        border: 0;
         width: 100%;
         height: 100%;
         float: left;
@@ -341,6 +341,7 @@ input[type=submit].icon-search {
         display: block;
         height: 100%;
         width: 100%;
+        color:white;
         text-decoration: none;
         @include text-shadow(2px 2px 0 black, 4px 6px 2px white);
       }
@@ -360,9 +361,9 @@ input[type=submit].icon-search {
   border: 2px solid $greyL2;
   a {
     color: $tc;
-    border-left:0;
-    border-right:0;
-    &:hover,&:focus{
+    border-left: 0;
+    border-right: 0;
+    &:hover, &:focus {
 
     }
     .icon {
@@ -392,14 +393,14 @@ input[type=submit].icon-search {
     padding-bottom: 0.5em;
     border-bottom: 0;
   }
-  a{
+  a {
     display: block;
     text-indent: -99999px;
-    width:100%;
+    width: 100%;
     height: 100%;
-    border:0;
-    &:hover,&:focus{
-      border:0;
+    border: 0;
+    &:hover, &:focus {
+      border: 0;
       @include border-radius(0);
     }
   }
@@ -420,6 +421,12 @@ input[type=submit].icon-search {
     height: 100%;
     display: block;
     padding: 1em 0;
+    h4 {
+      color: $tc;
+    }
+    span {
+      color: $tc;
+    }
   }
   .iconIntro {
     @include cl(12);
@@ -487,7 +494,7 @@ input[type=submit].icon-search {
       position: absolute;
       top: 0;
       bottom: 0;
-      background-color: $mc;
+      background-color: $greyDB;
       display: block;
       height: 266.6666px;
       width: 100%;
@@ -498,9 +505,11 @@ input[type=submit].icon-search {
       @include single-transition(all, 0.3s, ease-out);
       h3 {
         //border-bottom: 1px solid white;
-        margin-bottom: 1em;
         padding-bottom: 0.5em;
-        line-height: 1.2;
+        line-height: 1;
+      }
+      p {
+        max-height: 200px;
       }
     }
     .overImage {
@@ -509,7 +518,7 @@ input[type=submit].icon-search {
       left: 0;
       right: 0;
       bottom: 50%;
-      background-color: $mc;
+
       background-position: -100px;
       display: block;
       height: 0;
@@ -529,15 +538,20 @@ input[type=submit].icon-search {
         text-indent: 0;
         padding: 1em;
       }
+      p {
+        color: $tc;
+      }
       h3 {
         border: none;
         font-weight: bold;
         font-size: 1.5em;
+        color: $tc;
       }
     }
     h3 {
       font-size: 15px;
       font-weight: 400;
+      color: $tc;
     }
     .infoProduct {
 
@@ -619,7 +633,7 @@ input[type=submit].icon-search {
   .info {
     display: inline-block;
     padding: 0.5em;
-    color:$tc;
+    color: $tc;
     background-color: white;
     @include c(12);
     margin: 0.5em auto;
@@ -703,12 +717,12 @@ table {
 
 .btn-panier {
   background-color: white;
-  color:$tc;
-  &:hover,&:focus{
-background-color: white;
+  color: $tc;
+  &:hover, &:focus {
+    background-color: white;
   }
-  &:visited{
-    color:$tc;
+  &:visited {
+    color: $tc;
   }
 }
 
@@ -1682,34 +1696,34 @@ background-color: white;
   font-size: 18px;
   .wrapper {
     padding: 3em 1em;
-    p{
+    p {
       margin: 1em 0;
 
     }
-    label{
+    label {
       padding-bottom: 0;
       @include c(12);
     }
-    input{
+    input {
       @include c(12);
     }
-    select{
+    select {
       @include c(12);
     }
-    textarea{
+    textarea {
       margin-top: 0;
       @include c(12);
       min-height: 200px;
       font-size: 18px;
       font-family: $ff;
-      color:$greyD2;
+      color: $greyD2;
     }
-    input[type="submit"]{
+    input[type="submit"] {
       margin-top: 1em;
     }
-    fieldset{
-      border:1px solid $tc;
-      padding:0.5em;
+    fieldset {
+      border: 1px solid $tc;
+      padding: 0.5em;
 
     }
 

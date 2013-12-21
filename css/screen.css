@@ -512,7 +512,7 @@ body {
 .hero {
   display: inline-block;
   width: 100%;
-  background-color: #1043a2;
+  background-color: #2d292a;
   font-weight: 400;
   color: white;
   font-size: 16px;
@@ -522,6 +522,7 @@ body {
   vertical-align: middle;
   position: relative;
   overflow: hidden;
+  max-width: 1200px;
   font-family: Oswald, 'helvetica neue', arial; }
   .hero a {
     color: white;
@@ -786,6 +787,7 @@ input[type=submit].icon-search {
         display: block;
         height: 100%;
         width: 100%;
+        color: white;
         text-decoration: none;
         text-shadow: 2px 2px 0 black, 4px 6px 2px white; }
 
@@ -859,6 +861,10 @@ input[type=submit].icon-search {
     height: 100%;
     display: block;
     padding: 1em 0; }
+    .intro .introContent h4 {
+      color: #111111; }
+    .intro .introContent span {
+      color: #111111; }
   .intro .iconIntro {
     width: 99%;
     margin-left: 0.5%;
@@ -951,7 +957,7 @@ input[type=submit].icon-search {
       position: absolute;
       top: 0;
       bottom: 0;
-      background-color: #1043a2;
+      background-color: #2d292a;
       display: block;
       height: 266.6666px;
       width: 100%;
@@ -964,16 +970,16 @@ input[type=submit].icon-search {
       -o-transition: all 0.3s ease-out;
       transition: all 0.3s ease-out; }
       .selection .article .image:hover .overImage h3 {
-        margin-bottom: 1em;
         padding-bottom: 0.5em;
-        line-height: 1.2; }
+        line-height: 1; }
+      .selection .article .image:hover .overImage p {
+        max-height: 200px; }
     .selection .article .overImage {
       position: absolute;
       top: 50%;
       left: 0;
       right: 0;
       bottom: 50%;
-      background-color: #1043a2;
       background-position: -100px;
       display: block;
       height: 0;
@@ -997,13 +1003,17 @@ input[type=submit].icon-search {
         bottom: 0;
         text-indent: 0;
         padding: 1em; }
+      .selection .article .overImage p {
+        color: #111111; }
       .selection .article .overImage h3 {
         border: none;
         font-weight: bold;
-        font-size: 1.5em; }
+        font-size: 1.5em;
+        color: #111111; }
     .selection .article h3 {
       font-size: 15px;
-      font-weight: 400; }
+      font-weight: 400;
+      color: #111111; }
     .selection .article .infoProduct {
       width: 33.33333%;
       margin: auto;
@@ -2923,6 +2933,8 @@ table {
       position: absolute;
       left: 0;
       right: 0; }
+    .intro span, .oneCategorie span {
+      color: #111111; }
     .intro .item1, .oneCategorie .item1 {
       background-image: url("../img/framework/slide/1/item1.jpg");
       background-size: contain;

@@ -15,17 +15,17 @@
                         </p>
                     </div>
 
-                    <img itemProp="image" src="./img/test.jpg" alt="">
+                    <img itemProp="image" src="./img/test.jpg" alt="photo du produit">
                 </div>
                 <div role="contentinfo" class="informationsArticle">
                     <h3 role="heading" itemProp="name" aria-level="3">Lunette Prisma P1</h3>
                    <meta name="brand" itemProp="brand" content="Prisma">
                     <div class="infoProduct">
-                        <span itemProp="price" class="price">99€</span>
+                        <span itemProp="price" class="price"><b>99€</b></span>
                     </div>
                     <div class="interactionProduct">
                         <a itemProp="url" href="voirProduit.php" class="btn icon-go-white">Voir le produit</a>
-                        <a href="" class="btn icon-shop-white">Ajouter au panier</a>
+                        <a href="javascript:void()" class="btn icon-shop-white">Ajouter au panier</a>
                     </div>
                 </div>
             </article> 
@@ -38,17 +38,17 @@
                         </p>
                     </div>
 
-                    <img src="./img/test.jpg" alt="">
+                    <img src="./img/test.jpg" alt="photo du produit">
                 </div>
                 <div role="contentinfo" class="informationsArticle">
                     <h3 role="heading" itemProp="name" aria-level="3">Lunette Prisma P1</h3>
                    <meta name="brand" itemProp="brand" content="Prisma">
                     <div class="infoProduct">
-                        <span itemProp="price" class="price">99€</span>
+                        <span itemProp="price" class="price"><b>99€</b></span>
                     </div>
                     <div class="interactionProduct">
                         <a itemProp="url" href="voirProduit.php" class="btn icon-go-white">Voir le produit</a>
-                        <a href="" class="btn icon-shop-white">Ajouter au panier</a>
+                        <a href="javascript:void()" class="btn icon-shop-white">Ajouter au panier</a>
                     </div>
                 </div>
             </article> 

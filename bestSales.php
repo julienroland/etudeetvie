@@ -15,7 +15,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
                     </p>
                 </div>
-                <img itemProp="image" src="./img/test1.jpg" alt="">
+                <img itemProp="image" src="./img/test1.jpg" alt="image du produit">
 
             </div>
 
@@ -27,7 +27,7 @@
                 </div>
                 <div class="interactionProduct">
                     <a itemProp="url" href="voirProduit.php" class="btn icon-go-white">Voir le produit</a>
-                    <a href="" class="btn icon-shop-white">Ajouter au panier</a>
+                    <a href="javascript:void()" class="btn icon-shop-white">Ajouter au panier</a>
                 </div>
             </div>
         </article>   
@@ -39,7 +39,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
                     </p>
                 </div>
-                <img itemProp="image" src="./img/test1.jpg" alt="">
+                <img itemProp="image" src="./img/test1.jpg" alt="image du produit">
 
             </div>
 
@@ -51,7 +51,7 @@
                 </div>
                 <div class="interactionProduct">
                     <a itemProp="url" href="voirProduit.php" class="btn icon-go-white">Voir le produit</a>
-                    <a href="" class="btn icon-shop-white">Ajouter au panier</a>
+                    <a href="javascript:void()" class="btn icon-shop-white">Ajouter au panier</a>
                 </div>
             </div>
         </article>   
@@ -63,7 +63,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
                     </p>
                 </div>
-                <img itemProp="image" src="./img/test1.jpg" alt="">
+                <img itemProp="image" src="./img/test1.jpg" alt="image du produit">
 
             </div>
 
@@ -75,7 +75,7 @@
                 </div>
                 <div class="interactionProduct">
                     <a itemProp="url" href="voirProduit.php" class="btn icon-go-white">Voir le produit</a>
-                    <a href="" class="btn icon-shop-white">Ajouter au panier</a>
+                    <a href="javascript:void()" class="btn icon-shop-white">Ajouter au panier</a>
                 </div>
             </div>
         </article>   
