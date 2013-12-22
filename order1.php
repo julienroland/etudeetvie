@@ -17,7 +17,7 @@
                 <h1 class="section">Contenu principal du site</h1>
                 <div class="order">
                     <ul class="orderSteps">
-                        <li class="active resume"><a href="order1.php">
+                        <li class="active resume"><a title="Aller à l'étape 1" href="order1.php">
                                 <span class="number">1</span>
                                 <span class="title">Résumé</span>
                             </a></li>
@@ -36,7 +36,7 @@
                     </ul>
                 <div class="order1 ">
                     <div class="wrapper">
-                    <h3>Résumé de votre commande</h3>
+                    <h3 aria-level="3" role="heading">Résumé de votre commande</h3>
                     <table class="headerTableCommande">
                         <thead>
                             <tr>
@@ -61,7 +61,7 @@
                                     </select>
                                 </td>
                                 <td>200€</td>
-                                <td class="action delete"><a href="">Supprimer</a></td>
+                                <td class="action delete"><a title="Supprimer le produit de votre panier" href="javascript:void()">Supprimer</a></td>
                             </tr>
                         </tbody>
                     </table>
@@ -77,8 +77,8 @@
                         <span class="title">Total TTC</span>
                         <span class="number">1013.63 €</span>
                     </div>
-                    <a href="order2.php" class="btn commander">Valider la commande <span class="icon icon-chevron-right-little-white"></span></a>
-                    <a href="index.php" class="btn continuer"><span class="icon icon-chevron-left-little"></span>Continuer mes achats</a>
+                    <a href="order2.php" title="Valider votre commande et passez à l'étape suivante" class="btn commander">Valider la commande <span class="icon icon-chevron-right-little-white"></span></a>
+                    <a href="index.php" title="Retourner à l'éccueil pour ajouter de nouveaux produits" class="btn continuer"><span class="icon icon-chevron-left-little"></span>Continuer mes achats</a>
 
                     </div>
                 </div>

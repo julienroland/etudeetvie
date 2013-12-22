@@ -2896,6 +2896,53 @@ table {
             border-bottom: 0; }
 
 /* END PAGINATION */
+#btn_up {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  display: none;
+  background-color: white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: white 0 2px 0px 1px;
+  -moz-box-shadow: white 0 2px 0px 1px;
+  box-shadow: white 0 2px 0px 1px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  #btn_up:hover, #btn_up:focus {
+    -webkit-box-shadow: 0 0 0 0;
+    -moz-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  #btn_up a {
+    display: block;
+    height: 64px;
+    width: 64px;
+    padding: 0;
+    border: 0; }
+    #btn_up a:hover, #btn_up a:focus {
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+      border-radius: 0; }
+    #btn_up a img {
+      width: 64px;
+      height: 64px;
+      display: block;
+      margin: 0 auto; }
+
 /* MEDIA QUERIES */
 /* CONFIG */
 /* typography */

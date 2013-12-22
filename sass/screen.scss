@@ -617,10 +617,10 @@ input[type=submit].icon-search {
         margin-left: 0.5em;
       }
     }
-    .numberProduct{
+    .numberProduct {
       display: inline-block;
       font-style: italic;
-      color:lighten($greyDB,5%);
+      color: lighten($greyDB, 5%);
       font-weight: bold;
       margin-top: 5px;
 
@@ -1033,7 +1033,7 @@ table {
   display: inline-block;
   margin: auto;
   height: 400px;
-  float:right;
+  float: right;
   padding-top: 130px;
   color: white;
   font-size: 1.1em;
@@ -1046,13 +1046,13 @@ table {
     @include box-sizing(border-box);
     display: inline-block;
     @include border-radius(50%);
-    width:80px;
-    height:80px;
+    width: 80px;
+    height: 80px;
     line-height: 1.2;
     overflow: hidden;
-    a{
-      color:white;
-      border:0;
+    a {
+      color: white;
+      border: 0;
       @include box-sizing(border-box);
       @include border-radius(50%);
       display: inline-block;
@@ -1064,13 +1064,13 @@ table {
       background-image: image-url('framework/icon/go-right-white.png');
       background-repeat: no-repeat;
       background-position: -100%;
-      @include transition( all 0.3s ease);
-      &:hover,&:focus{
+      @include transition(all 0.3s ease);
+      &:hover, &:focus {
         background-image: image-url('framework/icon/go-right-white.png');
         background-repeat: no-repeat;
         background-position: center;
         text-indent: -99999px;
-        @include transition( all 0.3s ease 0.1s);
+        @include transition(all 0.3s ease 0.1s);
       }
     }
   }
@@ -1892,23 +1892,23 @@ table {
 /* END CONTACT */
 /* END ORDERSTEPS */
 /* PAGINATION*/
-.pagination{
+.pagination {
   @include c(12);
   border-top: 1px solid $greyL;
   margin-top: 2em;
-  padding-top:2em;
-  ol{
+  padding-top: 2em;
+  ol {
     display: inline-block;
     @include horizontal-list();
     height: 40px;
-    li{
+    li {
       display: inline-block;
       width: 40px;
       height: 40px;
       line-height: 40px;
-      a{
-        color:white;
-        border:0;
+      a {
+        color: white;
+        border: 0;
         font-style: italic;
         font-weight: bold;
         display: inline-block;
@@ -1919,43 +1919,41 @@ table {
         @include border-radius(50%);
         vertical-align: middle;
         @include box-shadow(black 0 0 2px 0 inset);
-        &:hover,&:focus{
+        &:hover, &:focus {
           background-color: $mc;
         }
       }
-      &.active{
-        a{
-        background-color: $mc;
+      &.active {
+        a {
+          background-color: $mc;
         }
-
 
       }
 
-      &.next,&.previous{
-        width: auto;
-        ;
+      &.next, &.previous {
+        width: auto;;
         margin: auto 0.5em;
-        a{
-          width:auto;
+        a {
+          width: auto;
           border-bottom: 1px dotted $tc;
-          color:$tc;
+          color: $tc;
           display: inline;
-          height: auto!important;
+          height: auto !important;
           background-color: transparent;
           @include border-radius(0);
           @include box-shadow(0 0 0 0);
-          &:after{
+          &:after {
             background-image: image-url('framework/icon/chevron-right-little.png');
             background-repeat: no-repeat;
-            content:"";
+            content: "";
             width: 16px;
             margin-top: 12px;
             height: 16px;
             display: inline-block;
             vertical-align: middle;
-            float:right;
+            float: right;
           }
-          &:hover,&:focus{
+          &:hover, &:focus {
             border-bottom: 0;
           }
         }
@@ -1963,7 +1961,42 @@ table {
     }
   }
 }
+
 /* END PAGINATION */
+#btn_up {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  display: none;
+  background-color: white;
+  @include border-radius(50%);
+  @include box-shadow(white 0 2px 0px 1px);
+  @include transition(all 0.3s ease);
+  &:hover,&:focus{
+    @include box-shadow(0 0 0 0);
+    @include transition(all 0.3s ease);
+  }
+  a {
+    display: block;
+    height: 64px;
+    width: 64px;
+    padding: 0;
+    border:0;
+    &:hover,&:focus{
+      @include border-radius(0);
+    }
+    img {
+      width: 64px;
+      height: 64px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
 /* MEDIA QUERIES */
 @import "responsive";
 /* END MEDIA*/

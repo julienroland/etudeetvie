@@ -18,15 +18,15 @@
 
         <div class="order">
             <ul class="orderSteps">
-                <li class=" resume done"><a href="order1.php">
+                <li class=" resume done"><a title="Aller à l'étape 1" href="order1.php">
                         <span class="number">1</span>
                         <span class="title">Résumé</span>
                     </a></li>
-                <li class="identifier done"><a href="order2.php">
+                <li class="identifier done"><a title="Aller à l'étape 3" href="order2.php">
                         <span class="number">2</span>
                         <span class="title">Identification</span>
                     </a></li>
-                <li class="adresse active "><a href="order3.php">
+                <li class="adresse active "><a title="Aller à l'étape 3" href="order3.php">
                         <span class="number">3</span>
                         <span class="title">Adresse</span>
                     </a></li>
@@ -37,7 +37,7 @@
             </ul>
             <div class="order3 ">
                 <div class="wrapper yourAdresse">
-                    <h3>Votre adresse</h3>
+                    <h3 role="heading" aria-level="3">Votre adresse</h3>
 
                     <p class="text">
                         <label for="adresse">
@@ -53,7 +53,7 @@
                     </p>
 
                     <div class="livraison">
-                        <h2>Votre adresse de livraison</h2>
+                        <h2 role="heading" aria-level="2">Votre adresse de livraison</h2>
                         <ul>
                             <li class="nom">Julien Roland</li>
                             <li class="rue">Rue des pas content</li>
@@ -63,16 +63,16 @@
                         </ul>
                     </div>
                     <div class="facturation">
-                        <h2>Votre adresse de facturation</h2>
+                        <h2 role="heading" aria-level="2">Votre adresse de facturation</h2>
                         <ul>
                             <li class="nom">Julien Roland</li>
                             <li class="rue">Rue des pas content</li>
                             <li>5000 Namur</li>
                             <li class="pays">Belgique</li>
-                            <li><a href="">Modifier</a></li>
+                            <li><a title="Modifier vos coordonnées" href="">Modifier</a></li>
                         </ul>
                     </div>
-                    <a class="btn" href="adresse.php">Ajouter une nouvelle adresse</a>
+                    <a title="Ajouter une nouvelle adresse à vos adresses" class="btn" href="adresse.php">Ajouter une nouvelle adresse</a>
 
                     <div class="comm">
                         <label for="commentaire">Ecrire un commentaire à propos de votre adresse</label>
@@ -80,18 +80,18 @@
                     </div>
                 </div>
                 <div class="wrapper fraisPort">
-                    <h3>Frais de port</h3>
+                    <h3 role="heading" aria-level="3">Frais de port</h3>
                     <ul>
                         <li><input type="radio" name="livreur1" id="livreur1"/><label for="livreur1"><img
-                                    src="./img/framework/icon/livreurs/ups.jpg" alt=""/></label><span class="timing">1 à 2 jours ouvrables</span><span
+                                    src="./img/framework/icon/livreurs/ups.jpg" alt="Logo de l'entreprise de livraison d'UPS"/></label><span class="timing">1 à 2 jours ouvrables</span><span
                                 class="price"><b>13€</b> TTC</span></li>
 
                     </ul>
                 </div>
                 <div class="wrapper navigationOrder">
-                    <a class="next btn" href="order4.php">Dernière étape<span
+                    <a title="Aller à l'étape suivant, la toute dernière étape" class="next btn" href="order4.php">Dernière étape<span
                             class="icon icon-chevron-right-little-white"></span></a>
-                    <a class=" continuer btn" href="order2.php"><span class="icon icon-chevron-left-little"></span>Revenir
+                    <a title="Revenir à l'étape précédente, l'étape n°2" class=" continuer btn" href="order2.php"><span class="icon icon-chevron-left-little"></span>Revenir
                         en arrière</a>
                 </div>
             </div>

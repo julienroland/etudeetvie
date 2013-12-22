@@ -381,10 +381,10 @@
 
     <div class="pagination wrapper">
         <ol>
-            <li class="active"><a href="" title="Aller à la page n°1">1</a></li>
-            <li><a href="" title="Aller à la page n°2">2</a></li>
-            <li><a href="" title="Aller à la page n°3">3</a></li>
-            <li class="next"><a href="" title="Aller à la page n°2">Suivant</a></li>
+            <li class="active"><a href="javascript:void()" title="Aller à la page n°1">1</a></li>
+            <li><a href="javascript:void()" title="Aller à la page n°2">2</a></li>
+            <li><a href="javascript:void()" title="Aller à la page n°3">3</a></li>
+            <li class="next"><a href="javascript:void()" title="Aller à la page n°2">Suivant</a></li>
         </ol>
 </div>
 </div>

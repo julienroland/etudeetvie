@@ -1,3 +1,8 @@
+<div id="btn_up">
+    <a href="#main" title="Remonter en haut du contenu">
+        <img alt="Retour en haut" title="Retour en haut" src="./img/framework/icon/up.png"  />
+    </a>
+</div>
 <footer role="contentinfo" class="footer">
     <div class="wrapper">
         <h1 class="section" role="heading" aria-level="1">Informations complémentaires au contenu</h1>
