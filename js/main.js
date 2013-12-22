@@ -18,22 +18,28 @@
         });
         if ($(window).width() < 940) {
             $('.menuLink').on('click', openMenu);
-
+            $('.showItems').on('click', openBasket);
 
         }
-        else if ($(window).width() > 940) {
+        else if ($(window).width() >= 940) {
             $('.moreLink').on('mouseenter', ariaOpen);
             $('.maxDev').on('mouseenter', ariaOpen);
             $('.moreLink').on('mouseleave', ariaClose);
+
+            $('.showItems').on('focusin', openFocusBasket);
+            $('.showItems').on('mouseover', openFocusBasket);
+            $('.panierItem a').on('focusin', openFocusBasket);
+            //$('.showItems').on('focusout', closeFocusBasket);
+            $('.panierItem a:last-child').on('focusout', closeFocusBasket);
+            $('.showItems').on('mouseout', closeFocusBasket);
+
             /*
              $('.invisible-link a.moreLink').on('mouseenter', showDropDown);
              $('.maxDev').on('mouseenter', showDropDown);
              $('.maxDev').on('mouseleave', hideDropDown);
              $('.invisible-link a.moreLink').on('mouseleave', hideDropDown);*/
         }
-        $('.moreLink').on('click', openLink);
 
-        $('.showItems').on('click', openBasket);
 
         /* END DROPDOWN */
         /* ORDER2 */
@@ -128,27 +134,14 @@
         }
 
     };
-    var showDropDown = function (e) {
 
-        $(this).parent().find('.maxDev').slideDown();
-
-    };
-    var hideDropDown = function (e) {
-
-        $(this).parent().find('.maxDev').slideUp();
-
-    };
-    var showDev = function (e) {
-
-        $(this).css('opacity', '1');
-    };
     var openMenu = function (e) {
         e.preventDefault();
         $('.invisible-link').slideToggle();
     };
     var openLink = function (e) {
-        var $findMenu = $(this).parent().find('.maxDev');
         e.preventDefault();
+        var $findMenu = $(this).parent().find('.maxDev');
         $findMenu.slideToggle();
         //$findMenu.css('height','100%');
         if ($(this).find('span').hasClass('icon icon-chevron-right-white') && $findMenu) {
@@ -161,7 +154,17 @@
     };
     var openBasket = function (e) {
         e.preventDefault();
+
         $('.panierItem').slideToggle();
+    };
+    var openFocusBasket = function (e) {
+        e.preventDefault();
+
+        $('.panierItem').slideDown();
+    };
+    var closeFocusBasket = function (e) {
+        e.preventDefault();
+        $('.panierItem').slideUp();
     };
 
 

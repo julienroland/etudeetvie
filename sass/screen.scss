@@ -270,6 +270,12 @@ input[type=submit].icon-search {
   //min-height: 120px;
   background-color: $greyL;
   padding: 1em 1em;
+  &:hover,&:focus{
+    display: block;
+  }
+  & a:focus{
+    display: inline-block;
+  }
   a {
     pointer-events: auto;
   }
@@ -331,30 +337,33 @@ input[type=submit].icon-search {
       //padding: 1em 0;
       margin: 0 auto;
       display: block;
-      margin-top: 20px;
+      padding-bottom: 0;
       height: 100px;
-      width:100px;
+      width: 100px;
       background-position: center;
       text-indent: -999999px;
       background-image: url('../img/logo.png');
       background-size: 100px 100px;
       background-repeat: no-repeat;
-      margin-top: 0;
-      &:hover{
+      margin-top: 20px;
+      &:hover {
         background-color: $tc;
       }
       a {
         display: block;
         height: 100%;
         width: 100%;
-        color:white;
+        color: white;
         text-decoration: none;
         @include text-shadow(2px 2px 0 black, 4px 6px 2px white);
-        &:hover,&:focus{
-
+        &:hover, &:focus {
+          background-color: $tc;
+          background-image: url('../img/logo.png');
+          background-size: 100px 100px;
+          background-repeat: no-repeat;
+          @include border-radius(0);
         }
       }
-
 
     }
   }
@@ -477,6 +486,9 @@ input[type=submit].icon-search {
       height: 132px;
       position: relative;
       @include box-sizing(border-box);
+      h3 {
+        font-weight: bold;
+      }
     }
     .image {
       margin: auto;

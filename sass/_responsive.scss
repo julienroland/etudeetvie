@@ -254,8 +254,8 @@
       right: 0;
       //top:-80px;
     }
-    span{
-      color:$tc;
+    span {
+      color: $tc;
     }
     .item1 {
       background-image: url('../img/framework/slide/1/item1.jpg');
@@ -319,9 +319,7 @@
   }
   /* PANIER */
   .panier {
-    //@include cr(5);
-    //max-width: 400px;
-    display: inline-block;
+    display: block;
     float: left;
     width: 50px;
     height: 50px;
@@ -330,17 +328,32 @@
     background-position: center;
     margin-top: 50px;
     @include offsetL(1);
+    &:hover{
+      display: block;
+    }
     .hero {
       height: 100%;
       background-color: transparent;
+    &:hover,&:focus{
+      background-image: image-url('framework/icon/shopWhite.png');
+      background-color: $tc;
+      background-repeat: no-repeat;
+      background-position: center;
+      outline:0;
+      & + .panierItem{
+        display: block;
+      }
+    }
       a {
         padding: 0;
-        &:hover,&:focus{
+        &:hover, &:focus {
           background-image: image-url('framework/icon/shopWhite.png');
           background-color: $tc;
           background-repeat: no-repeat;
           background-position: center;
+
         }
+
       }
       span {
         display: none;
@@ -349,13 +362,9 @@
     &:after {
       @include clear();
     }
-    .showItems{
+    .showItems {
       text-indent: -99999px;
-      &:hover,&:focus{
-        .panierItem{
-          display: block;
-        }
-      }
+
     }
   }
   .panierItem {
@@ -363,17 +372,18 @@
     width: 250px;
     display: none;
     text-indent: 0;
-    background-color: $tc;
-    color:white;
-    p{
-      color:white;
+    background-color: $greyL;
+    color: white;
+    @include box-shadow($greyD 0 2px 6px 0);
+    &:hover,&:focus{
+      display: inline-block;
+    }
+    p {
+      color: $tc;
 
     }
-    a{
-      width:100px;
-    }
-    .btn-panier{
-      width:70px;
+    .btn-panier {
+      width: 70px;
       margin-left: 0.5em;
     }
   }
@@ -453,7 +463,7 @@
           width: auto;
           float: none;
           font-weight: 300;
-          box-sizing: border-box;
+          @include box-sizing(border-box);
           &.active {
             border-bottom: 5px solid $tc;
           }
@@ -483,6 +493,8 @@
           left: 0;
           color: $tc;
           right: 0;
+          max-width: $mw;
+          margin: auto;
           position: absolute;
           z-index: 100;
           height: 0px;
@@ -492,8 +504,8 @@
           padding: 0;
           box-sizing: border-box;
           background-color: white;
-          .wrapper{
-            border:1px solid $greyL2;
+          .wrapper {
+            border: 1px solid $greyL2;
             border-top: 0;
           }
           h2 {
@@ -579,7 +591,9 @@
               padding-top: 50px;
               color: $tc;
               background-color: white;
+              @include transition(background-color 0.3s ease);
               &:hover, &:focus {
+                @include transition(background-color 0.3s ease);
                 color: white;
                 background-color: $greyDB;
               }
@@ -688,7 +702,7 @@
   }
   .banner {
     .wrapper {
-      overflow: hidden;
+      overflow: visible;
     }
   }
   .commander {
