@@ -304,7 +304,7 @@
   }
   .oneCategorie {
     @extend .intro;
-    background-image: url('../img/framework/background/background-text3.jpg');
+    background-image: url('../img/framework/background/background-text4.jpg');
     .introCategorie {
       max-width: 800px;
       font-size: 24.3px;
@@ -313,8 +313,11 @@
       text-align: justify;
     }
     .introContent {
-      background: radial-gradient(circle at center, rgba(0, 0, 0, 0.5), transparent);
+      background: radial-gradient(circle at center, rgba(0, 0, 0, 0.6), transparent);
 
+    }
+    h3{
+      color:white;
     }
   }
   /* PANIER */
@@ -448,7 +451,7 @@
         padding: 0;
         text-align: center;
         &:hover, &:focus {
-          background-color: #FFF;
+         // background-color: #FFF;
         }
         & + li {
           // border-left: 1px solid $tc;
@@ -571,10 +574,13 @@
               padding-right: 0;
               color: $tc;
               display: block;
+              padding-top: 0;
+              border-bottom: 4px solid transparent;
               &:hover, &:focus {
                 border-bottom: 0;
+                border-bottom: 4px solid $mc;
                 @include border-radius(0);
-
+                @include transition(all 0.3s ease);
                 span {
                   color: $mc;
                 }
@@ -737,10 +743,8 @@
     }
   }
   .titleCategorie {
-    margin-top: 1em;
     h3 {
-      font-size: 1.8em;
-      text-align: left;
+      text-align: center;
       border-bottom: 0;
       padding-left: 0.5%;
     }

@@ -13,7 +13,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <link rel="stylesheet" href="css/screen.css">
-    <!--<script src="js/vendor/modernizr-2.6.2.min.js"></script>-->
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body role="document" class="init" itemscope itemtype="http://schema.org/HardwareStore">
 <meta name="descriptionOrganization" itemprop="description" content="Société qui vend des produits contre les nuissances provoquéent par les ondes de la terre">

@@ -14,7 +14,7 @@
                </section>
 
                <section role="main" class="main" id="main">
-                <h1 class="section">Contenu principal du site</h1>
+                <h1 aria-level="1" role="heading" class="section">Contenu principal du site</h1>
                 <?php include('introCategorie.php'); ?>
                <?php include('categorie.php'); ?>
                <?php include('itemsCategories.php'); ?>
