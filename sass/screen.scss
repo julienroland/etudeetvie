@@ -270,10 +270,10 @@ input[type=submit].icon-search {
   //min-height: 120px;
   background-color: $greyL;
   padding: 1em 1em;
-  &:hover,&:focus{
+  &:hover, &:focus {
     display: block;
   }
-  & a:focus{
+  & a:focus {
     display: inline-block;
   }
   a {
@@ -301,6 +301,7 @@ input[type=submit].icon-search {
   position: absolute;
   left: 0;
   bottom: 0;
+
 }
 
 .what {
@@ -346,7 +347,8 @@ input[type=submit].icon-search {
       background-image: url('../img/logo.png');
       background-size: 100px 100px;
       background-repeat: no-repeat;
-      margin-top: 20px;
+      margin-top: 0;
+
       &:hover {
         background-color: $tc;
       }
@@ -684,7 +686,7 @@ table {
   padding: 3em 1em;
 
   h1 {
-    color: $mc;
+    color: $tc;
     padding-bottom: 0.8em;
     border-bottom: 0;
   }
@@ -721,6 +723,16 @@ table {
     background-position: center;
     background-size: 50%;
     width: 60px;
+    font-family: $ff2;
+    @include transition(all 0.3s ease);
+    &:hover, &:focus {
+      text-indent: 0px;
+      min-width: 150px;
+      padding-right: 40px;
+      background-size: 32px;
+      background-position: 92%;
+      @include transition(all 0.3s ease);
+    }
   }
 
 }
@@ -748,29 +760,44 @@ table {
     color: $tc;
   }
 }
-
+.descriptionProduit{
+  @include c(12);
+}
 .tab {
   height: 40px;
   text-align: center;
   border-bottom: 1px solid $mc;
+  &:after{
+    @include clear();
+  }
+  position: relative;
   li {
     @include cfl(4);
     min-width: 110px;
     max-width: 200px;
-    background-color: lighten($mc, 10%);
     color: white;
+    overflow: visible;
     height: 100%;
     margin-left: 0;
-    padding: 0.5em;
 
     & + li {
       @include cl(4);
       max-width: 200px;
     }
-    &.active {
-
+    a {
+      border: 0;
+      padding: 0.5em;
       background-color: $mc;
-
+      @include box-sizing(border-box);
+      &:hover, &:focus {
+        @include border-radius(0);
+        background-color: $mcc;
+      }
+    }
+    &.active {
+      a {
+        background-color: $mcc;
+      }
     }
 
     a {
@@ -791,6 +818,18 @@ table {
   p {
     margin-bottom: 1em;
   }
+}
+
+.more.active {
+  display: block;
+}
+
+.more {
+  @include c(12);
+  display: none;
+  max-width: 50em;
+  margin:0 ;
+  text-align: left;
 }
 
 .exerpt {
@@ -837,6 +876,15 @@ table {
       img {
         width: 64px;
         height: 64px;
+      }
+      a {
+        border: 0;
+        display: block;
+        @include border-radius(0);
+        border-top: 4px solid white;
+        &:hover, &:focus {
+          border-top: 4px solid $mc;
+        }
       }
     }
     .next, .previous {

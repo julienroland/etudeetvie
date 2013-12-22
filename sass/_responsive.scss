@@ -704,6 +704,11 @@
     .wrapper {
       overflow: visible;
     }
+    .welcome{
+      .logo{
+        margin-top: 20px;
+      }
+    }
   }
   .commander {
     float: right;
@@ -819,8 +824,18 @@
     input[type="submit"] {
       float: left;
       display: block;
+      height: 50px;
+      min-width:200px;
+      background-image: none;
+      text-indent: 0px;
+      font-size: 1.2em;
+      &:hover,&:focus{
+        min-width: 200px;
+        padding:0;
+      }
     }
   }
+
 
 }
 
@@ -944,6 +959,15 @@
     }
     li:last-child {
       border-right: 0;
+    }
+  }
+}
+@media (min-width: 1050px){
+  .invisible-link{
+    li{
+      a{
+        padding-top: 8px;
+      }
     }
   }
 }

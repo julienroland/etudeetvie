@@ -99,8 +99,14 @@
 
         });
         /* END INTRO */
+        /* TAB */
+        $('.tab a').on('click', changetab);
+        /* END TAB*/
 
     });
+    var changeTab = function(){
+
+    }
     var isEmpty = function (el) {
         return !$.trim(el)
     }
