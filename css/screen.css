@@ -1044,7 +1044,19 @@ input[type=submit].icon-search {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-      text-align: center; }
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+      background-color: #317ae8;
+      line-height: 50px; }
       .selection .article .infoProduct:after {
         content: "";
         display: block;
@@ -1052,9 +1064,12 @@ input[type=submit].icon-search {
         clear: both;
         visibility: hidden; }
       .selection .article .infoProduct .price {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
-        color: #1760cf; }
+        font-family: Oswald, "Helvetica neue", arial, freesans, clean, sans-serif;
+        color: white;
+        vertical-align: middle;
+        display: inline; }
     .selection .article .interactionProduct {
       width: 100%;
       margin: auto;
@@ -2778,6 +2793,109 @@ table {
 
 /* END CONTACT */
 /* END ORDERSTEPS */
+/* PAGINATION*/
+.pagination {
+  width: 100%;
+  margin: auto;
+  display: block;
+  float: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 1px solid #f2f2f2;
+  margin-top: 2em;
+  padding-top: 2em; }
+  .pagination:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+  .pagination ol {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1;
+    height: 40px; }
+    .pagination ol li {
+      list-style-image: none;
+      list-style-type: none;
+      margin-left: 0;
+      white-space: nowrap;
+      display: inline;
+      float: left;
+      padding-left: 4px;
+      padding-right: 4px; }
+      .pagination ol li:first-child, .pagination ol li.first {
+        padding-left: 0; }
+      .pagination ol li:last-child {
+        padding-right: 0; }
+      .pagination ol li.last {
+        padding-right: 0; }
+    .pagination ol li {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px; }
+      .pagination ol li a {
+        color: white;
+        border: 0;
+        font-style: italic;
+        font-weight: bold;
+        display: inline-block;
+        width: 40px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 40px;
+        background-color: #2d292a;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        vertical-align: middle;
+        -webkit-box-shadow: black 0 0 2px 0 inset;
+        -moz-box-shadow: black 0 0 2px 0 inset;
+        box-shadow: black 0 0 2px 0 inset; }
+        .pagination ol li a:hover, .pagination ol li a:focus {
+          background-color: #317ae8; }
+      .pagination ol li.active a {
+        background-color: #317ae8; }
+      .pagination ol li.next, .pagination ol li.previous {
+        width: auto;
+        margin: auto 0.5em; }
+        .pagination ol li.next a, .pagination ol li.previous a {
+          width: auto;
+          border-bottom: 1px dotted #111111;
+          color: #111111;
+          display: inline;
+          height: auto !important;
+          background-color: transparent;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          -o-border-radius: 0;
+          border-radius: 0;
+          -webkit-box-shadow: 0 0 0 0;
+          -moz-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0; }
+          .pagination ol li.next a:after, .pagination ol li.previous a:after {
+            background-image: url('../img/framework/icon/chevron-right-little.png?1385296736');
+            background-repeat: no-repeat;
+            content: "";
+            width: 16px;
+            margin-top: 12px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: middle;
+            float: right; }
+          .pagination ol li.next a:hover, .pagination ol li.next a:focus, .pagination ol li.previous a:hover, .pagination ol li.previous a:focus {
+            border-bottom: 0; }
+
+/* END PAGINATION */
 /* MEDIA QUERIES */
 /* CONFIG */
 /* typography */

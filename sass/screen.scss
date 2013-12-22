@@ -582,10 +582,19 @@ input[type=submit].icon-search {
 
       @include c(4);
       text-align: center;
+      width: 50px;
+      height: 50px;
+      @include box-sizing(border-box);
+      @include border-radius(50%);
+      background-color: $mc;
+      line-height: 50px;
       .price {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
-        color: darken($mc, 10%);
+        font-family: $ff2;
+        color: white;
+        vertical-align: middle;
+        display: inline;
       }
 
     }
@@ -1882,6 +1891,79 @@ table {
 
 /* END CONTACT */
 /* END ORDERSTEPS */
+/* PAGINATION*/
+.pagination{
+  @include c(12);
+  border-top: 1px solid $greyL;
+  margin-top: 2em;
+  padding-top:2em;
+  ol{
+    display: inline-block;
+    @include horizontal-list();
+    height: 40px;
+    li{
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      a{
+        color:white;
+        border:0;
+        font-style: italic;
+        font-weight: bold;
+        display: inline-block;
+        width: 40px;
+        @include box-sizing(border-box);
+        height: 40px;
+        background-color: $greyDB;
+        @include border-radius(50%);
+        vertical-align: middle;
+        @include box-shadow(black 0 0 2px 0 inset);
+        &:hover,&:focus{
+          background-color: $mc;
+        }
+      }
+      &.active{
+        a{
+        background-color: $mc;
+        }
+
+
+      }
+
+      &.next,&.previous{
+        width: auto;
+        ;
+        margin: auto 0.5em;
+        a{
+          width:auto;
+          border-bottom: 1px dotted $tc;
+          color:$tc;
+          display: inline;
+          height: auto!important;
+          background-color: transparent;
+          @include border-radius(0);
+          @include box-shadow(0 0 0 0);
+          &:after{
+            background-image: image-url('framework/icon/chevron-right-little.png');
+            background-repeat: no-repeat;
+            content:"";
+            width: 16px;
+            margin-top: 12px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: middle;
+            float:right;
+          }
+          &:hover,&:focus{
+            border-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+/* END PAGINATION */
 /* MEDIA QUERIES */
 @import "responsive";
 /* END MEDIA*/

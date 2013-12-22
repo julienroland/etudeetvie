@@ -27,11 +27,13 @@
             $('.moreLink').on('mouseleave', ariaClose);
 
             $('.showItems').on('focusin', openFocusBasket);
-            $('.showItems').on('mouseover', openFocusBasket);
+           $('.showItems').on('mouseenter', openBasket);
+            
             $('.panierItem a').on('focusin', openFocusBasket);
-            //$('.showItems').on('focusout', closeFocusBasket);
+            $('.showItems').on('focusout', closeFocusBasket);
+            //$('.panierItem').on('mouseout', closeBasket);
             $('.panierItem a:last-child').on('focusout', closeFocusBasket);
-            $('.showItems').on('mouseout', closeFocusBasket);
+          //  $('.showItems').on('mouseout', closeFocusBasket);
 
             /*
              $('.invisible-link a.moreLink').on('mouseenter', showDropDown);
@@ -64,11 +66,11 @@
                 $('.moreLink').on('mouseleave', ariaClose);
 
                 $('.showItems').on('focusin', openFocusBasket);
-                $('.showItems').on('mouseover', openFocusBasket);
+                $('.showItems').on('mousein', openFocusBasket);
                 $('.panierItem a').on('focusin', openFocusBasket);
                 //$('.showItems').on('focusout', closeFocusBasket);
                 $('.panierItem a:last-child').on('focusout', closeFocusBasket);
-                $('.showItems').on('mouseout', closeFocusBasket);
+               // $('.showItems').on('mouseout', closeFocusBasket);
             } else if($(window).width() < 940) {
                 $('.invisible-link').css({display: "none"});
                 $('.menuLink').on('click', openMenu);
@@ -100,7 +102,7 @@
         });
         /* END INTRO */
         /* TAB */
-        $('.tab a').on('click', changetab);
+        $('.tab a').on('click', changeTab);
         /* END TAB*/
 
     });
@@ -175,8 +177,13 @@
     };
     var openBasket = function (e) {
         e.preventDefault();
-
-        $('.panierItem').slideToggle();
+        console.log('d');
+        $('.panierItem').css('display','block');
+    };
+    var closeBasket = function (e) {
+        e.preventDefault();
+        console.log('d2');
+        $('.panierItem').css('display','none');
     };
     var openFocusBasket = function (e) {
         e.preventDefault();

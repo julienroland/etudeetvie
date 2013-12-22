@@ -36,7 +36,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
 						</p>
 					</div>
-					<img itemProp="image" src="./img/test1.jpg" alt="">
+					<img itemProp="image" src="./img/test1.jpg" alt="Photo du produit">
 
 				</div>
 
@@ -48,7 +48,7 @@
 					</div>
 					<div class="interactionProduct">
 						<a itemProp="url" href="voirProduit.php" title="Voir la fiche du produit en entier" class="btn icon-go-white">Voir le produit</a>
-						<a href="" class="btn icon-shop-white">Ajouter au panier</a>
+						<a href="javascript:void()" title="Ajouter ce produit à votre panier" class="btn icon-shop-white">Ajouter au panier</a>
 					</div>
 				</div>
 			</article>
@@ -60,7 +60,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
 						</p>
 					</div>
-					<img itemProp="image" src="./img/test1.jpg" alt="">
+					<img itemProp="image" src="./img/test1.jpg" alt="Photo du produit">
 
 				</div>
 
@@ -84,7 +84,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
 						</p>
 					</div>
-					<img itemProp="image" src="./img/test1.jpg" alt="">
+					<img itemProp="image" src="./img/test1.jpg" alt="Photo du produit">
 
 				</div>
 
@@ -120,7 +120,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
 						</p>
 					</div>
-					<img itemProp="image" src="./img/test.jpg" alt="">
+					<img itemProp="image" src="./img/test.jpg" alt="Photo du produit">
 
 				</div>
 
@@ -144,7 +144,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
 						</p>
 					</div>
-					<img itemProp="image" src="./img/test.jpg" alt="">
+					<img itemProp="image" src="./img/test.jpg" alt="Photo du produit">
 
 				</div>
 
@@ -168,7 +168,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
 						</p>
 					</div>
-					<img itemProp="image" src="./img/test.jpg" alt="">
+					<img itemProp="image" src="./img/test.jpg" alt="Photo du produit">
 
 				</div>
 
@@ -192,7 +192,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
 						</p>
 					</div>
-					<img itemProp="image" src="./img/test.jpg" alt="">
+					<img itemProp="image" src="./img/test.jpg" alt="Photo du produit">
 
 				</div>
 
