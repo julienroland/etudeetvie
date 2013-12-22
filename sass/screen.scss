@@ -136,7 +136,7 @@ input[type=submit].icon-search {
 
 /* NAVIGATION */
 .menu {
-  background-color: $mc;
+  background-color: $mcc;
   @include box-shadow(rgba(0, 0, 0, 0.6) 0 2px 4px 0px);
   /* &>a:first-child{
       &:hover,&:focus{
@@ -287,6 +287,7 @@ input[type=submit].icon-search {
 
   .hero {
     pointer-events: auto;
+    background-color: $mcc;
   }
 }
 

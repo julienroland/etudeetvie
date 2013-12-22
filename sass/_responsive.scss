@@ -752,6 +752,7 @@
     color: white;
     padding: 0 35px;
     text-align: center;
+    margin-left: 0.5%;
     &:after {
       display: block;
       background-image: url('../img/framework/icon/quoteWhite.png');
@@ -835,7 +836,6 @@
   }
   .what {
     @include cl(6);
-    @include offsetL(1);
     height: 100%;
   }
   .selection {
@@ -867,7 +867,6 @@
   }
   .what {
     @include cl(7);
-    @include offsetL(1);
     height: 100%;
   }
   .panierItem {

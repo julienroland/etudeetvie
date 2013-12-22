@@ -3,18 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4bb3a2be-a23e-4094-bf9f-beef7f87f394" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/f4378810f1e792c0a264b6aca61fcf7d1bc26fb2/_responsive.scssc" afterPath="$PROJECT_DIR$/.sass-cache/f4378810f1e792c0a264b6aca61fcf7d1bc26fb2/_responsive.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/f4378810f1e792c0a264b6aca61fcf7d1bc26fb2/_variables.scssc" afterPath="$PROJECT_DIR$/.sass-cache/f4378810f1e792c0a264b6aca61fcf7d1bc26fb2/_variables.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/f4378810f1e792c0a264b6aca61fcf7d1bc26fb2/screen.scssc" afterPath="$PROJECT_DIR$/.sass-cache/f4378810f1e792c0a264b6aca61fcf7d1bc26fb2/screen.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_responsive.scss" afterPath="$PROJECT_DIR$/sass/_responsive.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_variables.scss" afterPath="$PROJECT_DIR$/sass/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connexion.php" afterPath="$PROJECT_DIR$/connexion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logo.php" afterPath="$PROJECT_DIR$/logo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main-ck.js" afterPath="$PROJECT_DIR$/js/main-ck.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/panier.php" afterPath="$PROJECT_DIR$/panier.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="$PROJECT_DIR$/css/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/screen.scss" afterPath="$PROJECT_DIR$/sass/screen.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.php" afterPath="$PROJECT_DIR$/search.php" />
     </list>
     <ignored path="etudeetvie2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -141,7 +135,7 @@
           <file leaf-file-name="screen.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/screen.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="276" column="26" selection-start="5039" selection-end="5039" vertical-scroll-proportion="-4.8533335" vertical-offset="3776" max-vertical-offset="26460">
+                <state line="307" column="0" selection-start="5362" selection-end="5362" vertical-scroll-proportion="-3.2533333" vertical-offset="4361" max-vertical-offset="26475">
                   <folding />
                 </state>
               </provider>
@@ -156,10 +150,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_responsive.scss" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="_responsive.scss" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/_responsive.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="383" column="5" selection-start="8578" selection-end="8578" vertical-scroll-proportion="-4.4533334" vertical-offset="5411" max-vertical-offset="14325">
+                <state line="869" column="17" selection-start="18141" selection-end="18141" vertical-scroll-proportion="0.7515528" vertical-offset="12551" max-vertical-offset="14310">
                   <folding />
                 </state>
               </provider>
@@ -183,10 +177,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="48" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.41558442" vertical-offset="207" max-vertical-offset="2640">
+                <state line="75" column="33" selection-start="2819" selection-end="2819" vertical-scroll-proportion="-11.653846" vertical-offset="822" max-vertical-offset="2865">
                   <folding />
                 </state>
               </provider>
@@ -238,8 +232,8 @@
         <option value="$PROJECT_DIR$/connexion.php" />
         <option value="$PROJECT_DIR$/panier.php" />
         <option value="$PROJECT_DIR$/sass/screen.scss" />
-        <option value="$PROJECT_DIR$/sass/_responsive.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/sass/_responsive.scss" />
       </list>
     </option>
   </component>
@@ -488,23 +482,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="33" selection-start="2819" selection-end="2819" vertical-scroll-proportion="-11.653846" vertical-offset="822" max-vertical-offset="2865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/screen.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="276" column="26" selection-start="5039" selection-end="5039" vertical-scroll-proportion="-4.8533335" vertical-offset="3776" max-vertical-offset="26460">
+        <state line="307" column="0" selection-start="5362" selection-end="5362" vertical-scroll-proportion="-3.2533333" vertical-offset="4361" max-vertical-offset="26475">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/_responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="383" column="5" selection-start="8578" selection-end="8578" vertical-scroll-proportion="-4.4533334" vertical-offset="5411" max-vertical-offset="14325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="48" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.41558442" vertical-offset="207" max-vertical-offset="2640">
+        <state line="869" column="17" selection-start="18141" selection-end="18141" vertical-scroll-proportion="0.7515528" vertical-offset="12551" max-vertical-offset="14310">
           <folding />
         </state>
       </provider>
