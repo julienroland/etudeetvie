@@ -4,7 +4,24 @@
 @import "compass/reset";
 @import "compass/css3";
 @import "icons";
-@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(http://themes.googleusercontent.com/static/fonts/oswald/v8/HqHm7BVC_nzzTui2lzQTDbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://themes.googleusercontent.com/static/fonts/oswald/v8/qpy-UiLNKP-VfOdbcs6r6-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(http://themes.googleusercontent.com/static/fonts/oswald/v8/bH7276GfdCjMjApa_dkG6bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
 
 @include body();
 @include container();

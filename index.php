@@ -2,7 +2,7 @@
             <h1 class="section" role="heading" aria-level="1">Page d'accueil du site e-commerce etude et vie</h1>
             <section class="container ">
                 <h1 class="section" role="heading" aria-level="1">Contenu de la page</h1>
-                <section class="banner" role="banner">
+                <section class="banner">
                     <div class="wrapper">
                      <?php include('logo.php'); ?>
                      <?php include('what.php'); ?>

@@ -2,19 +2,366 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb3a2be-a23e-4094-bf9f-beef7f87f394" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/f4378810f1e792c0a264b6aca61fcf7d1bc26fb2/screen.scssc" afterPath="$PROJECT_DIR$/.sass-cache/f4378810f1e792c0a264b6aca61fcf7d1bc26fb2/screen.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/identification.php" afterPath="$PROJECT_DIR$/identification.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itemsOneCategorie.php" afterPath="$PROJECT_DIR$/itemsOneCategorie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main-ck.js" afterPath="$PROJECT_DIR$/js/main-ck.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order1.php" afterPath="$PROJECT_DIR$/order1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order2.php" afterPath="$PROJECT_DIR$/order2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order3.php" afterPath="$PROJECT_DIR$/order3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order4.php" afterPath="$PROJECT_DIR$/order4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="$PROJECT_DIR$/css/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/screen.scss" afterPath="$PROJECT_DIR$/sass/screen.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virement.php" afterPath="$PROJECT_DIR$/virement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/ASEAN.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/ASEAN.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Afghanistan.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Afghanistan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/African Union.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/African Union.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Albania.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Albania.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Algeria.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Algeria.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/American Samoa.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/American Samoa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Andorra.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Andorra.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Angola.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Angola.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Anguilla.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Anguilla.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Antarctica.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Antarctica.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Antigua &amp; Barbuda.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Antigua &amp; Barbuda.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Arab League.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Arab League.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Argentina.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Argentina.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Armenia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Armenia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Aruba.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Aruba.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Australia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Australia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Austria.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Austria.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Azerbaijan.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Azerbaijan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Bahamas.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Bahamas.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Bahrain.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Bahrain.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Bangladesh.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Bangladesh.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Barbados.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Barbados.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Belarus.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Belarus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Belgium.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Belgium.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Belize.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Belize.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Benin.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Benin.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Bermuda.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Bermuda.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Bhutan.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Bhutan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Bolivia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Bolivia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Bosnia &amp; Herzegovina.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Bosnia &amp; Herzegovina.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Botswana.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Botswana.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Brazil.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Brazil.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Brunei.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Brunei.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Bulgaria.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Bulgaria.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Burkina Faso.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Burkina Faso.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Burundi.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Burundi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/CARICOM.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/CARICOM.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/CIS.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/CIS.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Cambodja.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Cambodja.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Cameroon.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Cameroon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Canada.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Canada.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Cape Verde.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Cape Verde.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Cayman Islands.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Cayman Islands.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Central African Republic.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Central African Republic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Chad.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Chad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Chile.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Chile.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/China.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/China.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Colombia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Colombia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Commonwealth.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Commonwealth.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Comoros.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Comoros.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Congo-Brazzaville.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Congo-Brazzaville.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Congo-Kinshasa(Zaire).png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Congo-Kinshasa(Zaire).png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Cook Islands.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Cook Islands.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Costa Rica.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Costa Rica.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Cote d'Ivoire.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Cote d'Ivoire.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Croatia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Croatia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Cuba.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Cuba.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Cyprus.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Cyprus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Czech Republic.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Czech Republic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Denmark.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Denmark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Djibouti.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Djibouti.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Dominica.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Dominica.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Dominican Republic.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Dominican Republic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Ecuador.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Ecuador.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Egypt.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Egypt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/El Salvador.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/El Salvador.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/England.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/England.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Equatorial Guinea.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Equatorial Guinea.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Eritrea.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Eritrea.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Estonia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Estonia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Ethiopia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Ethiopia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/European Union.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/European Union.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Faroes.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Faroes.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Fiji.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Fiji.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Finland.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Finland.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/France.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/France.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Gabon.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Gabon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Gambia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Gambia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Georgia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Georgia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Germany.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Germany.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Ghana.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Ghana.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Gibraltar.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Gibraltar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Greece.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Greece.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Greenland.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Greenland.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Grenada.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Grenada.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Guadeloupe.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Guadeloupe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Guademala.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Guademala.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Guam.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Guam.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Guernsey.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Guernsey.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Guinea-Bissau.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Guinea-Bissau.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Guinea.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Guinea.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Guyana.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Guyana.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Haiti.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Haiti.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Honduras.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Honduras.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Hong Kong.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Hong Kong.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Hungary.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Hungary.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Iceland.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Iceland.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/India.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/India.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Indonesia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Indonesia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Iran.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Iran.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Iraq.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Iraq.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Ireland.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Ireland.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Islamic Conference.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Islamic Conference.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Isle of Man.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Isle of Man.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Israel.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Israel.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Italy.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Italy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Jamaica.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Jamaica.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Japan.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Japan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Jersey.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Jersey.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Jordan.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Jordan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Kazakhstan.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Kazakhstan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Kenya.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Kenya.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Kiribati.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Kiribati.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Kosovo.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Kosovo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Kuwait.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Kuwait.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Kyrgyzstan.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Kyrgyzstan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/LOGO.png" afterPath="$PROJECT_DIR$/img/framework/icon/LOGO.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Laos.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Laos.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Latvia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Latvia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Lebanon.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Lebanon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Lesotho.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Lesotho.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Liberia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Liberia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Libya.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Libya.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Liechtenstein.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Liechtenstein.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Lithuania.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Lithuania.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Luxembourg.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Luxembourg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Macao.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Macao.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Macedonia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Macedonia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Madagascar.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Madagascar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Malawi.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Malawi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Malaysia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Malaysia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Maldives.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Maldives.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Mali.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Mali.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Malta.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Malta.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Marshall Islands.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Marshall Islands.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Martinique.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Martinique.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Mauritania.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Mauritania.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Mauritius.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Mauritius.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Mexico.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Mexico.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Micronesia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Micronesia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Moldova.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Moldova.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Monaco.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Monaco.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Mongolia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Mongolia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Montenegro.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Montenegro.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Montserrat.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Montserrat.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Morocco.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Morocco.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Mozambique.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Mozambique.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Myanmar(Burma).png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Myanmar(Burma).png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/NATO.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/NATO.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Namibia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Namibia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Nauru.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Nauru.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Nepal.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Nepal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Netherlands Antilles.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Netherlands Antilles.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Netherlands.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Netherlands.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/New Caledonia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/New Caledonia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/New Zealand.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/New Zealand.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Nicaragua.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Nicaragua.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Niger.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Niger.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Nigeria.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Nigeria.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/North Korea.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/North Korea.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Northern Cyprus.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Northern Cyprus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Northern Ireland.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Northern Ireland.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Norway.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Norway.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/OPEC.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/OPEC.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Olimpic Movement.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Olimpic Movement.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Oman.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Oman.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Pakistan.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Pakistan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Palau.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Palau.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Palestine.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Palestine.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Panama.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Panama.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Papua New Guinea.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Papua New Guinea.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Paraguay.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Paraguay.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Peru.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Peru.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Philippines.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Philippines.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Poland.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Poland.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Portugal.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Portugal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Puerto Rico.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Puerto Rico.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Qatar.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Qatar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Red Cross.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Red Cross.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Reunion.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Reunion.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Romania.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Romania.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Russian Federation.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Russian Federation.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Rwanda.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Rwanda.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Saint Lucia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Saint Lucia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Samoa.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Samoa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/San Marino.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/San Marino.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Sao Tome &amp; Principe.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Sao Tome &amp; Principe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Saudi Arabia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Saudi Arabia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Scotland.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Scotland.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Senegal.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Senegal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Serbia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Serbia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Seyshelles.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Seyshelles.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Sierra Leone.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Sierra Leone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Singapore.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Singapore.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Slovakia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Slovakia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Slovenia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Slovenia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Solomon Islands.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Solomon Islands.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Somalia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Somalia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Somaliland.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Somaliland.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/South Afriica.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/South Afriica.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/South Korea.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/South Korea.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Spain.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Spain.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Sri Lanka.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Sri Lanka.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/St Kitts &amp; Nevis.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/St Kitts &amp; Nevis.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/St Vincent &amp; the Grenadines.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/St Vincent &amp; the Grenadines.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Sudan.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Sudan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Suriname.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Suriname.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Swaziland.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Swaziland.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Sweden.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Sweden.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Switzerland.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Switzerland.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Syria.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Syria.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Tahiti(French Polinesia).png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Tahiti(French Polinesia).png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Taiwan.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Taiwan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Tajikistan.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Tajikistan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Tanzania.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Tanzania.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Thailand.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Thailand.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Timor-Leste.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Timor-Leste.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Togo.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Togo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Tonga.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Tonga.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Trinidad &amp; Tobago.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Trinidad &amp; Tobago.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Tunisia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Tunisia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Turkey.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Turkey.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Turkmenistan.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Turkmenistan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Turks and Caicos Islands.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Turks and Caicos Islands.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Tuvalu.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Tuvalu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/livreurs/UPS.jpg" afterPath="$PROJECT_DIR$/img/framework/icon/livreurs/UPS.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Uganda.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Uganda.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Ukraine.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Ukraine.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/United Arab Emirates.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/United Arab Emirates.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/United Kingdom(Great Britain).png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/United Kingdom(Great Britain).png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/United Nations.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/United Nations.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/United States of America.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/United States of America.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Uruguay.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Uruguay.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Uzbekistan.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Uzbekistan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Vanutau.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Vanutau.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Vatican City.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Vatican City.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Venezuela.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Venezuela.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Viet Nam.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Viet Nam.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Virgin Islands British.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Virgin Islands British.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Virgin Islands US.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Virgin Islands US.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Wales.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Wales.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Western Sahara.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Western Sahara.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Yemen.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Yemen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Zambia.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Zambia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/pays/Zimbabwe.png" afterPath="$PROJECT_DIR$/img/framework/icon/pays/Zimbabwe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/account.png" afterPath="$PROJECT_DIR$/img/framework/icon/account.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/apostrophe.png" afterPath="$PROJECT_DIR$/img/framework/icon/apostrophe.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/apostrophe2.png" afterPath="$PROJECT_DIR$/img/framework/icon/apostrophe2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/background/background-text1.jpg" afterPath="$PROJECT_DIR$/img/framework/background/background-text1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/background/background-text2.jpg" afterPath="$PROJECT_DIR$/img/framework/background/background-text2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/background/background-text4.jpg" afterPath="$PROJECT_DIR$/img/framework/background/background-text4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/background/background.JPG" afterPath="$PROJECT_DIR$/img/framework/background/background.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/slide/1/background.jpg" afterPath="$PROJECT_DIR$/img/framework/slide/1/background.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/background/background1.jpg" afterPath="$PROJECT_DIR$/img/framework/background/background1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/slide/1/background1.jpg" afterPath="$PROJECT_DIR$/img/framework/slide/1/background1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/bag.png" afterPath="$PROJECT_DIR$/img/framework/icon/bag.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/bracket.png" afterPath="$PROJECT_DIR$/img/framework/icon/bracket.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/category.jpg" afterPath="$PROJECT_DIR$/img/category.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/category.jpg" afterPath="$PROJECT_DIR$/img/framework/category.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/background/category.jpg" afterPath="$PROJECT_DIR$/img/framework/background/category.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/check_12.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/check_12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/check_128.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/check_128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/check_16.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/check_16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/check_24.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/check_24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/check_256.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/check_256.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/check_32.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/check_32.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/check_48.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/check_48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/check_512.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/check_512.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/chevron-bottom.png" afterPath="$PROJECT_DIR$/img/framework/icon/chevron-bottom.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/chevron-bottomWhite.png" afterPath="$PROJECT_DIR$/img/framework/icon/chevron-bottomWhite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/chevron-left-little.png" afterPath="$PROJECT_DIR$/img/framework/icon/chevron-left-little.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/chevron-right-large-white.png" afterPath="$PROJECT_DIR$/img/framework/icon/chevron-right-large-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/chevron-right-large.png" afterPath="$PROJECT_DIR$/img/framework/icon/chevron-right-large.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/chevron-right-little.png" afterPath="$PROJECT_DIR$/img/framework/icon/chevron-right-little.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/chevron-right-littleWhite.png" afterPath="$PROJECT_DIR$/img/framework/icon/chevron-right-littleWhite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/chevron-right.png" afterPath="$PROJECT_DIR$/img/framework/icon/chevron-right.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/chevron-rightWhite.png" afterPath="$PROJECT_DIR$/img/framework/icon/chevron-rightWhite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/delete.png" afterPath="$PROJECT_DIR$/img/framework/icon/delete.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/go-right-white.png" afterPath="$PROJECT_DIR$/img/framework/icon/go-right-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/go.png" afterPath="$PROJECT_DIR$/img/framework/icon/go.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/goWhite.png" afterPath="$PROJECT_DIR$/img/framework/icon/goWhite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_12.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_128.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_16.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_24.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_256.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_256.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_32.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_32.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_48.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_512.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/google_ckeckout_512.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/background/grid.png" afterPath="$PROJECT_DIR$/img/framework/background/grid.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/identifier.png" afterPath="$PROJECT_DIR$/img/framework/icon/identifier.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/identifierOut.png" afterPath="$PROJECT_DIR$/img/framework/icon/identifierOut.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/intro.jpg" afterPath="$PROJECT_DIR$/img/intro.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/slide/1/item1.jpg" afterPath="$PROJECT_DIR$/img/framework/slide/1/item1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/slide/1/item2.jpg" afterPath="$PROJECT_DIR$/img/framework/slide/1/item2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/livraison.png" afterPath="$PROJECT_DIR$/img/framework/icon/livraison.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/livraisonOut.png" afterPath="$PROJECT_DIR$/img/framework/icon/livraisonOut.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/login.png" afterPath="$PROJECT_DIR$/img/framework/icon/login.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="$PROJECT_DIR$/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/mail-little.png" afterPath="$PROJECT_DIR$/img/framework/icon/mail-little.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/map-little.png" afterPath="$PROJECT_DIR$/img/framework/icon/map-little.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_12.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_128.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_16.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_24.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_256.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_256.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_32.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_32.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_48.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_512.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/mastercard_512.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/menu.png" afterPath="$PROJECT_DIR$/img/framework/icon/menu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/menu2.png" afterPath="$PROJECT_DIR$/img/framework/icon/menu2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/menu2White.png" afterPath="$PROJECT_DIR$/img/framework/icon/menu2White.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiementOut.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiementOut.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_12.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_128.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_16.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_24.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_256.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_256.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_32.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_32.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_48.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_512.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/paypal_512.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/quote.png" afterPath="$PROJECT_DIR$/img/framework/icon/quote.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/resume.png" afterPath="$PROJECT_DIR$/img/framework/icon/resume.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/resumeOut.png" afterPath="$PROJECT_DIR$/img/framework/icon/resumeOut.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/search.png" afterPath="$PROJECT_DIR$/img/framework/icon/search.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/searchWhite.png" afterPath="$PROJECT_DIR$/img/framework/icon/searchWhite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/shop.png" afterPath="$PROJECT_DIR$/img/framework/icon/shop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/shopWhite.png" afterPath="$PROJECT_DIR$/img/framework/icon/shopWhite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/tel-little.png" afterPath="$PROJECT_DIR$/img/framework/icon/tel-little.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/test.jpg" afterPath="$PROJECT_DIR$/img/test.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/test1.jpg" afterPath="$PROJECT_DIR$/img/test1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/test2.jpg" afterPath="$PROJECT_DIR$/img/test2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/test3.jpg" afterPath="$PROJECT_DIR$/img/test3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/test4.jpg" afterPath="$PROJECT_DIR$/img/test4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/test5.jpg" afterPath="$PROJECT_DIR$/img/test5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tri-dispo.png" afterPath="$PROJECT_DIR$/img/tri-dispo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tri-nondispo.png" afterPath="$PROJECT_DIR$/img/tri-nondispo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/tri-nondispo.png" afterPath="$PROJECT_DIR$/img/framework/icon/tri-nondispo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/true.png" afterPath="$PROJECT_DIR$/img/framework/icon/true.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/up.png" afterPath="$PROJECT_DIR$/img/framework/icon/up.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/user-white.png" afterPath="$PROJECT_DIR$/img/framework/icon/user-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/user.png" afterPath="$PROJECT_DIR$/img/framework/icon/user.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/visa_12.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/visa_12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/visa_128.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/visa_128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/visa_16.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/visa_16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/visa_24.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/visa_24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/visa_256.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/visa_256.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/visa_32.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/visa_32.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/visa_48.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/visa_48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/visa_512.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/visa_512.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_12.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_128.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_128.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_16.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_24.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_24.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_256.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_256.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_32.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_32.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_48.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_48.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_512.png" afterPath="$PROJECT_DIR$/img/framework/icon/paiement/wire_transfer_512.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categorie.php" afterPath="$PROJECT_DIR$/categorie.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="etudeetvie2.iws" />
@@ -43,16 +390,16 @@
           <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="0" selection-start="1110" selection-end="1110" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="480">
+                <state line="24" column="0" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="480">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/footer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="54" selection-start="72" selection-end="72" vertical-scroll-proportion="0.02232143" vertical-offset="0" max-vertical-offset="672">
+                <state line="1" column="54" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="570">
                   <folding />
                 </state>
               </provider>
@@ -61,7 +408,7 @@
           <file leaf-file-name="itemsOneCategorie.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/itemsOneCategorie.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="386" column="55" selection-start="17886" selection-end="17886" vertical-scroll-proportion="-21.75" vertical-offset="5268" max-vertical-offset="5940">
+                <state line="386" column="55" selection-start="17886" selection-end="17886" vertical-scroll-proportion="0.0" vertical-offset="5268" max-vertical-offset="5940">
                   <folding />
                 </state>
               </provider>
@@ -70,16 +417,16 @@
           <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="64" selection-start="654" selection-end="710" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="480">
+                <state line="15" column="64" selection-start="654" selection-end="710" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="480">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="categorie.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="categorie.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/categorie.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="35" selection-start="1346" selection-end="1346" vertical-scroll-proportion="-4.8" vertical-offset="240" max-vertical-offset="930">
+                <state line="26" column="60" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.23065476" vertical-offset="235" max-vertical-offset="930">
                   <folding />
                 </state>
               </provider>
@@ -88,7 +435,7 @@
           <file leaf-file-name="order3.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/order3.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="65" column="56" selection-start="3119" selection-end="3119" vertical-scroll-proportion="-14.42" vertical-offset="254" max-vertical-offset="1665">
+                <state line="65" column="56" selection-start="3119" selection-end="3119" vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="1665">
                   <folding />
                 </state>
               </provider>
@@ -97,7 +444,7 @@
           <file leaf-file-name="order2.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/order2.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="0" selection-start="1685" selection-end="1685" vertical-scroll-proportion="-4.25" vertical-offset="528" max-vertical-offset="3450">
+                <state line="42" column="0" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="3450">
                   <folding />
                 </state>
               </provider>
@@ -106,7 +453,7 @@
           <file leaf-file-name="order4.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/order4.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="144" selection-start="2784" selection-end="2784" vertical-scroll-proportion="-5.56" vertical-offset="442" max-vertical-offset="1080">
+                <state line="48" column="144" selection-start="2784" selection-end="2784" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1080">
                   <folding />
                 </state>
               </provider>
@@ -115,7 +462,7 @@
           <file leaf-file-name="identification.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/identification.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="42" selection-start="647" selection-end="647" vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="3165">
+                <state line="15" column="42" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="3165">
                   <folding />
                 </state>
               </provider>
@@ -124,7 +471,7 @@
           <file leaf-file-name="virement.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/virement.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="50" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-4.44" vertical-offset="123" max-vertical-offset="1410">
+                <state line="23" column="50" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1410">
                   <folding />
                 </state>
               </provider>
@@ -137,7 +484,7 @@
           <file leaf-file-name="_icons.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/_icons.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="-5.285714" vertical-offset="191" max-vertical-offset="1620">
+                <state line="30" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="1620">
                   <folding />
                 </state>
               </provider>
@@ -146,7 +493,7 @@
           <file leaf-file-name="_responsive.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/_responsive.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="745" column="8" selection-start="16091" selection-end="16091" vertical-scroll-proportion="-2.96" vertical-offset="10953" max-vertical-offset="14730">
+                <state line="745" column="8" selection-start="16091" selection-end="16091" vertical-scroll-proportion="0.0" vertical-offset="10953" max-vertical-offset="14730">
                   <folding />
                 </state>
               </provider>
@@ -173,7 +520,7 @@
           <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="41" selection-start="265" selection-end="265" vertical-scroll-proportion="-6.3461537" vertical-offset="0" max-vertical-offset="3285">
+                <state line="11" column="41" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="3285">
                   <folding />
                 </state>
               </provider>
@@ -197,10 +544,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="screen.scss" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="screen.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/screen.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1979" column="39" selection-start="34092" selection-end="34092" vertical-scroll-proportion="0.7670807" vertical-offset="29191" max-vertical-offset="30105">
+                <state line="1979" column="39" selection-start="34092" selection-end="34092" vertical-scroll-proportion="0.0" vertical-offset="29191" max-vertical-offset="30105">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="categories.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/categories.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="17" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.4798331" vertical-offset="0" max-vertical-offset="719">
                   <folding />
                 </state>
               </provider>
@@ -228,7 +584,6 @@
       <list>
         <option value="$PROJECT_DIR$/sass/_responsive.scss" />
         <option value="$PROJECT_DIR$/categories.php" />
-        <option value="$PROJECT_DIR$/categorie.php" />
         <option value="$PROJECT_DIR$/itemsCategories.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/oneCategorie.php" />
@@ -242,6 +597,7 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/sass/screen.scss" />
+        <option value="$PROJECT_DIR$/categorie.php" />
       </list>
     </option>
   </component>
@@ -334,6 +690,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -364,14 +721,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1424" height="878" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19452247" sideWeight="0.6704981" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19452247" sideWeight="0.6704981" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -399,114 +756,110 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sass/_icons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="-5.285714" vertical-offset="191" max-vertical-offset="1620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bestSales.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="72" selection-start="3728" selection-end="3728" vertical-scroll-proportion="0.0" vertical-offset="709" max-vertical-offset="1350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="56" selection-start="3119" selection-end="3119" vertical-scroll-proportion="-14.42" vertical-offset="254" max-vertical-offset="1665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1685" selection-end="1685" vertical-scroll-proportion="-4.25" vertical-offset="528" max-vertical-offset="3450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voirProduit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="28" selection-start="6776" selection-end="6776" vertical-scroll-proportion="0.0" vertical-offset="1131" max-vertical-offset="2175">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="144" selection-start="2784" selection-end="2784" vertical-scroll-proportion="-5.56" vertical-offset="442" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="57" selection-start="0" selection-end="1195" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/applications.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="21" selection-start="6024" selection-end="6024" vertical-scroll-proportion="0.33333334" vertical-offset="3683" max-vertical-offset="5550">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="50" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-4.44" vertical-offset="123" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/identification.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="42" selection-start="647" selection-end="647" vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="3165">
+        <state line="15" column="42" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="3165">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oneCategorie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="45" selection-start="835" selection-end="835" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
+        <state line="18" column="45" selection-start="835" selection-end="835" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1110" selection-end="1110" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="24" column="0" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itemsCategories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="39" selection-start="0" selection-end="10046" vertical-scroll-proportion="-1.5769231" vertical-offset="2667" max-vertical-offset="3285">
+        <state line="186" column="39" selection-start="0" selection-end="10046" vertical-scroll-proportion="-1.5769231" vertical-offset="2667" max-vertical-offset="3285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="54" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="60" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.23065476" vertical-offset="235" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_icons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="191" max-vertical-offset="1620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="745" column="8" selection-start="16091" selection-end="16091" vertical-scroll-proportion="0.0" vertical-offset="10953" max-vertical-offset="14730">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="6" selection-start="1108" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="963" max-vertical-offset="9135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="76" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="265" selection-end="265" vertical-scroll-proportion="-6.3461537" vertical-offset="0" max-vertical-offset="3285">
+        <state line="11" column="41" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="3285">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
+    <entry file="file://$PROJECT_DIR$/sass/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="54" selection-start="72" selection-end="72" vertical-scroll-proportion="0.02232143" vertical-offset="0" max-vertical-offset="672">
+        <state line="44" column="12" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/populaires.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="525" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/screen.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1979" column="39" selection-start="34092" selection-end="34092" vertical-scroll-proportion="0.7670807" vertical-offset="29191" max-vertical-offset="30105">
+        <state line="1979" column="39" selection-start="34092" selection-end="34092" vertical-scroll-proportion="0.0" vertical-offset="29191" max-vertical-offset="30105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="17" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.4798331" vertical-offset="0" max-vertical-offset="719">
           <folding />
         </state>
       </provider>

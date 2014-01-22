@@ -1,6 +1,6 @@
 <div id="btn_up">
     <a href="#main" title="Remonter en haut du contenu">
-        <img alt="Retour en haut" title="Retour en haut" src="./img/framework/icon/up.png"  />
+        <img alt="Retour en haut" title="Retour en haut" width="64px" height="64px" src="./img/framework/icon/up.png"  />
     </a>
 </div>
 <footer role="contentinfo" class="footer">

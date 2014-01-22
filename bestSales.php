@@ -15,7 +15,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
                     </p>
                 </div>
-                <img itemProp="image" src="./img/test1.jpg" alt="image du produit">
+                <img itemProp="image" src="./img/test1.jpg" alt="image du produit"/>
 
             </div>
 
@@ -39,7 +39,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
                     </p>
                 </div>
-                <img itemProp="image" src="./img/test1.jpg" alt="image du produit">
+                <img itemProp="image" src="./img/test1.jpg" alt="image du produit"/>
 
             </div>
 
@@ -63,7 +63,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
                     </p>
                 </div>
-                <img itemProp="image" src="./img/test1.jpg" alt="image du produit">
+                <img itemProp="image" src="./img/test1.jpg" alt="image du produit"/>
 
             </div>
 

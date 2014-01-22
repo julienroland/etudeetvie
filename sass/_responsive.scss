@@ -1,7 +1,7 @@
 @import "compass";
 @import "variables";
 
-@media(min-width: 940px) {
+@media screen and(min-width: 940px) {
   .foot {
     @include cfl(4);
   }
@@ -337,16 +337,13 @@
     .hero {
       height: 100%;
       background-color: transparent;
-    &:hover,&:focus{
-      background-image: image-url('framework/icon/shopWhite.png');
-      background-color: $tc;
-      background-repeat: no-repeat;
-      background-position: center;
-      outline:0;
-      & + .panierItem{
-        display: block;
+      &:hover,&:focus{
+        background-image: image-url('framework/icon/shopWhite.png');
+        background-color: $tc;
+        background-repeat: no-repeat;
+        background-position: center;
+        outline:0;
       }
-    }
       a {
         padding: 0;
         &:hover, &:focus {
@@ -378,6 +375,16 @@
     background-color: $greyL;
     color: white;
     @include box-shadow($greyD 0 2px 6px 0);
+    pointer-events:auto;
+    .items{
+      color:$tc;
+      @include c(12);
+      margin:0 auto;
+     
+      .ref{
+        font-size: 0.8em;
+      }
+    }
     &:hover,&:focus{
       display: inline-block;
     }
@@ -452,8 +459,8 @@
         text-align: center;
         &:hover, &:focus {
          // background-color: #FFF;
-        }
-        & + li {
+       }
+       & + li {
           // border-left: 1px solid $tc;
         }
         span.icon {
@@ -667,7 +674,7 @@
   /* END MENU */
 }
 
-@media(min-width: 625px) {
+@media screen and(min-width: 625px) {
   .adresseChange {
     form {
 
@@ -843,7 +850,7 @@
 
 }
 
-@media(min-width: 800px) and (max-width: 940px) {
+@media screen and(min-width: 800px) and (max-width: 940px) {
   .banner {
     height: auto;
   }
@@ -874,7 +881,7 @@
   }
 }
 
-@media(min-width: 625px) and (max-width: 800px) {
+@media screen and(min-width: 625px) and (max-width: 800px) {
   .banner {
     height: auto;
   }
@@ -921,7 +928,7 @@
   /* END ARTICLE */
 }
 
-@media(min-width: 750px) {
+@media screen and(min-width: 750px) {
   .order3 {
     .livraison {
       @include cfl(6);
@@ -935,7 +942,7 @@
   }
 }
 
-@media (min-width: $mw) {
+@media screen and (min-width: $mw) {
   .hero {
     h2 {
       padding-left: $gutter/4;

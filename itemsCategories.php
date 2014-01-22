@@ -36,7 +36,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
 						</p>
 					</div>
-					<img itemProp="image" src="./img/test1.jpg" alt="Photo du produit">
+					<img itemProp="image" src="./img/test1.jpg" width="300px" height="300px" alt="Vue de trois modèle de montre fruitz">
 
 				</div>
 
@@ -60,7 +60,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
 						</p>
 					</div>
-					<img itemProp="image" src="./img/test1.jpg" alt="Photo du produit">
+					<img itemProp="image" src="./img/test1.jpg" width="300px" height="300px" alt="Vue de trois modèle de montre fruitz">
 
 				</div>
 
@@ -84,7 +84,7 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, repellat, iusto est aut corporis necessitatibus dolorum. Voluptatum, voluptate quos modi porro ut ab voluptatem dolor quasi voluptatibus assumenda non eaque.
 						</p>
 					</div>
-					<img itemProp="image" src="./img/test1.jpg" alt="Photo du produit">
+					<img itemProp="image" src="./img/test1.jpg" width="300px" height="300px" alt="Vue de trois modèle de montre fruitz">
 
 				</div>
 

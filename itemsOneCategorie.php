@@ -40,7 +40,7 @@
                 assumenda non eaque.
             </p>
         </div>
-        <img itemProp="image" src="./img/test.jpg" alt="Photo du produit">
+        <img itemProp="image" src="./img/test.jpg" width="300px" height="300px" alt="Vue de trois modèle de montre fruitz">
 
     </div>
 
@@ -69,7 +69,7 @@
                 assumenda non eaque.
             </p>
         </div>
-        <img itemProp="image" src="./img/test.jpg" alt="Photo du produit">
+        <img itemProp="image" src="./img/test.jpg" width="300px" height="300px" alt="Vue de trois modèle de montre fruitz">
 
     </div>
 
@@ -98,7 +98,7 @@
                 assumenda non eaque.
             </p>
         </div>
-        <img itemProp="image" src="./img/test.jpg" alt="Photo du produit">
+        <img itemProp="image" src="./img/test.jpg" width="300px" height="300px" alt="Vue de trois modèle de montre fruitz">
 
     </div>
 
@@ -127,7 +127,7 @@
                 assumenda non eaque.
             </p>
         </div>
-        <img itemProp="image" src="./img/test.jpg" alt="Photo du produit">
+        <img itemProp="image" src="./img/test.jpg" width="300px" height="300px" alt="Vue de trois modèle de montre fruitz">
 
     </div>
 
@@ -156,7 +156,7 @@
                 assumenda non eaque.
             </p>
         </div>
-        <img itemProp="image" src="./img/test.jpg" alt="Photo du produit">
+        <img itemProp="image" src="./img/test.jpg" width="300px" height="300px" alt="Vue de trois modèle de montre fruitz">
 
     </div>
 
@@ -185,7 +185,7 @@
                 assumenda non eaque.
             </p>
         </div>
-        <img itemProp="image" src="./img/test.jpg" alt="Photo du produit">
+        <img itemProp="image" src="./img/test.jpg" width="300px" height="300px" alt="Vue de trois modèle de montre fruitz">
 
     </div>
 
